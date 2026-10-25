@@ -6,6 +6,7 @@ import {fileURLToPath} from 'node:url';
 import {createHash} from 'node:crypto';
 import worker from '../dist/public/index.mjs';
 import {sessionValid} from '../dist/public/auth.mjs';
+import {agentDisplayName,ENUMS} from '../web/atlas-contract.js';
 import {buildPublic,outputDirectory,projectProjection} from './build-public.mjs';
 
 const appRoot=fileURLToPath(new URL('../',import.meta.url));
@@ -43,7 +44,7 @@ test('project API exposes only technical metadata in unconnected mode with no ex
 });
 
 test('operational, career-data, original dashboard and proxy routes are unavailable',async()=>{
- for(const url of ['/dashboard','/cohort.json','/campaign.json','/operational.json','/snapshot.json','/ultra-applications.csv','/api/quasar/v1/snapshot','/api/quasar/v1/snapshot?demo=1','/api/atlas/v1/review-decisions','/mcp','/web/campaign.json']){
+ for(const url of ['/dashboard','/cohort.json','/campaign.json','/operational.json','/snapshot.json','/ultra-applications.csv','/api/quasar/v1/snapshot','/api/quasar/v1/snapshot?demo=1','/api/atlas/v1/review-decisions','/api/atlas/v1/snapshot','/api/atlas/v1/applications','/mcp','/web/campaign.json']){
   const response=await get(url);
   assert.equal(response.status,404,url);
   assert.ok(!response.headers.has('set-cookie'),url);
@@ -76,7 +77,19 @@ test('fixture activation and provider filters cannot activate a data source',asy
 test('static pages retain safe headers and HEAD omits all response content',async()=>{
  const page=await get('/');
  assert.equal(page.status,200);
- assert.match(await page.text(),/UNCONNECTED/);
+ const markup=await page.text();
+ assert.match(markup,/UNCONNECTED/);
+ assert.match(markup,/Atlas Dashboard/);
+ assert.ok(!/QUASAR|NEBULA|PULSAR/.test(markup));
+ assert.match(markup,/#61d6c8/);
+ assert.equal(agentDisplayName('NEBULA'),'LinkedIn');
+ assert.equal(agentDisplayName('PULSAR'),'Jack & Jill (future)');
+ assert.equal(agentDisplayName('ATLAS'),'Atlas');
+ assert.ok(ENUMS.agent.includes('NEBULA') && ENUMS.agent.includes('PULSAR'));
+ const architecture=await (await get('/architecture')).text();
+ assert.match(architecture,/Google Sheets/);
+ assert.match(architecture,/read back/);
+ assert.ok(!/QUASAR|NEBULA|PULSAR/.test(architecture));
  assert.match(page.headers.get('content-security-policy'),/connect-src 'none'/);
  for(const url of ['/','/architecture','/projects.json','/api/public/projects']){
   const response=await get(url,'HEAD');

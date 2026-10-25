@@ -4,7 +4,7 @@
   "source_mode": "UNCONNECTED",
   "public_derivative": true,
   "recovered_source_commit": "da0119d5ebb9780744e726a15967bd67a0e1fca8",
-  "matches_latest_v49_source": false,
+  "matches_latest_v53_source": false,
   "tests": [
     {
       "command": "npm run build",
@@ -18,7 +18,7 @@
       "passed": 28,
       "failed": 0,
       "scope": "Original16 synthetic contract checks plus12 projects-only build/privacy/guard/determinism checks, including retained-source operational-reference rejection.",
-      "latest_execution": "Passed after removing the private ledger anchor and updating latest hosted Site metadata to49."
+      "latest_execution": "Passed locally after Atlas rebrand and hosted53-pending metadata update."
     }
   ],
   "generated_output": {
@@ -26,17 +26,18 @@
     "mode": "UNCONNECTED",
     "public_derivative": true,
     "recovered_source_commit": "da0119d5ebb9780744e726a15967bd67a0e1fca8",
-    "current_site_source_commit": "e03b18fff2012e37f3d6800ddac4ba74c6b09134",
+    "current_site_version": 53,
+    "current_site_source_commit": "f5200fce79b425d6d15d35aafcd9be11aa49fbab",
     "matches_current_site": false,
-    "source_sync_status": "pending_exact_v49_retrieval",
+    "source_sync_status": "pending_exact_v53_retrieval",
     "inputs": [
       {
         "path": "../docs/project-registry/project-registry.json",
-        "sha256": "6ab3950c1489407f4b9cea15470260300eca08170ffc8b3a4394d5cdb2c3c37b"
+        "sha256": "66bb123955af49b9c650608dc01a2f20eba6bac02097c43c1efc86a99e30a706"
       },
       {
         "path": "../docs/architecture/README.md",
-        "sha256": "403bbb09e7638f0ef8726aea0bd594981f3435a10db20b0494d71e75eaa7a937"
+        "sha256": "d58809f7ac51bfedc6198d12c28d5b9c4d2556143caf5185af4664e56fdea908"
       },
       {
         "path": "worker/auth.mjs",
@@ -60,8 +61,8 @@
   "source_files": [
     {
       "path": "package.json",
-      "sha256": "b7e6f8f117fbf61fe711aff68ab30f6a2614b76c6e37d912705f4f118bb0a301",
-      "bytes": 459
+      "sha256": "270c6366ce57385b90ad7e169fe2c7e6aa49ecdfd0ca71b7090e6d06d787ae4e",
+      "bytes": 458
     },
     {
       "path": ".gitignore",
@@ -70,18 +71,18 @@
     },
     {
       "path": "scripts/build-public.mjs",
-      "sha256": "6f6623c2fba324ace64ec995d0f1589819e0c909ca1af72f8e29319a6f64c749",
-      "bytes": 9684
+      "sha256": "76a33e129b41d09d10caa03a11038ebe6a11ab7b825bae23f88d2cccdad0145a",
+      "bytes": 9965
     },
     {
       "path": "scripts/test-public.mjs",
-      "sha256": "e36e12ec7b8e1735d7a667958c873527632337b389dfa3f8ed031648e3e45a1f",
-      "bytes": 7605
+      "sha256": "0524f6d4f9760034dae9245892444f5ab053ffe32e30220ad9dca3033260dfe8",
+      "bytes": 8174
     },
     {
       "path": "README.md",
-      "sha256": "f13496bb21cf21690852f97ffd31e51af6c1b35f898ef52775a947dc00594beb",
-      "bytes": 4563
+      "sha256": "b51b3a43163ef3922c07f3844c3af2e1eac6561f80ef992dd74eb477c65bcc62",
+      "bytes": 3244
     },
     {
       "path": "docs/historical-package.json",
@@ -98,7 +99,7 @@
     "Browser end-to-end operation",
     "Production deployment",
     "Live ATLAS or application provider",
-    "Exact hosted v49 source"
+    "Exact hosted v53 source"
   ],
   "no_external_requests_or_models": true,
   "no_generated_server_in_publication": true,
@@ -111,22 +112,28 @@
     },
     {
       "path": "docs/architecture/README.md",
-      "sha256": "403bbb09e7638f0ef8726aea0bd594981f3435a10db20b0494d71e75eaa7a937"
+      "sha256": "d58809f7ac51bfedc6198d12c28d5b9c4d2556143caf5185af4664e56fdea908"
     },
     {
       "path": "README.md",
-      "sha256": "7fbe77729a9b6eebc61ace734bce646470627b27602afefbac0f09ccacf0812b"
+      "sha256": "fc571a12d7888882c3e0e82c9c4f882a502ad68f8739bb470ac2fae5f73b0090"
+    },
+    {
+      "path": "docs/COMPATIBILITY.md",
+      "sha256": "ab07043e579643ad22ffd3e1b0befe5846473ec8336c301cfb681648a0a9cdc5"
     }
   ],
   "registry_validation": {
     "schema_valid": true,
-    "public_ready": false,
-    "scope": "Draft metadata acceptance plus23 trust/privacy boundary tests; final source/publication receipts still pending."
+    "public_ready": true,
+    "scope": "Strict public-source/design validation PASS with zero publication gaps;23 registry boundary tests PASS. Immutable execution receipts retain their actual tested revisions."
   },
   "ci": {
     "workflow": ".github/workflows/public-evidence.yml",
     "permissions": "contents:read",
-    "status": "prepared_not_yet_run_on_GitHub",
+    "status": "local_Atlas_rebrand_not_yet_run_on_GitHub",
+    "prior_baseline_sha": "68997940f452bfb137a5bdf94dcd09f4ee045156",
+    "prior_baseline_run_url": "https://github.com/jyotheshkar/Atlas/actions/runs/40191939324",
     "deploy_uploads_secrets_models": false
   },
   "generated_file_hashes": [
@@ -137,13 +144,13 @@
     },
     {
       "path": "dist/public/build-manifest.json",
-      "sha256": "f4a0421dbaa6d021fc9434e91583b6ea0ea6e594cfee8e7afc739dd30d4c66ca",
-      "bytes": 1043
+      "sha256": "624269e318daae85ccc33ec07e32a6ca5c868e410afe05bdef6df792c669843e",
+      "bytes": 1073
     },
     {
       "path": "dist/public/index.mjs",
-      "sha256": "3df829538e25825650a7480114e5ebe7a95620848ed76cd1f5c6c5fa048e6f8f",
-      "bytes": 15453
+      "sha256": "215d10f78d9a7fd55dd5659f1e0a9ae5d03a2ac13f7ab5c3a15a743d5802e2fc",
+      "bytes": 18653
     }
   ],
   "sanitized_historical_source": [
@@ -154,5 +161,33 @@
     }
   ],
   "historical_security_helpers_unchanged": true,
-  "publication_candidate": "New sanitized source candidate; supersedes the rejected95-file candidate. Prior blocked payload/freeze retained separately."
+  "publication_candidate": "Atlas-only rebrand of the reviewed sanitized public derivative; no private operational dataset or integration configuration.",
+  "public_rebrand_validation": {
+    "product": "Atlas Dashboard",
+    "base_sha": "be38b3265bf0e33812ccae3364ab3e4df7c3efb1",
+    "build": "PASS",
+    "node_checks": {
+      "passed": 28,
+      "failed": 0
+    },
+    "registry_boundary_tests": {
+      "passed": 23,
+      "failed": 0
+    },
+    "strict_registry": {
+      "schema_valid": true,
+      "public_ready": true,
+      "publication_gaps": []
+    },
+    "checks_extended": "Current Atlas branding/palette, blocked Atlas operational paths, compatible agent display labels and unchanged schema-v1 enums. Six changed web JS files also pass node --check.",
+    "auth_helper_unchanged": true,
+    "historical_package_unchanged": true,
+    "original_vendor_icons_unchanged": 39,
+    "source_syntax_checks": {
+      "passed": 22,
+      "failed": 0
+    },
+    "browser_e2e": "not_run",
+    "latest_hosted_source_recovered": false
+  }
 }

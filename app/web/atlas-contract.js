@@ -1,5 +1,14 @@
 // ATLAS v1 read-model contract. This module contains no credentials or source writes.
 export const SCHEMA_VERSION = '1.0.0';
+// Schema-v1 identifiers remain stable; product names belong to the presentation.
+const agentDisplayNames = Object.freeze({
+  ATLAS:'Atlas', PULSAR:'Jack & Jill (future)', NEBULA:'LinkedIn',
+  MANUAL:'Manual', integration:'Integration'
+});
+export function agentDisplayName(agent) {
+  return typeof agent==='string' ? (Object.hasOwn(agentDisplayNames,agent) ? agentDisplayNames[agent] : agent) : 'Unknown agent';
+}
+
 export const COLLECTIONS = Object.freeze(['candidate_facts','project_index','cv_registry','applications','outreach','runs','events','review_queue','source_health','configuration']);
 export const ENUMS = Object.freeze({
   source_health:['UNCONNECTED','CONNECTING','CONNECTED','STALE','ERROR'],

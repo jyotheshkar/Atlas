@@ -16,7 +16,7 @@
     "canonical_source": "Published GitHub source revisions and commit-bound evidence; external Sites deployments retain separate source identities.",
     "private_data": "No private source URLs, CV content, contacts, application records or operational metrics.",
     "career_claims": "Technical source facts only; approved_cv_claims remains empty without a separate approval receipt.",
-    "runtime_boundary": "QUASAR is the existing Sites dashboard. This register does not create, connect or run ATLAS/NEBULA/PULSAR plugins."
+    "runtime_boundary": "Atlas Dashboard presents an evidence projection. The public build is projects-only and UNCONNECTED; it does not create or activate career/application workflows."
   },
   "projects": [
     {
@@ -362,12 +362,12 @@
     {
       "project_id": "quasar",
       "priority": 3,
-      "title": "QUASAR",
+      "title": "Atlas Dashboard",
       "repository": {
         "owner": "jyotheshkar",
-        "name": "Quasar",
+        "name": "Atlas",
         "id": 1433090077,
-        "url": "https://github.com/jyotheshkar/Quasar",
+        "url": "https://github.com/jyotheshkar/Atlas",
         "visibility": "public",
         "source_commit_sha": "68997940f452bfb137a5bdf94dcd09f4ee045156",
         "tree_sha": "f69b0a024e900b480e6eb1813f655d50a9237f25",
@@ -379,7 +379,7 @@
       "maturity": {
         "stage": "published_application_source",
         "implementation_scope": "Published sanitized historical Site v47 source plus a tested, standalone projects-only UNCONNECTED public build. Operational datasets and private resource links are omitted.",
-        "deployment_status": "public_build_not_deployed; hosted Site v49 recorded separately with exact source unrecovered"
+        "deployment_status": "public_build_not_deployed; hosted Atlas Dashboard v53 recorded separately with exact source unrecovered"
       },
       "technologies": [
         "JavaScript",
@@ -392,7 +392,7 @@
         {
           "source_id": "github-readme",
           "kind": "github_file",
-          "url": "https://github.com/jyotheshkar/Quasar/blob/68997940f452bfb137a5bdf94dcd09f4ee045156/README.md",
+          "url": "https://github.com/jyotheshkar/Atlas/blob/68997940f452bfb137a5bdf94dcd09f4ee045156/README.md",
           "commit_sha": "68997940f452bfb137a5bdf94dcd09f4ee045156",
           "path": "README.md",
           "status": "inspected_source",
@@ -402,7 +402,7 @@
         {
           "source_id": "public-build",
           "kind": "github_file",
-          "url": "https://github.com/jyotheshkar/Quasar/blob/68997940f452bfb137a5bdf94dcd09f4ee045156/app/scripts/build-public.mjs",
+          "url": "https://github.com/jyotheshkar/Atlas/blob/68997940f452bfb137a5bdf94dcd09f4ee045156/app/scripts/build-public.mjs",
           "commit_sha": "68997940f452bfb137a5bdf94dcd09f4ee045156",
           "path": "app/scripts/build-public.mjs",
           "status": "inspected_source",
@@ -412,7 +412,7 @@
         {
           "source_id": "public-tests",
           "kind": "github_file",
-          "url": "https://github.com/jyotheshkar/Quasar/blob/68997940f452bfb137a5bdf94dcd09f4ee045156/app/scripts/test-public.mjs",
+          "url": "https://github.com/jyotheshkar/Atlas/blob/68997940f452bfb137a5bdf94dcd09f4ee045156/app/scripts/test-public.mjs",
           "commit_sha": "68997940f452bfb137a5bdf94dcd09f4ee045156",
           "path": "app/scripts/test-public.mjs",
           "status": "inspected_source",
@@ -422,7 +422,7 @@
         {
           "source_id": "auth-helper",
           "kind": "github_file",
-          "url": "https://github.com/jyotheshkar/Quasar/blob/68997940f452bfb137a5bdf94dcd09f4ee045156/app/worker/auth.mjs",
+          "url": "https://github.com/jyotheshkar/Atlas/blob/68997940f452bfb137a5bdf94dcd09f4ee045156/app/worker/auth.mjs",
           "commit_sha": "68997940f452bfb137a5bdf94dcd09f4ee045156",
           "path": "app/worker/auth.mjs",
           "status": "inspected_source",
@@ -432,7 +432,7 @@
         {
           "source_id": "data-contract",
           "kind": "github_file",
-          "url": "https://github.com/jyotheshkar/Quasar/blob/68997940f452bfb137a5bdf94dcd09f4ee045156/app/web/atlas-contract.js",
+          "url": "https://github.com/jyotheshkar/Atlas/blob/68997940f452bfb137a5bdf94dcd09f4ee045156/app/web/atlas-contract.js",
           "commit_sha": "68997940f452bfb137a5bdf94dcd09f4ee045156",
           "path": "app/web/atlas-contract.js",
           "status": "inspected_source",
@@ -442,17 +442,17 @@
         {
           "source_id": "source-provenance",
           "kind": "github_file",
-          "url": "https://github.com/jyotheshkar/Quasar/blob/68997940f452bfb137a5bdf94dcd09f4ee045156/app/docs/source-provenance.json",
+          "url": "https://github.com/jyotheshkar/Atlas/blob/68997940f452bfb137a5bdf94dcd09f4ee045156/app/docs/source-provenance.json",
           "commit_sha": "68997940f452bfb137a5bdf94dcd09f4ee045156",
           "path": "app/docs/source-provenance.json",
           "status": "inspected_source",
           "verified_on": "2026-10-25",
-          "scope": "Sanitized v47 derivative identity and omissions; hosted v49 has a separate source identity and remains unrecovered."
+          "scope": "Sanitized v47 derivative identity and omissions; hosted v53 has a separate source identity and remains unrecovered."
         },
         {
           "source_id": "build-verification",
           "kind": "github_file",
-          "url": "https://github.com/jyotheshkar/Quasar/blob/68997940f452bfb137a5bdf94dcd09f4ee045156/app/docs/public-build-verification.json",
+          "url": "https://github.com/jyotheshkar/Atlas/blob/68997940f452bfb137a5bdf94dcd09f4ee045156/app/docs/public-build-verification.json",
           "commit_sha": "68997940f452bfb137a5bdf94dcd09f4ee045156",
           "path": "app/docs/public-build-verification.json",
           "status": "inspected_source",
@@ -462,7 +462,7 @@
         {
           "source_id": "evidence-architecture",
           "kind": "github_file",
-          "url": "https://github.com/jyotheshkar/Quasar/blob/68997940f452bfb137a5bdf94dcd09f4ee045156/docs/architecture/README.md",
+          "url": "https://github.com/jyotheshkar/Atlas/blob/68997940f452bfb137a5bdf94dcd09f4ee045156/docs/architecture/README.md",
           "commit_sha": "68997940f452bfb137a5bdf94dcd09f4ee045156",
           "path": "docs/architecture/README.md",
           "status": "inspected_source",
@@ -472,7 +472,7 @@
         {
           "source_id": "registry-tests",
           "kind": "github_file",
-          "url": "https://github.com/jyotheshkar/Quasar/blob/68997940f452bfb137a5bdf94dcd09f4ee045156/docs/project-registry/test_registry.py",
+          "url": "https://github.com/jyotheshkar/Atlas/blob/68997940f452bfb137a5bdf94dcd09f4ee045156/docs/project-registry/test_registry.py",
           "commit_sha": "68997940f452bfb137a5bdf94dcd09f4ee045156",
           "path": "docs/project-registry/test_registry.py",
           "status": "inspected_source",
@@ -483,11 +483,11 @@
           "source_id": "quasar-site",
           "kind": "external_site",
           "url": "https://quasar.jyothesh-karnam.chatgpt.site",
-          "commit_sha": "e03b18fff2012e37f3d6800ddac4ba74c6b09134",
+          "commit_sha": "f5200fce79b425d6d15d35aafcd9be11aa49fbab",
           "path": null,
           "status": "metadata_verified",
           "verified_on": "2026-10-25",
-          "scope": "Sites version49 records successful dashboard publication at 11:05:36Z. Exact v49 source remains unavailable; published GitHub code is the separate sanitized v47 public derivative."
+          "scope": "Atlas Dashboard hosted Site version53/source f5200fce79b425d6d15d35aafcd9be11aa49fbab was verified in Sites metadata. Exact v53 source is unrecovered; connection status and private projection reported in chats were not verified in this public source."
         }
       ],
       "verified_functionality": [
@@ -508,7 +508,7 @@
           ]
         },
         {
-          "statement": "The published GitHub source is a sanitized historical v47 derivative; the current hosted v49 dashboard has a separate unrecovered source identity.",
+          "statement": "The published GitHub source is a sanitized historical v47 derivative; the current hosted v53 dashboard has a separate unrecovered source identity.",
           "source_ids": [
             "github-readme",
             "source-provenance",
@@ -519,14 +519,14 @@
       "designs": [
         {
           "design_id": "dashboard-data-boundaries",
-          "title": "Dashboard and Career-Evidence Boundaries",
+          "title": "Dashboard Evidence Boundaries (Historical Baseline)",
           "kind": "application_architecture",
           "source_id": "evidence-architecture",
-          "url": "https://github.com/jyotheshkar/Quasar/blob/68997940f452bfb137a5bdf94dcd09f4ee045156/docs/architecture/README.md",
+          "url": "https://github.com/jyotheshkar/Atlas/blob/68997940f452bfb137a5bdf94dcd09f4ee045156/docs/architecture/README.md",
           "status": "public_source_design",
           "limitations": [
-            "Newly authored reference as of 25 October 2026, not an original Library image or production connection receipt.",
-            "The intended GitHub evidence to ATLAS to signed projection to QUASAR relationship is not activated by this public build."
+            "Commit-bound historical design evidence predates the Atlas-only naming update. See repository docs/architecture/README.md for the current authored design reference.",
+            "This diagram does not establish a production connection or private operational sync."
           ]
         }
       ],
@@ -537,7 +537,7 @@
           "level": "github_ci_public_derivative",
           "source_id": "public-tests",
           "commit_sha": "68997940f452bfb137a5bdf94dcd09f4ee045156",
-          "url": "https://github.com/jyotheshkar/Quasar/actions/runs/40191939324",
+          "url": "https://github.com/jyotheshkar/Atlas/actions/runs/40191939324",
           "command": "npm run build; npm test (app/)",
           "count": 28,
           "summary": "Published baseline push CI succeeded; job 121164586050 logs report 28 tests, 28 pass, 0 fail: 16 synthetic contract checks plus 12 public build/privacy/guard/determinism checks.",
@@ -552,7 +552,7 @@
           "level": "github_ci_offline_metadata_validation",
           "source_id": "registry-tests",
           "commit_sha": "68997940f452bfb137a5bdf94dcd09f4ee045156",
-          "url": "https://github.com/jyotheshkar/Quasar/actions/runs/40191939324",
+          "url": "https://github.com/jyotheshkar/Atlas/actions/runs/40191939324",
           "command": "python docs/project-registry/validate_registry.py; python docs/project-registry/test_registry.py",
           "count": 23,
           "summary": "Published baseline CI validated its then-draft registry and passed 23 trust/privacy boundary tests. Later registry-only revision results are separate from this baseline execution receipt.",
@@ -563,11 +563,13 @@
         }
       ],
       "limitations": [
-        "Current hosted Site v49 source e03b18fff2012e37f3d6800ddac4ba74c6b09134 remains unrecovered; GitHub baseline is a sanitized v47 derivative.",
+        "Current hosted Site v53 source f5200fce79b425d6d15d35aafcd9be11aa49fbab remains unrecovered; GitHub baseline is a sanitized v47 derivative.",
         "Public mode is projects-only and UNCONNECTED; no signed operational projection, actual career records, application metrics, private resource identifiers or contact data are included.",
         "The public build has not been deployed and does not reproduce the current hosted dashboard or establish browser end-to-end readiness.",
-        "Live ATLAS/provider connections and future NEBULA/deferred PULSAR application capabilities are not implemented or verified by this release.",
-        "Execution receipts remain bound to the tested baseline. Later registry revisions require their own Actions result."
+        "Live ATLAS/provider connections and LinkedIn/Jack & Jill (future) application capabilities are not implemented or verified by this release.",
+        "Execution receipts remain bound to the tested baseline. Later registry revisions require their own Actions result.",
+        "Stable project_id quasar and historical API/schema identifiers are retained for compatibility; current product/repository identity is Atlas Dashboard / Atlas.",
+        "The local Atlas rebrand is a derivative of the published historical baseline; immutable source/test links remain bound to their actual pre-rebrand revisions until refreshed after publication."
       ],
       "approved_cv_claims": [],
       "claim_approval_status": "technical_evidence_only"

@@ -1,88 +1,44 @@
-# QUASAR Public Evidence Build and Historical Source
+# Atlas Dashboard Public Build
 
-This folder combines a reviewed **sanitized historical v47 source snapshot** with a small,
-new **UNCONNECTED public evidence build**. The new build is a declared derivative;
-it is not the original dashboard deployment or exact hosted v49 source.
+This folder contains a **sanitized historical v47 derivative** and a standalone **UNCONNECTED public evidence build**. It is not exact hosted Atlas Dashboard v53 source.
 
-## Standalone Public Build
+## Run the Checks
 
-Use Node.js 24.14 or later. No package installation, credentials, operational data,
-model download or hosting configuration is required:
+Use Node.js 24.14 or later:
 
 ```bash
 npm run build
 npm test
 ```
 
-The build emits `dist/public/index.mjs`, the unchanged authentication helper and
-a build manifest. The generated worker exposes:
+No package installation, credentials, operational inputs, model downloads or hosting configuration are required. The generated worker exposes:
 
-- `/`: technical project-evidence viewer.
-- `/architecture`: dated architecture and identity reference.
+- `/`: Atlas Dashboard technical project viewer.
+- `/architecture`: current authored evidence/permission boundary.
 - `/projects.json` and `/api/public/projects`: minimal public project metadata.
 
-It reads only the reviewed repository-level project registry, the newly authored
-architecture reference and `worker/auth.mjs`. It does not read or copy the old
-campaign/cohort/snapshot JSON, application CSV, QA images, operations folder,
-`.openai` configuration or environment values. Unexpected pre-existing generated
-assets cause the build to fail rather than being retained.
+Only the reviewed registry, architecture reference and `worker/auth.mjs` enter the build. Output is limited to `dist/public/index.mjs`, `auth.mjs` and `build-manifest.json`. Unknown pre-existing generated assets cause a build failure. Generated output is ignored and not published.
 
-Operational dashboard/provider routes are unavailable. Writes are rejected.
-Original authentication helpers are copied without modification and fail closed
-without runtime configuration. Fixture switches cannot activate a live source.
+Both historical and Atlas operational API paths are unavailable in public mode. Writes and provider toggles are rejected. Original authentication bytes, environment keys and cookie semantics are retained; missing runtime configuration fails closed. No live provider or private signed projection is activated.
 
-The generated worker is exercised directly through Request/Response tests.
-This build does not deploy a service, provide production bindings or establish
-browser/deployment readiness. Generated `dist/public/` files are ignored and
-excluded from repository publication; regenerate them locally.
+The viewer uses teal/silver/black. The accepted hosted speedometer direction is documented rather than populated with fabricated campaign figures.
 
-## Verification Scope
+## Verification
 
-`npm test` passed **28 checks**: the original 16 synthetic contract checks plus
-12 public-build, route/privacy, no-network, authentication-boundary and
-determinism checks. See [the derivative receipt](docs/public-build-verification.json).
+The default suite covers the original 16 deterministic synthetic contract checks and the public build, route/privacy, no-network, authentication and determinism boundaries. Atlas branding, blocked Atlas API paths and display-name compatibility have focused assertions.
 
-The historical restoration/API/auth test files are preserved for inspection.
-They target the older operational dashboard and its generated server bundle, not
-this deliberately smaller public mode; they are not claimed passing here.
-`npm run test:historical` preserves the historical suite command and is not a
-public-build acceptance gate.
+Historical restoration/API/auth suites target an omitted generated operational bundle. They are retained for inspection and are not claimed passing. `npm run test:historical` is not a public-build acceptance gate. The original build still expects deliberately excluded operational and hosting inputs; do not restore private records to run it.
 
-## Historical Source Identity
+## Source Identity
 
-Recovered original application code comes from **Site version 47**, source commit
-`da0119d5ebb9780744e726a15967bd67a0e1fca8`. The original package manifest is
-preserved byte for byte at [docs/historical-package.json](docs/historical-package.json).
-The current package scripts select the new public build. The allowlist/provenance
-documents identify this relocation, every derivative addition, and removal of a
-private operational ledger hyperlink from historical web/operations.js. Original
-and sanitized-export hashes are recorded separately for that file.
+Historical source origin: v47 commit `da0119d5ebb9780744e726a15967bd67a0e1fca8`.
+The original package bytes remain at [docs/historical-package.json](docs/historical-package.json).
 
-The current hosted Site is **version 49**, source commit
-`e03b18fff2012e37f3d6800ddac4ba74c6b09134`, recorded as successfully published
-on 25 October 2026. Exact v49 source recovery remains pending. This folder must not
-be labelled the latest deployed code.
+The current hosted Atlas Dashboard is v53, source identity
+`f5200fce79b425d6d15d35aafcd9be11aa49fbab`. Exact v52/v53 source is unrecovered. The Atlas rename and public viewer are declared derivatives, not recovery of the latest deployment.
 
-[Source provenance](docs/source-provenance.json), [original-file allowlist](docs/source-file-allowlist.json)
-and [historical verification receipts](docs/verification-receipts.json) preserve
-that boundary.
+See [provenance](docs/source-provenance.json), [source allowlist](docs/source-file-allowlist.json), [verification](docs/public-build-verification.json) and [legacy compatibility](../docs/COMPATIBILITY.md).
 
-## Original Code Retained for Inspection
+Google Sheets is the intended authoritative ledger; Drive retains exact private CVs/evidence; GitHub supplies technical project evidence; the dashboard consumes a projection. LinkedIn staged/write/read-back/commit synchronisation is a requirement documented in the architecture, not implemented live sync in this public build. Jack & Jill remains future work.
 
-- `web/`: historical dashboard/navigation, architecture presentation and provider contracts.
-- `worker/`: historical request/authentication/snapshot code.
-- `scripts/build.mjs`: original build, retained unchanged; it expects deliberately excluded private/hosting inputs.
-- `tests/`: original synthetic contract and historical application checks.
-- Third-party Three.js assets and licence/provenance.
-
-ATLAS provider scaffolding is not proof of a production ATLAS connection.
-Current identities are documented in the repository's new architecture reference:
-ATLAS career evidence, QUASAR monitoring, future NEBULA LinkedIn agent and deferred
-PULSAR Jack and Jill agent. The historical presentation may use older naming.
-
-Private operational resource links and identifiers are omitted from this public
-copy. Official technical documentation and third-party provenance links remain.
-
-No private career records, credentials, source history or operational signed
-projection is included. Do not restore private datasets to make historical
-scripts run.
+Connected-service/platform permissions govern actual actions. No public plugin text or UI control grants those permissions. No private career records, contacts, credentials, resource identifiers or operational projection are included.

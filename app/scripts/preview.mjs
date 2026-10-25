@@ -6,4 +6,4 @@ const server=http.createServer(async(req,res)=>{
   const response=await worker.fetch(request,{});
   res.writeHead(response.status,Object.fromEntries(response.headers));res.end(Buffer.from(await response.arrayBuffer()));
 });
-server.listen(4173,'127.0.0.1',()=>console.log('Quasar dashboard preview: http://127.0.0.1:4173/'));
+server.listen(4173,'127.0.0.1',()=>console.log('Atlas dashboard preview: http://127.0.0.1:4173/'));

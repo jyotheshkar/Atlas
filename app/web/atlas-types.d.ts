@@ -24,3 +24,6 @@ export interface MetricDefinition {id:string;label:string;inclusion:string;exclu
 export interface DataProvider {getSnapshot(options?:{state?:SourceState;empty?:boolean}):Promise<AtlasSnapshot>}
 
 
+
+/** Presentation only; schema-v1 agent identifiers are unchanged. */
+export declare function agentDisplayName(agent:unknown):string;

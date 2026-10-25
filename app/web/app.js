@@ -3,7 +3,7 @@
   const $ = id => document.getElementById(id);
   const put = (id, value) => { const node = $(id); if (node) node.textContent = String(value); };
   const NS = 'http://www.w3.org/2000/svg';
-  const C = { red: '#f24a53', white: '#fff', green: '#43d69e' };
+  const C = { red: '#2dd4bf', white: '#fff', green: '#43d69e' };
   const dateFmt = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/London', year: 'numeric', month: '2-digit', day: '2-digit' });
   const clockFmt = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/London', hour: '2-digit', minute: '2-digit', hour12: false });
   const longFmt = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/London', day: 'numeric', month: 'long', year: 'numeric' });

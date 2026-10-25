@@ -8,12 +8,12 @@ export const outputDirectory=path.join(appRoot,'dist','public');
 const projectNames={
  'agentic-core':'Agentic Core',
  'system-architecture-workspace':'System Architecture Workspace',
- 'quasar':'QUASAR',
+ 'quasar':'Atlas Dashboard',
  'rufus-eval-engine':'Rufus Eval Engine',
  'nhs-elective-flow-intelligence':'NHS Elective Flow Intelligence',
  'primelift':'PrimeLift AI',
 };
-const repositories=new Set(['agentic-core-evidence','system-architecture-workspace','Quasar','Rufus-Eval-Engine','nhs-elective-flow-intelligence','PrimeLift']);
+const repositories=new Set(['agentic-core-evidence','system-architecture-workspace','Atlas','Rufus-Eval-Engine','nhs-elective-flow-intelligence','PrimeLift']);
 const stages=new Set(['reviewed_runtime_excerpt','published_site_separate_source_export_pending','published_dashboard_site_readme_only_github_snapshot','independent_synthetic_evaluation_prototype','independent_aggregate_data_analytics_prototype','synthetic_causal_uplift_analytics_prototype','published_clean_demonstration','published_application_source']);
 const digest=value=>createHash('sha256').update(value).digest('hex');
 const escape=value=>String(value).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'","&#39;");
@@ -47,13 +47,13 @@ export function projectProjection(registry){
  return {schema_version:'1.0.0',mode:'UNCONNECTED',connected:false,label:'Public project evidence only; no operational data source',operational_records_available:false,projects};
 }
 function htmlPage(title,body){
- return '<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+escape(title)+'</title><style>body{font:16px system-ui,sans-serif;max-width:72rem;margin:auto;padding:2rem;line-height:1.6;color:#ececec;background:#111}a{color:#ddd}nav{display:flex;gap:1.5rem}h1,h2{color:#fff}small,.badge{color:#d6c18a}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr));gap:1rem}article{border:1px solid #555;padding:1.2rem;border-radius:.6rem}code,pre{overflow-wrap:anywhere;white-space:pre-wrap}footer{margin-top:2rem;border-top:1px solid #555;padding-top:1rem}</style><nav aria-label="Main navigation"><a href="/">Projects</a><a href="/architecture">Architecture scope</a><a href="/projects.json">Public metadata</a></nav><main>'+body+'</main><footer>UNCONNECTED public derivative. Historical v47 source; exact hosted v49 source synchronisation remains pending. No operational records, signed projections or live provider connection are included.</footer></html>';
+ return '<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+escape(title)+'</title><style>body{font:16px system-ui,sans-serif;max-width:72rem;margin:auto;padding:2rem;line-height:1.6;color:#dce2e4;background:#05090a}a{color:#70d7ce}nav{display:flex;gap:1.5rem}h1,h2{color:#e9f1f2}small,.badge{color:#61d6c8}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr));gap:1rem}article{border:1px solid #43545a;background:linear-gradient(145deg,#192226,#0a1012);padding:1.2rem;border-radius:.6rem}code,pre{overflow-wrap:anywhere;white-space:pre-wrap}footer{margin-top:2rem;border-top:1px solid #555;padding-top:1rem}</style><nav aria-label="Main navigation"><a href="/">Projects</a><a href="/architecture">Architecture scope</a><a href="/projects.json">Public metadata</a></nav><main>'+body+'</main><footer>UNCONNECTED public derivative. Historical v47 source; exact hosted v53 source synchronisation remains pending. No operational records, signed projections or live provider connection are included.</footer></html>';
 }
 export function publicAssets(projection,architecture){
  const cards=projection.projects.map(p=>'<article><h2>'+escape(p.title)+'</h2><p>'+escape(p.maturity.replaceAll('_',' '))+'</p><p><a href="'+escape(p.repository_url)+'">Inspect public source</a></p><p>Source revision: <code>'+escape(p.source_commit_sha||'Release receipt pending')+'</code></p><ul>'+p.designs.map(d=>'<li>'+(d.url?'<a href="'+escape(d.url)+'">'+escape(d.title)+'</a>':escape(d.title)+' (pending)')+'</li>').join('')+'</ul></article>').join('');
  return {
-  '/':htmlPage('QUASAR Public Project Evidence','<h1>QUASAR</h1><p class="badge">UNCONNECTED · PUBLIC PROJECT EVIDENCE</p><p>This standalone viewer contains reviewed technical project metadata. It has no operational connection, career records or campaign metrics.</p><div class="cards">'+cards+'</div>'),
-  '/architecture':htmlPage('QUASAR Architecture Scope','<h1>Evidence Architecture</h1><p>Newly authored reference documentation; intended relationships are not a deployment or integration receipt.</p><pre>'+escape(architecture)+'</pre>'),
+  '/':htmlPage('Atlas Dashboard Public Project Evidence','<p class="badge">ATLAS / PUBLIC EVIDENCE</p><h1>Atlas Dashboard</h1><p class="badge">UNCONNECTED · PUBLIC PROJECT EVIDENCE</p><p>This standalone viewer contains reviewed technical project metadata. Google Sheets is the authoritative ledger in the intended Atlas architecture; Drive retains exact private CVs and evidence, GitHub holds technical source, and the dashboard consumes a projection. This public build has no operational connection, private documents or campaign metrics.</p><div class="cards">'+cards+'</div>'),
+  '/architecture':htmlPage('Atlas Dashboard Architecture Scope','<h1>Evidence Architecture</h1><p>Newly authored reference documentation; intended relationships are not a deployment or integration receipt.</p><pre>'+escape(architecture)+'</pre>'),
   '/projects.json':JSON.stringify(projection,null,2),
  };
 }
@@ -89,7 +89,7 @@ export async function buildPublic(){
  ].join('\n');
  await writeFile(path.join(outputDirectory,'index.mjs'),server,'utf8');
  await copyFile(authFile,path.join(outputDirectory,'auth.mjs'));
- const manifest={schema_version:'1.0.0',mode:'UNCONNECTED',public_derivative:true,recovered_source_commit:'da0119d5ebb9780744e726a15967bd67a0e1fca8',current_site_source_commit:'e03b18fff2012e37f3d6800ddac4ba74c6b09134',matches_current_site:false,source_sync_status:'pending_exact_v49_retrieval',inputs:[{path:'../docs/project-registry/project-registry.json',sha256:digest(registryBytes)},{path:'../docs/architecture/README.md',sha256:digest(architectureBytes)},{path:'worker/auth.mjs',sha256:digest(authBytes)}],routes:[...Object.keys(assets),'/api/public/projects'],generated_files:[...generated],hosting_configuration_included:false,operational_records_included:false};
+ const manifest={schema_version:'1.0.0',mode:'UNCONNECTED',public_derivative:true,recovered_source_commit:'da0119d5ebb9780744e726a15967bd67a0e1fca8',current_site_version:53,current_site_source_commit:'f5200fce79b425d6d15d35aafcd9be11aa49fbab',matches_current_site:false,source_sync_status:'pending_exact_v53_retrieval',inputs:[{path:'../docs/project-registry/project-registry.json',sha256:digest(registryBytes)},{path:'../docs/architecture/README.md',sha256:digest(architectureBytes)},{path:'worker/auth.mjs',sha256:digest(authBytes)}],routes:[...Object.keys(assets),'/api/public/projects'],generated_files:[...generated],hosting_configuration_included:false,operational_records_included:false};
  await writeFile(path.join(outputDirectory,'build-manifest.json'),JSON.stringify(manifest,null,2)+'\n','utf8');
  return manifest;
 }

@@ -1,7 +1,7 @@
 project_id,title,repository_name,repository_url,source_commit_sha,maturity,publication_status
 agentic-core,Agentic Core,agentic-core-evidence,https://github.com/jyotheshkar/agentic-core-evidence,72de3f177f9046fdfbf49b4251c26b49d87070e4,published_clean_demonstration,published
 system-architecture-workspace,System Architecture Workspace,system-architecture-workspace,https://github.com/jyotheshkar/system-architecture-workspace,705b370f9a68906ba92e0877edbcc349a0812c7f,published_application_source,published
-quasar,QUASAR,Quasar,https://github.com/jyotheshkar/Quasar,68997940f452bfb137a5bdf94dcd09f4ee045156,published_application_source,published
+quasar,Atlas Dashboard,Atlas,https://github.com/jyotheshkar/Atlas,68997940f452bfb137a5bdf94dcd09f4ee045156,published_application_source,published
 rufus-eval-engine,Rufus Eval Engine,Rufus-Eval-Engine,https://github.com/jyotheshkar/Rufus-Eval-Engine,6365cd27de2846bea4e7b2dd3146089196e7e40f,independent_synthetic_evaluation_prototype,published
 nhs-elective-flow-intelligence,NHS Elective Flow Intelligence,nhs-elective-flow-intelligence,https://github.com/jyotheshkar/nhs-elective-flow-intelligence,3d75530331dcaa86cb90c7395e79c763bf9ca5d2,independent_aggregate_data_analytics_prototype,published
 primelift,PrimeLift AI,PrimeLift,https://github.com/jyotheshkar/PrimeLift,8521efc15c3279125ae9c79d66180deb6ef03cab,synthetic_causal_uplift_analytics_prototype,published

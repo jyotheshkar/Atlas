@@ -602,9 +602,9 @@
     {
       "repository_id": 1433090077,
       "owner": "jyotheshkar",
-      "name": "Quasar",
+      "name": "Atlas",
       "visibility": "public",
-      "repository_url": "https://github.com/jyotheshkar/Quasar",
+      "repository_url": "https://github.com/jyotheshkar/Atlas",
       "default_branch": "main",
       "commit_sha": "68997940f452bfb137a5bdf94dcd09f4ee045156",
       "tree_sha": "f69b0a024e900b480e6eb1813f655d50a9237f25",
@@ -816,9 +816,9 @@
     },
     {
       "url": "https://quasar.jyothesh-karnam.chatgpt.site",
-      "source_commit_sha": "e03b18fff2012e37f3d6800ddac4ba74c6b09134",
+      "source_commit_sha": "f5200fce79b425d6d15d35aafcd9be11aa49fbab",
       "verified_on": "2026-10-25",
-      "scope": "Sites version49 records successful dashboard publication at 11:05:36Z. Exact v49 source remains unavailable; published GitHub code is the separate sanitized v47 public derivative."
+      "scope": "Atlas Dashboard Site version53 records successful hosting metadata; exact source remains unrecovered and private integration was not verified in the public source."
     }
   ],
   "test_receipts": [
@@ -859,7 +859,7 @@
       "scope": "Saved-report consistency and Python syntax checks passed at the current documentation-only review head; no estimator reproduction, full API/backend suite or frontend build is inferred."
     },
     {
-      "url": "https://github.com/jyotheshkar/Quasar/actions/runs/40191939324",
+      "url": "https://github.com/jyotheshkar/Atlas/actions/runs/40191939324",
       "commit_sha": "68997940f452bfb137a5bdf94dcd09f4ee045156",
       "result": "success",
       "scope": "Published sanitized 95-file baseline push CI 40191939324, completed successfully; job 121164586050 reports build success, 28/28 Node checks and 23 registry boundary tests. Baseline draft registry validation passed; no live integration, deployment or follow-up-SHA pass inferred."

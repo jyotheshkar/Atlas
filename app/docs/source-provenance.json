@@ -13,13 +13,13 @@
     "third_party": "Existing vendor licences and provenance retained; no claim of exclusive rights to bundled libraries or architecture icons.",
     "operational_references": "Removed the embedded private Google Sheets ledger anchor from web/operations.js; public technical documentation/OSS links and labelled synthetic references retained. Independent review binds a new closed-set freeze."
   },
-  "project": "QUASAR",
-  "latest_site_version": 49,
-  "latest_site_source_commit": "e03b18fff2012e37f3d6800ddac4ba74c6b09134",
+  "project": "Atlas Dashboard",
+  "latest_site_version": 53,
+  "latest_site_source_commit": "f5200fce79b425d6d15d35aafcd9be11aa49fbab",
   "recovered_version": 47,
   "recovered_source_commit": "da0119d5ebb9780744e726a15967bd67a0e1fca8",
   "matches_latest_site_source": false,
-  "source_sync_status": "pending_exact_v49_retrieval",
+  "source_sync_status": "pending_exact_v53_retrieval",
   "site_deployment_status": "succeeded",
   "site_url": "https://quasar.jyothesh-karnam.chatgpt.site",
   "original_source_files": 74,
@@ -36,12 +36,32 @@
     "web/ultra-applications.csv",
     ".git source history"
   ],
-  "maturity": "Historical v47 implementation source plus tested projects-only UNCONNECTED public derivative. Exact v49 source and live provider integration remain unverified.",
-  "standalone_build": "PASS: npm run build creates projects-only UNCONNECTED worker without private inputs or hosting configuration. This is a new derivative, not the original v47 build or v49 recovery.",
+  "maturity": "Historical v47 implementation source plus tested projects-only UNCONNECTED public derivative. Exact v53 source and live provider integration remain unverified.",
+  "standalone_build": "PASS: npm run build creates projects-only UNCONNECTED worker without private inputs or hosting configuration. This is a new derivative, not the original v47 build or v53 recovery.",
   "derivative_changes": {
     "modified_original_paths": [
       "package.json",
-      "web/operations.js"
+      "scripts/build.mjs",
+      "scripts/preview.mjs",
+      "web/app.js",
+      "web/architecture-summary.css",
+      "web/architecture.html",
+      "web/atlas-contract.js",
+      "web/atlas-providers.js",
+      "web/atlas-shell.css",
+      "web/atlas-types.d.ts",
+      "web/atlas-workspaces.css",
+      "web/atlas-workspaces.js",
+      "web/dashboard.css",
+      "web/dashboard.html",
+      "web/dashboard.js",
+      "web/index.html",
+      "web/login.html",
+      "web/operations.js",
+      "web/quasar-mark.svg",
+      "web/site-nav.css",
+      "web/site-nav.js",
+      "web/style.css"
     ],
     "original_package_preserved_at": "docs/historical-package.json",
     "new_default_build": "scripts/build-public.mjs",
@@ -49,14 +69,27 @@
     "original_worker_web_tests_modified": true,
     "generated_output": "dist/public/",
     "generated_output_published": false,
-    "original_build_preserved_unchanged": "scripts/build.mjs",
     "historical_source_sanitization": [
       {
         "path": "web/operations.js",
         "change": "Removed private operational ledger hyperlink and identifier; replaced with a non-interactive omission notice. No replacement external resource was introduced."
       }
     ],
-    "unchanged_runtime_security": "worker/auth.mjs remains unchanged; public mode has no configured runtime authentication."
+    "unchanged_runtime_security": "worker/auth.mjs remains unchanged; public mode has no configured runtime authentication.",
+    "historical_build": "scripts/build.mjs is retained as historical non-default source with Atlas presentation updates and legacy asset/document identifiers; original hash remains in the allowlist.",
+    "compatibility_reference": "../docs/COMPATIBILITY.md",
+    "current_default_public_build": "scripts/build-public.mjs; projects-only UNCONNECTED"
   },
-  "latest_site_publication_time_utc": "2026-10-25T11:05:36Z"
+  "public_rebrand": {
+    "name": "Atlas Dashboard",
+    "repository": "jyotheshkar/Atlas",
+    "repository_id": 1433090077,
+    "base_public_commit": "be38b3265bf0e33812ccae3364ab3e4df7c3efb1",
+    "base_public_tree": "693cb46c12f8860e50438289acb799e63643679f",
+    "exact_latest_source_recovered": false,
+    "scope": "Current branding, display labels, public viewer palette, architecture and permission boundaries; projects-only UNCONNECTED. Original auth and schema-v1 wire identifiers preserved.",
+    "chat_reported_private_connection_verified": false,
+    "github_writes_by_this_preparation": false,
+    "visual_direction": "Teal/silver/black speedometer dashboard; public technical viewer has no operational readings."
+  }
 }
