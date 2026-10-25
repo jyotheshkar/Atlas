@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "verified_on": "2026-10-25",
   "public_safe": true,
-  "publication_readiness": "draft_release_receipts_pending",
+  "publication_readiness": "public_ready",
   "coverage": {
     "priority_projects": 6,
     "original_audit_repositories": 66,
@@ -198,20 +198,96 @@
         "id": 1433091316,
         "url": "https://github.com/jyotheshkar/system-architecture-workspace",
         "visibility": "public",
-        "source_commit_sha": null,
-        "tree_sha": null,
+        "source_commit_sha": "705b370f9a68906ba92e0877edbcc349a0812c7f",
+        "tree_sha": "0b3f06d8aaee1ddcdae0ea573b3cef195fd7cf16",
         "default_branch": "main",
-        "publication_status": "repository_created_source_pending",
+        "publication_status": "published",
         "verified_on": "2026-10-25",
-        "commit_verified": false
+        "commit_verified": true
       },
       "maturity": {
-        "stage": "published_site_separate_source_export_pending",
-        "implementation_scope": "A published interactive architecture workspace is recorded separately from a versioned design store; public app-source export is being prepared.",
-        "deployment_status": "site_publication_metadata_verified_only"
+        "stage": "published_application_source",
+        "implementation_scope": "Published project-only derivative of Sitev81: browser/Worker workspace source, authentication/session and optional versioned-storage adapter, curated design data and authored architecture assets. Three original source files were privacy-sanitized.",
+        "deployment_status": "original_site_published_export_not_deployed"
       },
-      "technologies": [],
+      "technologies": [
+        "JavaScript",
+        "Cloudflare Workers",
+        "Three.js",
+        "JSON architecture models",
+        "Python standard-library data validator"
+      ],
       "sources": [
+        {
+          "source_id": "overview",
+          "kind": "github_file",
+          "url": "https://github.com/jyotheshkar/system-architecture-workspace/blob/705b370f9a68906ba92e0877edbcc349a0812c7f/README.md",
+          "commit_sha": "705b370f9a68906ba92e0877edbcc349a0812c7f",
+          "path": "README.md",
+          "status": "inspected_source",
+          "verified_on": "2026-10-25",
+          "scope": "Published privacy-sanitized derivative read at exact public release revision; not an unchanged copy of the hosted Site."
+        },
+        {
+          "source_id": "app-layout",
+          "kind": "github_file",
+          "url": "https://github.com/jyotheshkar/system-architecture-workspace/blob/705b370f9a68906ba92e0877edbcc349a0812c7f/app/README.md",
+          "commit_sha": "705b370f9a68906ba92e0877edbcc349a0812c7f",
+          "path": "app/README.md",
+          "status": "inspected_source",
+          "verified_on": "2026-10-25",
+          "scope": "Published privacy-sanitized derivative read at exact public release revision; not an unchanged copy of the hosted Site."
+        },
+        {
+          "source_id": "provenance",
+          "kind": "github_file",
+          "url": "https://github.com/jyotheshkar/system-architecture-workspace/blob/705b370f9a68906ba92e0877edbcc349a0812c7f/app/docs/source-provenance.json",
+          "commit_sha": "705b370f9a68906ba92e0877edbcc349a0812c7f",
+          "path": "app/docs/source-provenance.json",
+          "status": "inspected_source",
+          "verified_on": "2026-10-25",
+          "scope": "Published privacy-sanitized derivative read at exact public release revision; not an unchanged copy of the hosted Site."
+        },
+        {
+          "source_id": "verification",
+          "kind": "github_file",
+          "url": "https://github.com/jyotheshkar/system-architecture-workspace/blob/705b370f9a68906ba92e0877edbcc349a0812c7f/app/docs/verification-receipts.json",
+          "commit_sha": "705b370f9a68906ba92e0877edbcc349a0812c7f",
+          "path": "app/docs/verification-receipts.json",
+          "status": "inspected_source",
+          "verified_on": "2026-10-25",
+          "scope": "Published privacy-sanitized derivative read at exact public release revision; not an unchanged copy of the hosted Site."
+        },
+        {
+          "source_id": "worker",
+          "kind": "github_file",
+          "url": "https://github.com/jyotheshkar/system-architecture-workspace/blob/705b370f9a68906ba92e0877edbcc349a0812c7f/app/worker/index.mjs",
+          "commit_sha": "705b370f9a68906ba92e0877edbcc349a0812c7f",
+          "path": "app/worker/index.mjs",
+          "status": "inspected_source",
+          "verified_on": "2026-10-25",
+          "scope": "Published privacy-sanitized derivative read at exact public release revision; not an unchanged copy of the hosted Site."
+        },
+        {
+          "source_id": "store",
+          "kind": "github_file",
+          "url": "https://github.com/jyotheshkar/system-architecture-workspace/blob/705b370f9a68906ba92e0877edbcc349a0812c7f/app/worker/workspace-store.mjs",
+          "commit_sha": "705b370f9a68906ba92e0877edbcc349a0812c7f",
+          "path": "app/worker/workspace-store.mjs",
+          "status": "inspected_source",
+          "verified_on": "2026-10-25",
+          "scope": "Published privacy-sanitized derivative read at exact public release revision; not an unchanged copy of the hosted Site."
+        },
+        {
+          "source_id": "design-index",
+          "kind": "github_file",
+          "url": "https://github.com/jyotheshkar/system-architecture-workspace/blob/705b370f9a68906ba92e0877edbcc349a0812c7f/docs/diagrams/README.md",
+          "commit_sha": "705b370f9a68906ba92e0877edbcc349a0812c7f",
+          "path": "docs/diagrams/README.md",
+          "status": "inspected_source",
+          "verified_on": "2026-10-25",
+          "scope": "Published privacy-sanitized derivative read at exact public release revision; not an unchanged copy of the hosted Site."
+        },
         {
           "source_id": "workspace-site",
           "kind": "external_site",
@@ -220,50 +296,65 @@
           "path": null,
           "status": "metadata_verified",
           "verified_on": "2026-10-25",
-          "scope": "Sites saved version81 records a successful publication. This does not establish the source-file inventory, runtime features or AWS deployment."
+          "scope": "Original Sitesv81 publication identity. The public GitHub derivative changes three source files for privacy; its deployment is not established by this record."
         }
       ],
       "verified_functionality": [
         {
-          "statement": "A publicly published architecture-workspace Site is recorded; proposed AWS mappings and design documents must remain distinct from implemented deployments.",
+          "statement": "Published source contains a manual architecture-workspace implementation, Worker routing/authentication and a versioned workspace-storage adapter. Prompt-to-design assistance and AWS provisioning remain future work.",
           "source_ids": [
-            "workspace-site"
+            "overview",
+            "app-layout",
+            "worker",
+            "store"
           ]
         }
       ],
       "designs": [
         {
           "design_id": "workspace-components",
-          "title": "Workspace Application and Data Boundaries",
-          "kind": "application_architecture",
-          "source_id": "workspace-site",
-          "url": null,
-          "status": "pending_public_export",
+          "title": "Proposed AWS Migration and Authored Diagram Pack",
+          "kind": "proposed_deployment",
+          "source_id": "design-index",
+          "url": "https://github.com/jyotheshkar/system-architecture-workspace/blob/705b370f9a68906ba92e0877edbcc349a0812c7f/docs/diagrams/README.md",
+          "status": "public_source_design",
           "limitations": [
-            "The original private design-data store is not the full application source and is not publicly linked."
+            "The implemented Cloudflare Worker/browser prototype is separate from the proposed AWS migration; no AWS deployment is established."
+          ]
+        },
+        {
+          "design_id": "workspace-source-layout",
+          "title": "Implemented Application Source Layout",
+          "kind": "implementation_scope",
+          "source_id": "app-layout",
+          "url": "https://github.com/jyotheshkar/system-architecture-workspace/blob/705b370f9a68906ba92e0877edbcc349a0812c7f/app/README.md",
+          "status": "public_source_design",
+          "limitations": [
+            "Source layout and local checks do not certify browser interactions or production runtime bindings."
           ]
         }
       ],
       "test_evidence": [
         {
-          "test_id": "workspace-source-tests",
-          "status": "not_run",
-          "level": "public_export",
-          "source_id": "workspace-site",
-          "commit_sha": "4f583cb90bff726eada9a180a0eeba4118981a73",
-          "url": null,
-          "command": null,
+          "test_id": "public-release-ci",
+          "status": "passed",
+          "level": "published_source_build_and_mocked_checks",
+          "source_id": "worker",
+          "commit_sha": "705b370f9a68906ba92e0877edbcc349a0812c7f",
+          "url": "https://github.com/jyotheshkar/system-architecture-workspace/actions/runs/40189739147",
+          "command": "python scripts/validate_design_export.py; node worker/build.mjs; node worker/test.mjs; node worker/test-workspace-store.mjs",
           "count": null,
-          "summary": "No public-source build or runtime-test receipt is established by the saved Site metadata.",
+          "summary": "Fresh release CI passed data validation, build,115 authentication/privacy assertions and344 mocked storage assertions. Counts are script assertions, not browser or production-security certification.",
           "limitations": [
-            "The release must be tested at its actual new GitHub commit."
+            "Mocked transport only; no live GitHub storage writes, credentials, model calls or AWS deployment."
           ]
         }
       ],
       "limitations": [
-        "Application stack and exact exported files await source review.",
-        "Site publication is separate from a public GitHub source release.",
-        "AWS diagrams are proposed designs unless backed by separate deployment evidence."
+        "Project-only derivative of Sitev81; three source transformations remove unnecessary personal profile content and update privacy regressions.",
+        "Original hosted Site and the public exported copy have separate source/deployment identities.",
+        "Prompt-to-design assistance, automatic infrastructure provisioning and AWS target runtime remain future work.",
+        "Production secret bindings, browser end-to-end behaviour and live storage integration remain unverified."
       ],
       "approved_cv_claims": [],
       "claim_approval_status": "technical_evidence_only"
@@ -278,29 +369,115 @@
         "id": 1433090077,
         "url": "https://github.com/jyotheshkar/Quasar",
         "visibility": "public",
-        "source_commit_sha": "7d2cc0091b09bf9f54eee40397619a2fc5045118",
-        "tree_sha": "aa81dff989a66b4fb8aedff6ade1d09a4dfca7e3",
+        "source_commit_sha": "68997940f452bfb137a5bdf94dcd09f4ee045156",
+        "tree_sha": "f69b0a024e900b480e6eb1813f655d50a9237f25",
         "default_branch": "main",
         "publication_status": "published",
         "verified_on": "2026-10-25",
         "commit_verified": true
       },
       "maturity": {
-        "stage": "published_dashboard_site_readme_only_github_snapshot",
-        "implementation_scope": "Existing Sites-managed monitoring/dashboard product; its GitHub repository is currently a README-only initial snapshot, awaiting source/design export.",
-        "deployment_status": "site_publication_metadata_verified_only"
+        "stage": "published_application_source",
+        "implementation_scope": "Published sanitized historical Site v47 source plus a tested, standalone projects-only UNCONNECTED public build. Operational datasets and private resource links are omitted.",
+        "deployment_status": "public_build_not_deployed; hosted Site v49 recorded separately with exact source unrecovered"
       },
-      "technologies": [],
+      "technologies": [
+        "JavaScript",
+        "Node.js",
+        "Web Request/Response",
+        "Python standard library",
+        "Mermaid"
+      ],
       "sources": [
         {
           "source_id": "github-readme",
           "kind": "github_file",
-          "url": "https://github.com/jyotheshkar/Quasar/blob/7d2cc0091b09bf9f54eee40397619a2fc5045118/README.md",
-          "commit_sha": "7d2cc0091b09bf9f54eee40397619a2fc5045118",
+          "url": "https://github.com/jyotheshkar/Quasar/blob/68997940f452bfb137a5bdf94dcd09f4ee045156/README.md",
+          "commit_sha": "68997940f452bfb137a5bdf94dcd09f4ee045156",
           "path": "README.md",
           "status": "inspected_source",
           "verified_on": "2026-10-25",
-          "scope": "Source file present and inspected at this revision; no runtime claim implied."
+          "scope": "Published source/build boundaries and project entry points."
+        },
+        {
+          "source_id": "public-build",
+          "kind": "github_file",
+          "url": "https://github.com/jyotheshkar/Quasar/blob/68997940f452bfb137a5bdf94dcd09f4ee045156/app/scripts/build-public.mjs",
+          "commit_sha": "68997940f452bfb137a5bdf94dcd09f4ee045156",
+          "path": "app/scripts/build-public.mjs",
+          "status": "inspected_source",
+          "verified_on": "2026-10-25",
+          "scope": "Projects-only deterministic UNCONNECTED worker builder; reads only reviewed registry, architecture reference and authentication helper."
+        },
+        {
+          "source_id": "public-tests",
+          "kind": "github_file",
+          "url": "https://github.com/jyotheshkar/Quasar/blob/68997940f452bfb137a5bdf94dcd09f4ee045156/app/scripts/test-public.mjs",
+          "commit_sha": "68997940f452bfb137a5bdf94dcd09f4ee045156",
+          "path": "app/scripts/test-public.mjs",
+          "status": "inspected_source",
+          "verified_on": "2026-10-25",
+          "scope": "Twelve focused public-build/route/privacy/authentication/determinism checks; actual CI also runs sixteen synthetic contract checks."
+        },
+        {
+          "source_id": "auth-helper",
+          "kind": "github_file",
+          "url": "https://github.com/jyotheshkar/Quasar/blob/68997940f452bfb137a5bdf94dcd09f4ee045156/app/worker/auth.mjs",
+          "commit_sha": "68997940f452bfb137a5bdf94dcd09f4ee045156",
+          "path": "app/worker/auth.mjs",
+          "status": "inspected_source",
+          "verified_on": "2026-10-25",
+          "scope": "Original authentication helper retained unchanged; missing runtime configuration fails closed."
+        },
+        {
+          "source_id": "data-contract",
+          "kind": "github_file",
+          "url": "https://github.com/jyotheshkar/Quasar/blob/68997940f452bfb137a5bdf94dcd09f4ee045156/app/web/atlas-contract.js",
+          "commit_sha": "68997940f452bfb137a5bdf94dcd09f4ee045156",
+          "path": "app/web/atlas-contract.js",
+          "status": "inspected_source",
+          "verified_on": "2026-10-25",
+          "scope": "Historical read-model schema and metric contracts; no live source connection inferred."
+        },
+        {
+          "source_id": "source-provenance",
+          "kind": "github_file",
+          "url": "https://github.com/jyotheshkar/Quasar/blob/68997940f452bfb137a5bdf94dcd09f4ee045156/app/docs/source-provenance.json",
+          "commit_sha": "68997940f452bfb137a5bdf94dcd09f4ee045156",
+          "path": "app/docs/source-provenance.json",
+          "status": "inspected_source",
+          "verified_on": "2026-10-25",
+          "scope": "Sanitized v47 derivative identity and omissions; hosted v49 has a separate source identity and remains unrecovered."
+        },
+        {
+          "source_id": "build-verification",
+          "kind": "github_file",
+          "url": "https://github.com/jyotheshkar/Quasar/blob/68997940f452bfb137a5bdf94dcd09f4ee045156/app/docs/public-build-verification.json",
+          "commit_sha": "68997940f452bfb137a5bdf94dcd09f4ee045156",
+          "path": "app/docs/public-build-verification.json",
+          "status": "inspected_source",
+          "verified_on": "2026-10-25",
+          "scope": "Local build/check receipt for the sanitized public derivative; fresh GitHub execution is recorded separately below."
+        },
+        {
+          "source_id": "evidence-architecture",
+          "kind": "github_file",
+          "url": "https://github.com/jyotheshkar/Quasar/blob/68997940f452bfb137a5bdf94dcd09f4ee045156/docs/architecture/README.md",
+          "commit_sha": "68997940f452bfb137a5bdf94dcd09f4ee045156",
+          "path": "docs/architecture/README.md",
+          "status": "inspected_source",
+          "verified_on": "2026-10-25",
+          "scope": "Newly authored dated reference diagram; separates intended ecosystem relationships from public UNCONNECTED implementation."
+        },
+        {
+          "source_id": "registry-tests",
+          "kind": "github_file",
+          "url": "https://github.com/jyotheshkar/Quasar/blob/68997940f452bfb137a5bdf94dcd09f4ee045156/docs/project-registry/test_registry.py",
+          "commit_sha": "68997940f452bfb137a5bdf94dcd09f4ee045156",
+          "path": "docs/project-registry/test_registry.py",
+          "status": "inspected_source",
+          "verified_on": "2026-10-25",
+          "scope": "Twenty-three offline registry identity/revision/privacy boundary tests."
         },
         {
           "source_id": "quasar-site",
@@ -310,14 +487,31 @@
           "path": null,
           "status": "metadata_verified",
           "verified_on": "2026-10-25",
-          "scope": "Sites saved version49 records a successful dashboard publication. The Site and README-only GitHub snapshot are separate evidence."
+          "scope": "Sites version49 records successful dashboard publication at 11:05:36Z. Exact v49 source remains unavailable; published GitHub code is the separate sanitized v47 public derivative."
         }
       ],
       "verified_functionality": [
         {
-          "statement": "A published QUASAR monitoring/dashboard Site exists; the inspected initial GitHub commit contains only README.md.",
+          "statement": "The standalone public build deterministically emits a projects-only UNCONNECTED worker from three reviewed technical inputs, without operational datasets or hosting configuration.",
+          "source_ids": [
+            "public-build",
+            "source-provenance",
+            "build-verification"
+          ]
+        },
+        {
+          "statement": "Public mode rejects writes and provider toggles, withholds operational routes, and retains the unchanged authentication helper fail-closed without runtime configuration.",
+          "source_ids": [
+            "public-build",
+            "public-tests",
+            "auth-helper"
+          ]
+        },
+        {
+          "statement": "The published GitHub source is a sanitized historical v47 derivative; the current hosted v49 dashboard has a separate unrecovered source identity.",
           "source_ids": [
             "github-readme",
+            "source-provenance",
             "quasar-site"
           ]
         }
@@ -327,34 +521,53 @@
           "design_id": "dashboard-data-boundaries",
           "title": "Dashboard and Career-Evidence Boundaries",
           "kind": "application_architecture",
-          "source_id": "quasar-site",
-          "url": null,
-          "status": "pending_public_export",
+          "source_id": "evidence-architecture",
+          "url": "https://github.com/jyotheshkar/Quasar/blob/68997940f452bfb137a5bdf94dcd09f4ee045156/docs/architecture/README.md",
+          "status": "public_source_design",
           "limitations": [
-            "A dashboard publication does not prove live ATLAS, NEBULA or PULSAR connections."
+            "Newly authored reference as of 25 October 2026, not an original Library image or production connection receipt.",
+            "The intended GitHub evidence to ATLAS to signed projection to QUASAR relationship is not activated by this public build."
           ]
         }
       ],
       "test_evidence": [
         {
-          "test_id": "quasar-source-tests",
-          "status": "not_run",
-          "level": "public_source",
-          "source_id": "github-readme",
-          "commit_sha": "7d2cc0091b09bf9f54eee40397619a2fc5045118",
-          "url": null,
-          "command": null,
-          "count": null,
-          "summary": "The inspected GitHub snapshot has no application source or test suite.",
+          "test_id": "quasar-public-build-and-contracts",
+          "status": "passed",
+          "level": "github_ci_public_derivative",
+          "source_id": "public-tests",
+          "commit_sha": "68997940f452bfb137a5bdf94dcd09f4ee045156",
+          "url": "https://github.com/jyotheshkar/Quasar/actions/runs/40191939324",
+          "command": "npm run build; npm test (app/)",
+          "count": 28,
+          "summary": "Published baseline push CI succeeded; job 121164586050 logs report 28 tests, 28 pass, 0 fail: 16 synthetic contract checks plus 12 public build/privacy/guard/determinism checks.",
           "limitations": [
-            "Do not transfer a Site deployment status into a GitHub build/test pass."
+            "No browser end-to-end or live-provider/deployment validation.",
+            "Historical dashboard restoration/API suites are not acceptance gates and are not claimed passing."
+          ]
+        },
+        {
+          "test_id": "quasar-registry-boundaries",
+          "status": "passed",
+          "level": "github_ci_offline_metadata_validation",
+          "source_id": "registry-tests",
+          "commit_sha": "68997940f452bfb137a5bdf94dcd09f4ee045156",
+          "url": "https://github.com/jyotheshkar/Quasar/actions/runs/40191939324",
+          "command": "python docs/project-registry/validate_registry.py; python docs/project-registry/test_registry.py",
+          "count": 23,
+          "summary": "Published baseline CI validated its then-draft registry and passed 23 trust/privacy boundary tests. Later registry-only revision results are separate from this baseline execution receipt.",
+          "limitations": [
+            "The baseline registry had pending publication/design receipts; these are resolved in this commit-bound follow-up.",
+            "Metadata validation does not establish runtime integration or career-claim approval."
           ]
         }
       ],
       "limitations": [
-        "Source synchronisation from the existing Site is pending; no new plugin runtime is being built here.",
-        "No private career records, application metrics or contact data are included.",
-        "Operational integration and current dashboard data were not validated by metadata inspection."
+        "Current hosted Site v49 source e03b18fff2012e37f3d6800ddac4ba74c6b09134 remains unrecovered; GitHub baseline is a sanitized v47 derivative.",
+        "Public mode is projects-only and UNCONNECTED; no signed operational projection, actual career records, application metrics, private resource identifiers or contact data are included.",
+        "The public build has not been deployed and does not reproduce the current hosted dashboard or establish browser end-to-end readiness.",
+        "Live ATLAS/provider connections and future NEBULA/deferred PULSAR application capabilities are not implemented or verified by this release.",
+        "Execution receipts remain bound to the tested baseline. Later registry revisions require their own Actions result."
       ],
       "approved_cv_claims": [],
       "claim_approval_status": "technical_evidence_only"
@@ -708,12 +921,22 @@
         {
           "source_id": "review-pr",
           "kind": "github_commit",
-          "url": "https://github.com/jyotheshkar/PrimeLift/commit/f24ff986c9c4a6c7f0f30eeafd632d7ae0a13dc4",
-          "commit_sha": "f24ff986c9c4a6c7f0f30eeafd632d7ae0a13dc4",
+          "url": "https://github.com/jyotheshkar/PrimeLift/commit/9226773cf1dd5907a595191f592c3586c548ffa4",
+          "commit_sha": "9226773cf1dd5907a595191f592c3586c548ffa4",
           "path": null,
           "status": "public_unmerged_review",
           "verified_on": "2026-10-25",
-          "scope": "Public review-branch changes; this revision has not replaced the default branch."
+          "scope": "Public unmerged review head; one architecture document added after the previously checked implementation revision."
+        },
+        {
+          "source_id": "architecture-doc",
+          "kind": "github_file",
+          "url": "https://github.com/jyotheshkar/PrimeLift/blob/9226773cf1dd5907a595191f592c3586c548ffa4/docs/ARCHITECTURE.md",
+          "commit_sha": "9226773cf1dd5907a595191f592c3586c548ffa4",
+          "path": "docs/ARCHITECTURE.md",
+          "status": "inspected_source",
+          "verified_on": "2026-10-25",
+          "scope": "Documentation-only source-derived architecture addition to the open review branch; canonical default implementation commit remains separate."
         }
       ],
       "verified_functionality": [
@@ -730,13 +953,13 @@
       "designs": [
         {
           "design_id": "uplift-architecture",
-          "title": "Synthetic Uplift Analysis Flow",
-          "kind": "implementation_flow",
-          "source_id": "api",
-          "url": null,
-          "status": "diagram_pending",
+          "title": "Synthetic Uplift Analysis and Report/API Flow",
+          "kind": "source_derived_implementation_diagram",
+          "source_id": "architecture-doc",
+          "url": "https://github.com/jyotheshkar/PrimeLift/blob/9226773cf1dd5907a595191f592c3586c548ffa4/docs/ARCHITECTURE.md",
+          "status": "public_source_design",
           "limitations": [
-            "Source-derived design evidence does not establish cloud deployment."
+            "Unmerged documentation-only review addition; no model reproduction, changed server controls or deployment is claimed."
           ]
         }
       ],
@@ -746,11 +969,11 @@
           "status": "passed",
           "level": "review_branch",
           "source_id": "review-pr",
-          "commit_sha": "f24ff986c9c4a6c7f0f30eeafd632d7ae0a13dc4",
-          "url": "https://github.com/jyotheshkar/PrimeLift/actions/runs/40182401079",
+          "commit_sha": "9226773cf1dd5907a595191f592c3586c548ffa4",
+          "url": "https://github.com/jyotheshkar/PrimeLift/actions/runs/40189099775",
           "command": "GitHub Actions at exact reviewed head",
           "count": null,
-          "summary": "Saved-report internal consistency and Python syntax checks; not estimator reproduction, full API/backend tests or frontend build.",
+          "summary": "Saved-report consistency and Python syntax checks passed at the current documentation-only review head; no estimator reproduction, full API/backend suite or frontend build is inferred.",
           "limitations": [
             "Applies to the recorded review commit only; no passing default-branch or live service result is inferred."
           ]

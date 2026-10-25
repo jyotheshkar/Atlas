@@ -5,11 +5,11 @@ This versioned register separates source code, design evidence, tests and deploy
 | Project | Canonical Source | Current Scope | Design Evidence | Test Scope |
 |---|---|---|---|---|
 | Agentic Core | [agentic-core-evidence](https://github.com/jyotheshkar/agentic-core-evidence/tree/72de3f177f9046fdfbf49b4251c26b49d87070e4) | Published five-module Python/SQLite runtime excerpt with contracts, constrained capability selection, permission rules, local checkpoints/retries and synthetic tests. | [Implemented Local Runtime Scope](https://github.com/jyotheshkar/agentic-core-evidence/blob/72de3f177f9046fdfbf49b4251c26b49d87070e4/README.md#what-this-source-implements); [Proposed AWS Target and Authored Diagram Index](https://github.com/jyotheshkar/agentic-core-evidence/blob/72de3f177f9046fdfbf49b4251c26b49d87070e4/docs/diagrams/README.md) | 35 synthetic runtime tests passed in fresh GitHub Actions at this public release commit; job logs report Ran35tests and OK. [passed] |
-| System Architecture Workspace | [system-architecture-workspace](https://github.com/jyotheshkar/system-architecture-workspace/tree/None) | A published interactive architecture workspace is recorded separately from a versioned design store; public app-source export is being prepared. | Workspace Application and Data Boundaries (pending) | No public-source build or runtime-test receipt is established by the saved Site metadata. [not_run] |
-| QUASAR | [Quasar](https://github.com/jyotheshkar/Quasar/tree/7d2cc0091b09bf9f54eee40397619a2fc5045118) | Existing Sites-managed monitoring/dashboard product; its GitHub repository is currently a README-only initial snapshot, awaiting source/design export. | Dashboard and Career-Evidence Boundaries (pending) | The inspected GitHub snapshot has no application source or test suite. [not_run] |
+| System Architecture Workspace | [system-architecture-workspace](https://github.com/jyotheshkar/system-architecture-workspace/tree/705b370f9a68906ba92e0877edbcc349a0812c7f) | Published project-only derivative of Sitev81: browser/Worker workspace source, authentication/session and optional versioned-storage adapter, curated design data and authored architecture assets. Three original source files were privacy-sanitized. | [Proposed AWS Migration and Authored Diagram Pack](https://github.com/jyotheshkar/system-architecture-workspace/blob/705b370f9a68906ba92e0877edbcc349a0812c7f/docs/diagrams/README.md); [Implemented Application Source Layout](https://github.com/jyotheshkar/system-architecture-workspace/blob/705b370f9a68906ba92e0877edbcc349a0812c7f/app/README.md) | Fresh release CI passed data validation, build,115 authentication/privacy assertions and344 mocked storage assertions. Counts are script assertions, not browser or production-security certification. [passed] |
+| QUASAR | [Quasar](https://github.com/jyotheshkar/Quasar/tree/68997940f452bfb137a5bdf94dcd09f4ee045156) | Published sanitized historical Site v47 source plus a tested, standalone projects-only UNCONNECTED public build. Operational datasets and private resource links are omitted. | [Dashboard and Career-Evidence Boundaries](https://github.com/jyotheshkar/Quasar/blob/68997940f452bfb137a5bdf94dcd09f4ee045156/docs/architecture/README.md) | Published baseline push CI succeeded; job 121164586050 logs report 28 tests, 28 pass, 0 fail: 16 synthetic contract checks plus 12 public build/privacy/guard/determinism checks. [passed]; Published baseline CI validated its then-draft registry and passed 23 trust/privacy boundary tests. Later registry-only revision results are separate from this baseline execution receipt. [passed] |
 | Rufus Eval Engine | [Rufus-Eval-Engine](https://github.com/jyotheshkar/Rufus-Eval-Engine/tree/6365cd27de2846bea4e7b2dd3146089196e7e40f) | Retrieval, simulated shopping answers, four-dimension LLM judging, SQLite reporting and dashboard code. | [Evaluation Pipeline](https://github.com/jyotheshkar/Rufus-Eval-Engine/blob/f237c2e84e7f97dae720dbf537c1a132a1c8bec0/README.md#implemented-scope) | Frontend TypeScript, ESLint, Jest/build and focused offline mock-agent contracts; no retrieval-model downloads or live provider evaluation. [passed] |
 | NHS Elective Flow Intelligence | [nhs-elective-flow-intelligence](https://github.com/jyotheshkar/nhs-elective-flow-intelligence/tree/3d75530331dcaa86cb90c7395e79c763bf9ca5d2) | Public RTT ingestion/transformation, Parquet/DuckDB analytics, transparent prioritisation, forecasting and illustrative capacity scenarios. | [Public-Data Analytics Architecture](https://github.com/jyotheshkar/nhs-elective-flow-intelligence/blob/3d75530331dcaa86cb90c7395e79c763bf9ca5d2/docs/architecture.md) | Backend/frontend checks, synthetic data pipeline, warehouse materialisation and container image builds on the reviewed PR. [passed] |
-| PrimeLift AI | [PrimeLift](https://github.com/jyotheshkar/PrimeLift/tree/8521efc15c3279125ae9c79d66180deb6ef03cab) | Synthetic campaign generation, causal-uplift models, saved analysis/policy reports and FastAPI/Next.js presentation. | Synthetic Uplift Analysis Flow (pending) | Saved-report internal consistency and Python syntax checks; not estimator reproduction, full API/backend tests or frontend build. [passed] |
+| PrimeLift AI | [PrimeLift](https://github.com/jyotheshkar/PrimeLift/tree/8521efc15c3279125ae9c79d66180deb6ef03cab) | Synthetic campaign generation, causal-uplift models, saved analysis/policy reports and FastAPI/Next.js presentation. | [Synthetic Uplift Analysis and Report/API Flow](https://github.com/jyotheshkar/PrimeLift/blob/9226773cf1dd5907a595191f592c3586c548ffa4/docs/ARCHITECTURE.md) | Saved-report consistency and Python syntax checks passed at the current documentation-only review head; no estimator reproduction, full API/backend suite or frontend build is inferred. [passed] |
 
 ## Source and Design Boundaries
 
@@ -22,15 +22,18 @@ This versioned register separates source code, design evidence, tests and deploy
 
 ### System Architecture Workspace
 
-- Application stack and exact exported files await source review.
-- Site publication is separate from a public GitHub source release.
-- AWS diagrams are proposed designs unless backed by separate deployment evidence.
+- Project-only derivative of Sitev81; three source transformations remove unnecessary personal profile content and update privacy regressions.
+- Original hosted Site and the public exported copy have separate source/deployment identities.
+- Prompt-to-design assistance, automatic infrastructure provisioning and AWS target runtime remain future work.
+- Production secret bindings, browser end-to-end behaviour and live storage integration remain unverified.
 
 ### QUASAR
 
-- Source synchronisation from the existing Site is pending; no new plugin runtime is being built here.
-- No private career records, application metrics or contact data are included.
-- Operational integration and current dashboard data were not validated by metadata inspection.
+- Current hosted Site v49 source e03b18fff2012e37f3d6800ddac4ba74c6b09134 remains unrecovered; GitHub baseline is a sanitized v47 derivative.
+- Public mode is projects-only and UNCONNECTED; no signed operational projection, actual career records, application metrics, private resource identifiers or contact data are included.
+- The public build has not been deployed and does not reproduce the current hosted dashboard or establish browser end-to-end readiness.
+- Live ATLAS/provider connections and future NEBULA/deferred PULSAR application capabilities are not implemented or verified by this release.
+- Execution receipts remain bound to the tested baseline. Later registry revisions require their own Actions result.
 
 ### Rufus Eval Engine
 
