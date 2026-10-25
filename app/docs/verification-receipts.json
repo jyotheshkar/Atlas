@@ -1,0 +1,35 @@
+{
+  "verified_date_utc": "2026-10-25",
+  "node_version": "24.14.0",
+  "source_commit": "da0119d5ebb9780744e726a15967bd67a0e1fca8",
+  "tests": [
+    {
+      "command": "node --test tests/atlas-contract.test.mjs",
+      "exit_code": 0,
+      "total": 16,
+      "passed": 16,
+      "failed": 0,
+      "scope": "Deterministic synthetic contract fixtures and evidence-gate/reconciliation validation."
+    },
+    {
+      "command": "node --test tests/auth.test.mjs tests/atlas-contract.test.mjs",
+      "exit_code": 1,
+      "total": 17,
+      "passed": 16,
+      "failed": 1,
+      "scope": "Auth test file could not load intentionally omitted dist/server/index.js; contract checks passed.",
+      "failure": "ERR_MODULE_NOT_FOUND: dist/server/index.js"
+    }
+  ],
+  "not_verified": [
+    "Current hosted v49 source",
+    "Full app build",
+    "Full test suite",
+    "Browser behaviour",
+    "Live ATLAS/provider connection"
+  ],
+  "standalone_build_blocked_by_intentional_exclusions": true,
+  "generated_bundle_exported": false,
+  "historical_source_checks_only": true,
+  "current_public_derivative_receipt": "public-build-verification.json"
+}

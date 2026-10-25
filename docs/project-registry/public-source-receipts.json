@@ -1,0 +1,729 @@
+{
+  "schema_version": "1.0.0",
+  "verified_on": "2026-10-25",
+  "scope": "Public repository metadata from the connected GitHub account and exact branch commit objects; review-head receipts remain separate from default source. No private repository identities are included. Not a security or legal clearance.",
+  "repositories": [
+    {
+      "repository_id": 488989895,
+      "owner": "jyotheshkar",
+      "name": "Traveler",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/Traveler",
+      "default_branch": "main",
+      "commit_sha": "f8a54cd671e4872ec8a9f0cf8321bd13bc0c95eb",
+      "tree_sha": "f81ec95623c9cdf60a00dff1437e0379b30e38f1",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [],
+      "inspected_files": []
+    },
+    {
+      "repository_id": 532253784,
+      "owner": "jyotheshkar",
+      "name": "Airbnb-clone",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/Airbnb-clone",
+      "default_branch": "master",
+      "commit_sha": "5cf3a44595962a61a071baed5d5b28817fcf8ff3",
+      "tree_sha": "ba5292a046f453919a704ca0c98fca0660fd7314",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [],
+      "inspected_files": []
+    },
+    {
+      "repository_id": 532258275,
+      "owner": "jyotheshkar",
+      "name": "netflixClone.github.io",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/netflixClone.github.io",
+      "default_branch": "main",
+      "commit_sha": "d052e63154cb3e38edc400697e876579bc228762",
+      "tree_sha": "4589699e58cd8afd7e2c82535e2805cf2ec7b14d",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [],
+      "inspected_files": []
+    },
+    {
+      "repository_id": 539833010,
+      "owner": "jyotheshkar",
+      "name": "Assassins-creed",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/Assassins-creed",
+      "default_branch": "master",
+      "commit_sha": "f6f840ec94823ce08ede3f228b5ff729a882e6c8",
+      "tree_sha": "81cd699a3d46451d243201fe22ed2a1fbe4a07bd",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [],
+      "inspected_files": []
+    },
+    {
+      "repository_id": 552354757,
+      "owner": "jyotheshkar",
+      "name": "DEFI-Decentralized-trading-protocol",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/DEFI-Decentralized-trading-protocol",
+      "default_branch": "master",
+      "commit_sha": "a3a8263f29914b6546c80d48c027f5f84a717fb2",
+      "tree_sha": "6d70422b9be80b26e77f5c4bea554a08b9174f42",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [],
+      "inspected_files": []
+    },
+    {
+      "repository_id": 554750819,
+      "owner": "jyotheshkar",
+      "name": "Crypto-Explore",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/Crypto-Explore",
+      "default_branch": "master",
+      "commit_sha": "109c00c31f17e09e5b0488cc7b7fb7efff874f09",
+      "tree_sha": "96245d672b378ca5b1d5a88bf1060c3cc5bc8b75",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [],
+      "inspected_files": []
+    },
+    {
+      "repository_id": 556633331,
+      "owner": "jyotheshkar",
+      "name": "Covid-Tracker-App",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/Covid-Tracker-App",
+      "default_branch": "master",
+      "commit_sha": "24c501262278df533f3e0dc7db4c787ab2eed7dc",
+      "tree_sha": "4aa33c69269febb02a1ce2898323e9fdac53ac54",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [],
+      "inspected_files": []
+    },
+    {
+      "repository_id": 559201482,
+      "owner": "jyotheshkar",
+      "name": "Instagram-clone",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/Instagram-clone",
+      "default_branch": "main",
+      "commit_sha": "344a7bf882387cf2f06ba4c9e890d789e75e1afb",
+      "tree_sha": "41de2a323fdf5e91edc52995512353f8f8a9d057",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [],
+      "inspected_files": []
+    },
+    {
+      "repository_id": 560269740,
+      "owner": "jyotheshkar",
+      "name": "jyotheshkar",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/jyotheshkar",
+      "default_branch": "main",
+      "commit_sha": "5713f8ff53a5d1e6ff6f347a29d4fc3046e0a964",
+      "tree_sha": "676b0aa1e0e72889987588492e4623800827cee9",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [],
+      "inspected_files": []
+    },
+    {
+      "repository_id": 560772890,
+      "owner": "jyotheshkar",
+      "name": "Tesla-Clone",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/Tesla-Clone",
+      "default_branch": "master",
+      "commit_sha": "7aebace676a9e49b194d93e97d70cc9bf8b7f8c2",
+      "tree_sha": "21c172b921ce21e11456f4cffb1702174a887ab4",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [],
+      "inspected_files": []
+    },
+    {
+      "repository_id": 561461565,
+      "owner": "jyotheshkar",
+      "name": "React.js-Portfolio",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/React.js-Portfolio",
+      "default_branch": "master",
+      "commit_sha": "5063945d223e08d7be9945455539e45a03b666ce",
+      "tree_sha": "7f7a2eb9b474f60ba6b04ba063ca6d767bb19517",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [],
+      "inspected_files": []
+    },
+    {
+      "repository_id": 563436245,
+      "owner": "jyotheshkar",
+      "name": "Omnifood-website",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/Omnifood-website",
+      "default_branch": "master",
+      "commit_sha": "e4bdc1fe659fa64308665e062d25e57bc90b4ee9",
+      "tree_sha": "8eb7e78058da7fd36f69c7fec8e443d6153a59ec",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [],
+      "inspected_files": []
+    },
+    {
+      "repository_id": 753061862,
+      "owner": "jyotheshkar",
+      "name": "Car-Parking-System",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/Car-Parking-System",
+      "default_branch": "main",
+      "commit_sha": "b694ee19476e78ef89601732d083c4c4d3d4a97c",
+      "tree_sha": "4545194bc4776841cd321565198a65cf715379e3",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [],
+      "inspected_files": []
+    },
+    {
+      "repository_id": 753827905,
+      "owner": "jyotheshkar",
+      "name": "Asus-ROG-warehouse-Pro",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/Asus-ROG-warehouse-Pro",
+      "default_branch": "main",
+      "commit_sha": "953a41638b99ec8ae81eadbc09f1af66d471989e",
+      "tree_sha": "c8908fa04e0e4178c590c694445a8d4974a7e9a5",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [],
+      "inspected_files": []
+    },
+    {
+      "repository_id": 754725026,
+      "owner": "jyotheshkar",
+      "name": "Data-Analytics",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/Data-Analytics",
+      "default_branch": "main",
+      "commit_sha": "6c276b28fd829ef91ab308e4dfc2af365c692276",
+      "tree_sha": "c36e8ac99897bc3ecbe908533f6d95ae403bb548",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [],
+      "inspected_files": []
+    },
+    {
+      "repository_id": 756776509,
+      "owner": "jyotheshkar",
+      "name": "Quantum-AI-Nexus",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/Quantum-AI-Nexus",
+      "default_branch": "master",
+      "commit_sha": "cdbc8152a2f102831d24fceb8015924b91858036",
+      "tree_sha": "3b4084951408f7bd679eaddbec531531e9446cf3",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [],
+      "inspected_files": []
+    },
+    {
+      "repository_id": 765058912,
+      "owner": "jyotheshkar",
+      "name": "CSC-40038",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/CSC-40038",
+      "default_branch": "main",
+      "commit_sha": "d36000cf90d7e2ae260cbef94d65ad99eaf4799d",
+      "tree_sha": "abccac0f7743c9476889eca46e6d1b0c8e9dec5a",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [],
+      "inspected_files": []
+    },
+    {
+      "repository_id": 797167608,
+      "owner": "jyotheshkar",
+      "name": "web-tech",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/web-tech",
+      "default_branch": "main",
+      "commit_sha": "781b5d742b136579c3138905439c4cd7038b5292",
+      "tree_sha": "503f8b2e63a1c3345598ebe4c6b28fdc97ceaa37",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [],
+      "inspected_files": []
+    },
+    {
+      "repository_id": 797837256,
+      "owner": "jyotheshkar",
+      "name": "Software-Engineering-1",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/Software-Engineering-1",
+      "default_branch": "main",
+      "commit_sha": "65951a3a27988996556cdf3eab8a056099fa52c0",
+      "tree_sha": "498c9e762b2f6058a62ab2f821670ece990266ce",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [],
+      "inspected_files": []
+    },
+    {
+      "repository_id": 823883894,
+      "owner": "jyotheshkar",
+      "name": "Time-series-Neural-network-software-application",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/Time-series-Neural-network-software-application",
+      "default_branch": "main",
+      "commit_sha": "ba5e7a92f6add180e76d5c533654ea80fe92caa5",
+      "tree_sha": "4cea58a49b0b4312241ff8616612325be15c6155",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [],
+      "inspected_files": []
+    },
+    {
+      "repository_id": 837692910,
+      "owner": "jyotheshkar",
+      "name": "Dairy-Herd-Monitoring",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/Dairy-Herd-Monitoring",
+      "default_branch": "main",
+      "commit_sha": "b6a408c0f3a4de72d4077ab626a489b686093c30",
+      "tree_sha": "31f7a7c9efa7f0aa96fc1532e3d1d8aca541494c",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [],
+      "inspected_files": []
+    },
+    {
+      "repository_id": 919738589,
+      "owner": "jyotheshkar",
+      "name": "Creating-a-Large-Language-Model-from-Scratch",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/Creating-a-Large-Language-Model-from-Scratch",
+      "default_branch": "main",
+      "commit_sha": "7256adc4834916d816f66be2823e7a658fffc026",
+      "tree_sha": "8ddf66cf76eff997730157f021333a6c58713cbd",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [],
+      "inspected_files": []
+    },
+    {
+      "repository_id": 923215841,
+      "owner": "jyotheshkar",
+      "name": "ReInforcement-Learning-Agent-",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/ReInforcement-Learning-Agent-",
+      "default_branch": "main",
+      "commit_sha": "b8f832daf53df0bb57a2356e798a3a1d13ac3ed4",
+      "tree_sha": "9ec948e3d845934099a5a1b502cdd43638528f68",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [],
+      "inspected_files": []
+    },
+    {
+      "repository_id": 947225694,
+      "owner": "jyotheshkar",
+      "name": "nextwork-web-project",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/nextwork-web-project",
+      "default_branch": "master",
+      "commit_sha": "a536ae778a87a6c1ca0cf8ff4ffe29def8a28d1a",
+      "tree_sha": "17437e64e86e33b5271654e6468506a292c8051a",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [],
+      "inspected_files": []
+    },
+    {
+      "repository_id": 954229262,
+      "owner": "jyotheshkar",
+      "name": "jyotheshkar-RAG-Based-AI-Chatbot-with-AWS-Bedrock",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/jyotheshkar-RAG-Based-AI-Chatbot-with-AWS-Bedrock",
+      "default_branch": "main",
+      "commit_sha": "292747aa98545532cf21505a44e5fbb18613efec",
+      "tree_sha": "2a45d2c7c9a7306792b78205383e13d29a57d090",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [],
+      "inspected_files": []
+    },
+    {
+      "repository_id": 957066769,
+      "owner": "jyotheshkar",
+      "name": "AWS-Three-Tier-Web-Application-",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/AWS-Three-Tier-Web-Application-",
+      "default_branch": "main",
+      "commit_sha": "d4988dccc76726f162920a70a5f9b89917871cac",
+      "tree_sha": "a1582c1563f193e582625ad92bf73167ac35bb84",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [],
+      "inspected_files": []
+    },
+    {
+      "repository_id": 957192993,
+      "owner": "jyotheshkar",
+      "name": "Jyothesh-Karnam-Portfolio",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/Jyothesh-Karnam-Portfolio",
+      "default_branch": "main",
+      "commit_sha": "a0baa2ad33f91e4c97103230701eb9ff501d7470",
+      "tree_sha": "bf2948d2c1a5c53a623b7b7f7502b14c801d4074",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [],
+      "inspected_files": []
+    },
+    {
+      "repository_id": 966757148,
+      "owner": "jyotheshkar",
+      "name": "Car-Sharing-Demand-Analysis",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/Car-Sharing-Demand-Analysis",
+      "default_branch": "main",
+      "commit_sha": "c1338d77b16af250a28eab346fd6e60f103c3b2d",
+      "tree_sha": "c5a1bca60ef507187986a77a06930efb986766ad",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [],
+      "inspected_files": []
+    },
+    {
+      "repository_id": 1026397639,
+      "owner": "jyotheshkar",
+      "name": "Portfolio-",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/Portfolio-",
+      "default_branch": "main",
+      "commit_sha": "6f00659525b8af7e37aced03b1d7436937aa2bd4",
+      "tree_sha": "a3dd2f48e5acea98586d9238af7ed0e00a0c195d",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [],
+      "inspected_files": []
+    },
+    {
+      "repository_id": 1176102985,
+      "owner": "jyotheshkar",
+      "name": "PrimeLift",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/PrimeLift",
+      "default_branch": "main",
+      "commit_sha": "8521efc15c3279125ae9c79d66180deb6ef03cab",
+      "tree_sha": "d90e4898c2778700214e74bffa2649999a8f6a10",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [
+        {
+          "commit_sha": "f24ff986c9c4a6c7f0f30eeafd632d7ae0a13dc4",
+          "public_review_url": "https://github.com/jyotheshkar/PrimeLift/pull/1",
+          "merged": false,
+          "head_verified": true
+        }
+      ],
+      "inspected_files": [
+        {
+          "path": "backend/src/primelift/data/generator.py",
+          "commit_sha": "8521efc15c3279125ae9c79d66180deb6ef03cab",
+          "blob_sha": "cf2fb829392e6c243db7fd099d2a667e0e1f1737",
+          "inspection": "text_read"
+        },
+        {
+          "path": "backend/src/primelift/causal/drlearner.py",
+          "commit_sha": "8521efc15c3279125ae9c79d66180deb6ef03cab",
+          "blob_sha": "fad6ee9464823e47082accdace104bfa8a0b1a3c",
+          "inspection": "text_read"
+        },
+        {
+          "path": "backend/src/primelift/evaluation/model_comparison.py",
+          "commit_sha": "8521efc15c3279125ae9c79d66180deb6ef03cab",
+          "blob_sha": "20b7c52d542ae804437b71dd54c59355785f7f11",
+          "inspection": "text_read"
+        },
+        {
+          "path": "backend/src/primelift/api/app.py",
+          "commit_sha": "8521efc15c3279125ae9c79d66180deb6ef03cab",
+          "blob_sha": "59209cf58b52776e7fafac7a17fa38b88c784e81",
+          "inspection": "text_read"
+        },
+        {
+          "path": "README.md",
+          "commit_sha": "8521efc15c3279125ae9c79d66180deb6ef03cab",
+          "blob_sha": "510e042fd9e51da56c2c532ccae0f98151b9eb3e",
+          "inspection": "text_read"
+        }
+      ]
+    },
+    {
+      "repository_id": 1187490657,
+      "owner": "jyotheshkar",
+      "name": "sentinel-ai",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/sentinel-ai",
+      "default_branch": "main",
+      "commit_sha": "f17cc6109d2b3a1b852a62fff0fdd2d11e40ff56",
+      "tree_sha": "a679e543b1397fabd221c88ccd4b902b97259e54",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [],
+      "inspected_files": []
+    },
+    {
+      "repository_id": 1195164991,
+      "owner": "jyotheshkar",
+      "name": "Rufus-Eval-Engine",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/Rufus-Eval-Engine",
+      "default_branch": "main",
+      "commit_sha": "6365cd27de2846bea4e7b2dd3146089196e7e40f",
+      "tree_sha": "7fd8bfa6effe9488e5994c91f1f487391f188981",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [
+        {
+          "commit_sha": "f237c2e84e7f97dae720dbf537c1a132a1c8bec0",
+          "public_review_url": "https://github.com/jyotheshkar/Rufus-Eval-Engine/pull/1",
+          "merged": false,
+          "head_verified": true
+        }
+      ],
+      "inspected_files": [
+        {
+          "path": "backend/evaluation/pipeline.py",
+          "commit_sha": "6365cd27de2846bea4e7b2dd3146089196e7e40f",
+          "blob_sha": "5cd0c42c50e225df90cb835a97fee597b8ccb319",
+          "inspection": "text_read"
+        },
+        {
+          "path": "backend/agents/judge_agent.py",
+          "commit_sha": "6365cd27de2846bea4e7b2dd3146089196e7e40f",
+          "blob_sha": "b0eb38372a21b0040e68b8f9ceebf6c14e5704f7",
+          "inspection": "text_read"
+        },
+        {
+          "path": "backend/evaluation/anomaly.py",
+          "commit_sha": "6365cd27de2846bea4e7b2dd3146089196e7e40f",
+          "blob_sha": "bf757a466a43f6a51bbe4b054cc4a6b856754d93",
+          "inspection": "text_read"
+        },
+        {
+          "path": "README.md",
+          "commit_sha": "6365cd27de2846bea4e7b2dd3146089196e7e40f",
+          "blob_sha": "7c3a96c91365c0cd5848a145d919046311d63428",
+          "inspection": "text_read"
+        },
+        {
+          "path": "README.md",
+          "commit_sha": "f237c2e84e7f97dae720dbf537c1a132a1c8bec0",
+          "blob_sha": "0d5f19f63f26e06744e7147131c5f9f4cc0309f2",
+          "inspection": "text_read"
+        }
+      ]
+    },
+    {
+      "repository_id": 1203123538,
+      "owner": "jyotheshkar",
+      "name": "random",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/random",
+      "default_branch": "main",
+      "commit_sha": "179e54859ff1ce9e83cb709e321486d88186277c",
+      "tree_sha": "406d357175a279ee510893bc1c4bc51b9b74456c",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [],
+      "inspected_files": []
+    },
+    {
+      "repository_id": 1339494613,
+      "owner": "jyotheshkar",
+      "name": "nhs-elective-flow-intelligence",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/nhs-elective-flow-intelligence",
+      "default_branch": "main",
+      "commit_sha": "3d75530331dcaa86cb90c7395e79c763bf9ca5d2",
+      "tree_sha": "c3b7249cdfb5b0dd35c856c670745bbc79f796dd",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [
+        {
+          "commit_sha": "9509b5997815d8807ddfed189eea2ddb005f0788",
+          "public_review_url": "https://github.com/jyotheshkar/nhs-elective-flow-intelligence/pull/2",
+          "merged": false,
+          "head_verified": true
+        }
+      ],
+      "inspected_files": [
+        {
+          "path": "docs/architecture.md",
+          "commit_sha": "3d75530331dcaa86cb90c7395e79c763bf9ca5d2",
+          "blob_sha": "94d02ad667d83e2bc0f26882c4e3967c43d05a32",
+          "inspection": "text_read"
+        },
+        {
+          "path": "backend/app/analytics/priority.py",
+          "commit_sha": "3d75530331dcaa86cb90c7395e79c763bf9ca5d2",
+          "blob_sha": "7fa3a1dff2822ffafe1f11c577b9bedee93f20dc",
+          "inspection": "text_read"
+        },
+        {
+          "path": "backend/app/forecasting/validation.py",
+          "commit_sha": "3d75530331dcaa86cb90c7395e79c763bf9ca5d2",
+          "blob_sha": "0f5f64c37207a7125eb61b3b85d40f89ceb5797a",
+          "inspection": "text_read"
+        },
+        {
+          "path": "backend/app/scenarios/engine.py",
+          "commit_sha": "3d75530331dcaa86cb90c7395e79c763bf9ca5d2",
+          "blob_sha": "bed1a7c5d2f7bc5a3553dc77ccc8964bae1aedea",
+          "inspection": "text_read"
+        }
+      ]
+    },
+    {
+      "repository_id": 1433090077,
+      "owner": "jyotheshkar",
+      "name": "Quasar",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/Quasar",
+      "default_branch": "main",
+      "commit_sha": "7d2cc0091b09bf9f54eee40397619a2fc5045118",
+      "tree_sha": "aa81dff989a66b4fb8aedff6ade1d09a4dfca7e3",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [],
+      "inspected_files": [
+        {
+          "path": "README.md",
+          "commit_sha": "7d2cc0091b09bf9f54eee40397619a2fc5045118",
+          "blob_sha": "ed1f28aa7313523b4cc8f8b2c470466d38149824",
+          "inspection": "text_read"
+        }
+      ]
+    },
+    {
+      "repository_id": 1433090855,
+      "owner": "jyotheshkar",
+      "name": "agentic-core-evidence",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/agentic-core-evidence",
+      "default_branch": "main",
+      "commit_sha": "72de3f177f9046fdfbf49b4251c26b49d87070e4",
+      "tree_sha": "24fa7cdf954020aa27f9de2a79865a3623848aed",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [],
+      "inspected_files": [
+        {
+          "path": "README.md",
+          "commit_sha": "72de3f177f9046fdfbf49b4251c26b49d87070e4",
+          "blob_sha": "847acc8a4534f31cd38e80aa5777b6e77818a363",
+          "inspection": "text_read"
+        },
+        {
+          "path": "runtime/core/engine.py",
+          "commit_sha": "72de3f177f9046fdfbf49b4251c26b49d87070e4",
+          "blob_sha": "280456214306aeec88a25fa267d05e0dbf160769",
+          "inspection": "text_read"
+        },
+        {
+          "path": "runtime/core/contracts.py",
+          "commit_sha": "72de3f177f9046fdfbf49b4251c26b49d87070e4",
+          "blob_sha": "93aa6fb20a8e5f97eb497e5980fef5e428af8595",
+          "inspection": "text_read"
+        },
+        {
+          "path": "runtime/core/safety.py",
+          "commit_sha": "72de3f177f9046fdfbf49b4251c26b49d87070e4",
+          "blob_sha": "adf6b2dead2658902efe64c5849fa2b09c3c3c5e",
+          "inspection": "text_read"
+        },
+        {
+          "path": "runtime/core/algorithms.py",
+          "commit_sha": "72de3f177f9046fdfbf49b4251c26b49d87070e4",
+          "blob_sha": "a9f209b9b0067c79af2b5ae69fba8ac4fd98c132",
+          "inspection": "text_read"
+        },
+        {
+          "path": "docs/verification/core-tests.json",
+          "commit_sha": "72de3f177f9046fdfbf49b4251c26b49d87070e4",
+          "blob_sha": "ba54acda0b10a7ca8ecb737edb6e2a85df65910e",
+          "inspection": "text_read"
+        },
+        {
+          "path": "docs/diagrams/README.md",
+          "commit_sha": "72de3f177f9046fdfbf49b4251c26b49d87070e4",
+          "blob_sha": "622f2e24de77d7494d48f440ee52196dc725a382",
+          "inspection": "text_read"
+        },
+        {
+          "path": "docs/diagrams/Agentic-Core-AWS-Case-Study.md",
+          "commit_sha": "72de3f177f9046fdfbf49b4251c26b49d87070e4",
+          "blob_sha": "76b4344b44b0e253ed65ea4aceede6c08ccae188",
+          "inspection": "text_read"
+        }
+      ]
+    },
+    {
+      "repository_id": 1433091316,
+      "owner": "jyotheshkar",
+      "name": "system-architecture-workspace",
+      "visibility": "public",
+      "repository_url": "https://github.com/jyotheshkar/system-architecture-workspace",
+      "default_branch": "main",
+      "commit_sha": "daa0eea589cebe082f7d2a859719e4c53651962a",
+      "tree_sha": "f6a3df907f50c98d425448e4aae41dcc6abdae42",
+      "verified_as_commit": true,
+      "verified_on": "2026-10-25",
+      "review_revisions": [],
+      "inspected_files": []
+    }
+  ],
+  "external_sources": [
+    {
+      "url": "https://sa-workspace.jyothesh-karnam.chatgpt.site",
+      "source_commit_sha": "4f583cb90bff726eada9a180a0eeba4118981a73",
+      "verified_on": "2026-10-25",
+      "scope": "Sites saved version81 records a successful publication. This does not establish the source-file inventory, runtime features or AWS deployment."
+    },
+    {
+      "url": "https://quasar.jyothesh-karnam.chatgpt.site",
+      "source_commit_sha": "e03b18fff2012e37f3d6800ddac4ba74c6b09134",
+      "verified_on": "2026-10-25",
+      "scope": "Sites saved version49 records a successful dashboard publication. The Site and README-only GitHub snapshot are separate evidence."
+    }
+  ],
+  "test_receipts": [
+    {
+      "url": "https://github.com/jyotheshkar/Rufus-Eval-Engine/actions/runs/40184812619",
+      "commit_sha": "f237c2e84e7f97dae720dbf537c1a132a1c8bec0",
+      "result": "success",
+      "scope": "Frontend TypeScript, ESLint, Jest/build and focused offline mock-agent contracts; no retrieval-model downloads or live provider evaluation."
+    },
+    {
+      "url": "https://github.com/jyotheshkar/nhs-elective-flow-intelligence/actions/runs/40181866201",
+      "commit_sha": "9509b5997815d8807ddfed189eea2ddb005f0788",
+      "result": "success",
+      "scope": "Backend/frontend checks, synthetic data pipeline, warehouse materialisation and container image builds on the reviewed PR."
+    },
+    {
+      "url": "https://github.com/jyotheshkar/PrimeLift/actions/runs/40182401079",
+      "commit_sha": "f24ff986c9c4a6c7f0f30eeafd632d7ae0a13dc4",
+      "result": "success",
+      "scope": "Saved-report internal consistency and Python syntax checks; not estimator reproduction, full API/backend tests or frontend build."
+    },
+    {
+      "url": "https://github.com/jyotheshkar/agentic-core-evidence/actions/runs/40187895990",
+      "commit_sha": "72de3f177f9046fdfbf49b4251c26b49d87070e4",
+      "result": "success",
+      "scope": "Fresh published-source CI; job121152467732 logs explicitly report35tests/OK."
+    }
+  ]
+}

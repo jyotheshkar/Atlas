@@ -1,0 +1,1211 @@
+{
+  "schema_version": "1.0.0",
+  "verified_on": "2026-10-25",
+  "public_safe": true,
+  "scope": "Public retained supporting repositories from the completed66-repository audit, excluding the three detailed coded flagships. Proposed cleanup is not a deletion receipt. Original private inventory is not exported.",
+  "repository_count": 31,
+  "repositories": [
+    {
+      "repository_name": "Traveler",
+      "github_repository_id": "488989895",
+      "repository_url": "https://github.com/jyotheshkar/Traveler",
+      "visibility": "public",
+      "source_commit_sha": "f8a54cd671e4872ec8a9f0cf8321bd13bc0c95eb",
+      "tree_sha": "f81ec95623c9cdf60a00dff1437e0379b30e38f1",
+      "commit_verified": true,
+      "verified_on": "2026-10-25",
+      "retention_status": "retained_for_review_not_featured",
+      "purpose": "Travel/resort React component collection",
+      "maturity": "Learning experiment",
+      "technologies": [
+        "React",
+        "Tailwind classes",
+        "react-icons"
+      ],
+      "test_evidence": {
+        "status": "not_run_in_initial_audit",
+        "summary": "{\"execution\": \"Not run\", \"test_files\": [], \"actions_total\": 0, \"notes\": \"No test suite found in complete tree.\"}"
+      },
+      "architecture": {
+        "status": "audit_summary_only",
+        "summary": "Independent JSX components, incomplete application.",
+        "source_url": "https://github.com/jyotheshkar/Traveler/tree/f8a54cd671e4872ec8a9f0cf8321bd13bc0c95eb"
+      },
+      "evidence_urls": [
+        "https://github.com/jyotheshkar/Traveler/tree/f8a54cd671e4872ec8a9f0cf8321bd13bc0c95eb",
+        "https://github.com/jyotheshkar/Traveler/commit/f8a54cd671e4872ec8a9f0cf8321bd13bc0c95eb",
+        "https://github.com/jyotheshkar/Traveler/blob/f8a54cd671e4872ec8a9f0cf8321bd13bc0c95eb/Navbar.jsx",
+        "https://github.com/jyotheshkar/Traveler/blob/f8a54cd671e4872ec8a9f0cf8321bd13bc0c95eb/Search.jsx",
+        "https://github.com/jyotheshkar/Traveler/blob/f8a54cd671e4872ec8a9f0cf8321bd13bc0c95eb/Destinations.jsx"
+      ],
+      "limitations": [
+        "Retained source is not a claim of flagship readiness, licence clearance, complete history scanning or a verified live deployment.",
+        "Test summary is the initial audit record; no later pass is inferred."
+      ]
+    },
+    {
+      "repository_name": "Airbnb-clone",
+      "github_repository_id": "532253784",
+      "repository_url": "https://github.com/jyotheshkar/Airbnb-clone",
+      "visibility": "public",
+      "source_commit_sha": "5cf3a44595962a61a071baed5d5b28817fcf8ff3",
+      "tree_sha": "ba5292a046f453919a704ca0c98fca0660fd7314",
+      "commit_verified": true,
+      "verified_on": "2026-10-25",
+      "retention_status": "retained_for_review_not_featured",
+      "purpose": "Airbnb-style accommodation browsing UI prototype",
+      "maturity": "Frontend prototype",
+      "technologies": [
+        "React ^18.1.0",
+        "React Router ^5.2.0",
+        "MUI ^5.8.3",
+        "Tailwind ^3.1.2",
+        "react-date-range ^1.4.0",
+        "Firebase ^9.8.3 declared"
+      ],
+      "test_evidence": {
+        "status": "not_run_in_initial_audit",
+        "summary": "{\"execution\": \"Not run\", \"test_files\": [], \"actions_total\": 0, \"notes\": \"CRA test script/dependencies exist but no test implementation files observed.\"}"
+      },
+      "architecture": {
+        "status": "audit_summary_only",
+        "summary": "React client, static cards/date picker, Firebase Hosting configuration.",
+        "source_url": "https://github.com/jyotheshkar/Airbnb-clone/tree/5cf3a44595962a61a071baed5d5b28817fcf8ff3"
+      },
+      "evidence_urls": [
+        "https://github.com/jyotheshkar/Airbnb-clone/tree/5cf3a44595962a61a071baed5d5b28817fcf8ff3",
+        "https://github.com/jyotheshkar/Airbnb-clone/commit/5cf3a44595962a61a071baed5d5b28817fcf8ff3",
+        "https://github.com/jyotheshkar/Airbnb-clone/blob/5cf3a44595962a61a071baed5d5b28817fcf8ff3/README.md",
+        "https://github.com/jyotheshkar/Airbnb-clone/blob/5cf3a44595962a61a071baed5d5b28817fcf8ff3/package.json",
+        "https://github.com/jyotheshkar/Airbnb-clone/blob/5cf3a44595962a61a071baed5d5b28817fcf8ff3/src/App.js"
+      ],
+      "limitations": [
+        "Retained source is not a claim of flagship readiness, licence clearance, complete history scanning or a verified live deployment.",
+        "Test summary is the initial audit record; no later pass is inferred."
+      ]
+    },
+    {
+      "repository_name": "netflixClone.github.io",
+      "github_repository_id": "532258275",
+      "repository_url": "https://github.com/jyotheshkar/netflixClone.github.io",
+      "visibility": "public",
+      "source_commit_sha": "d052e63154cb3e38edc400697e876579bc228762",
+      "tree_sha": "4589699e58cd8afd7e2c82535e2805cf2ec7b14d",
+      "commit_verified": true,
+      "verified_on": "2026-10-25",
+      "retention_status": "retained_for_review_not_featured",
+      "purpose": "Forked Netflix-style static trailer page",
+      "maturity": "Learning-reference fork",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Font Awesome CDN"
+      ],
+      "test_evidence": {
+        "status": "not_run_in_initial_audit",
+        "summary": "{\"execution\": \"Not run\", \"test_files\": [], \"actions_total\": 0, \"notes\": \"No test suite found in complete tree.\"}"
+      },
+      "architecture": {
+        "status": "audit_summary_only",
+        "summary": "Static HTML/CSS/JS and bundled video.",
+        "source_url": "https://github.com/jyotheshkar/netflixClone.github.io/tree/d052e63154cb3e38edc400697e876579bc228762"
+      },
+      "evidence_urls": [
+        "https://github.com/jyotheshkar/netflixClone.github.io/tree/d052e63154cb3e38edc400697e876579bc228762",
+        "https://github.com/jyotheshkar/netflixClone.github.io/commit/d052e63154cb3e38edc400697e876579bc228762",
+        "https://github.com/jyotheshkar/netflixClone.github.io/blob/d052e63154cb3e38edc400697e876579bc228762/index.html",
+        "https://github.com/jyotheshkar/netflixClone.github.io/blob/d052e63154cb3e38edc400697e876579bc228762/index.js",
+        "https://github.com/jyotheshkar/netflixClone.github.io/blob/d052e63154cb3e38edc400697e876579bc228762/netflix.js"
+      ],
+      "limitations": [
+        "Retained source is not a claim of flagship readiness, licence clearance, complete history scanning or a verified live deployment.",
+        "Test summary is the initial audit record; no later pass is inferred."
+      ]
+    },
+    {
+      "repository_name": "Assassins-creed",
+      "github_repository_id": "539833010",
+      "repository_url": "https://github.com/jyotheshkar/Assassins-creed",
+      "visibility": "public",
+      "source_commit_sha": "f6f840ec94823ce08ede3f228b5ff729a882e6c8",
+      "tree_sha": "81cd699a3d46451d243201fe22ed2a1fbe4a07bd",
+      "commit_verified": true,
+      "verified_on": "2026-10-25",
+      "retention_status": "retained_for_review_not_featured",
+      "purpose": "Assassin's Creed fan-site/merchandise UI prototype",
+      "maturity": "Frontend prototype",
+      "technologies": [
+        "React ^18.2.0",
+        "Router 5.2",
+        "MUI ^5.10.5",
+        "Tailwind ^3.1.8",
+        "Firebase ^9.10.0",
+        "Firebase Functions ^3.18.0 declared"
+      ],
+      "test_evidence": {
+        "status": "not_run_in_initial_audit",
+        "summary": "{\"execution\": \"Not run\", \"test_files\": [], \"actions_total\": 0, \"notes\": \"CRA test script/dependencies exist but no test implementation files observed.\"}"
+      },
+      "architecture": {
+        "status": "audit_summary_only",
+        "summary": "Nested React frontend with Firebase hosting/config and unused Functions starter.",
+        "source_url": "https://github.com/jyotheshkar/Assassins-creed/tree/f6f840ec94823ce08ede3f228b5ff729a882e6c8"
+      },
+      "evidence_urls": [
+        "https://github.com/jyotheshkar/Assassins-creed/tree/f6f840ec94823ce08ede3f228b5ff729a882e6c8",
+        "https://github.com/jyotheshkar/Assassins-creed/commit/f6f840ec94823ce08ede3f228b5ff729a882e6c8",
+        "https://github.com/jyotheshkar/Assassins-creed/blob/f6f840ec94823ce08ede3f228b5ff729a882e6c8/assasins-creed/README.md",
+        "https://github.com/jyotheshkar/Assassins-creed/blob/f6f840ec94823ce08ede3f228b5ff729a882e6c8/assasins-creed/package.json",
+        "https://github.com/jyotheshkar/Assassins-creed/blob/f6f840ec94823ce08ede3f228b5ff729a882e6c8/assasins-creed/src/App.js"
+      ],
+      "limitations": [
+        "Retained source is not a claim of flagship readiness, licence clearance, complete history scanning or a verified live deployment.",
+        "Test summary is the initial audit record; no later pass is inferred."
+      ]
+    },
+    {
+      "repository_name": "DEFI-Decentralized-trading-protocol",
+      "github_repository_id": "552354757",
+      "repository_url": "https://github.com/jyotheshkar/DEFI-Decentralized-trading-protocol",
+      "visibility": "public",
+      "source_commit_sha": "a3a8263f29914b6546c80d48c027f5f84a717fb2",
+      "tree_sha": "6d70422b9be80b26e77f5c4bea554a08b9174f42",
+      "commit_verified": true,
+      "verified_on": "2026-10-25",
+      "retention_status": "retained_for_review_not_featured",
+      "purpose": "DeFi-themed frontend marketing-page exercise.",
+      "maturity": "frontend learning demo",
+      "technologies": [
+        "@testing-library/jest-dom: ^5.16.5; @testing-library/react: ^13.4.0; @testing-library/user-event: ^13.5.0; firebase: ^9.12.1; react: ^18.2.0; react-dom: ^18.2.0; react-icons: ^4.6.0; react-scripts: 5.0.1; web-vitals: ^2.1.4"
+      ],
+      "test_evidence": {
+        "status": "not_run_in_initial_audit",
+        "summary": "{\"paths\": [], \"status\": \"NOT RUN\", \"note\": \"No test pass/build/runnable claim made. Dependencies named testing-library or script named test are not proof of coverage.\"}"
+      },
+      "architecture": {
+        "status": "audit_summary_only",
+        "summary": "Client-only React/Tailwind page and Firebase Hosting configuration; no trading, wallet or smart-contract implementation in complete tree.",
+        "source_url": "https://github.com/jyotheshkar/DEFI-Decentralized-trading-protocol/tree/a3a8263f29914b6546c80d48c027f5f84a717fb2"
+      },
+      "evidence_urls": [
+        "https://github.com/jyotheshkar/DEFI-Decentralized-trading-protocol/tree/a3a8263f29914b6546c80d48c027f5f84a717fb2",
+        "https://github.com/jyotheshkar/DEFI-Decentralized-trading-protocol/commit/a3a8263f29914b6546c80d48c027f5f84a717fb2",
+        "https://github.com/jyotheshkar/DEFI-Decentralized-trading-protocol/blob/a3a8263f29914b6546c80d48c027f5f84a717fb2/README.md",
+        "https://github.com/jyotheshkar/DEFI-Decentralized-trading-protocol/blob/a3a8263f29914b6546c80d48c027f5f84a717fb2/package.json",
+        "https://github.com/jyotheshkar/DEFI-Decentralized-trading-protocol/blob/a3a8263f29914b6546c80d48c027f5f84a717fb2/src/App.js"
+      ],
+      "limitations": [
+        "Retained source is not a claim of flagship readiness, licence clearance, complete history scanning or a verified live deployment.",
+        "Test summary is the initial audit record; no later pass is inferred."
+      ]
+    },
+    {
+      "repository_name": "Crypto-Explore",
+      "github_repository_id": "554750819",
+      "repository_url": "https://github.com/jyotheshkar/Crypto-Explore",
+      "visibility": "public",
+      "source_commit_sha": "109c00c31f17e09e5b0488cc7b7fb7efff874f09",
+      "tree_sha": "96245d672b378ca5b1d5a88bf1060c3cc5bc8b75",
+      "commit_verified": true,
+      "verified_on": "2026-10-25",
+      "retention_status": "retained_for_review_not_featured",
+      "purpose": "Cryptocurrency market browsing frontend.",
+      "maturity": "API integration prototype",
+      "technologies": [
+        "@emotion/react: ^11.10.4; @mui/icons-material: ^5.10.9; @testing-library/jest-dom: ^5.16.5; @testing-library/react: ^13.4.0; @testing-library/user-event: ^13.5.0; axios: ^1.1.3; dompurify: ^2.4.0; firebase: ^9.12.1; react: ^18.2.0; react-dom: ^18.2.0; react-router-dom: ^6.4.2; react-scripts: 5.0.1; web-vitals: ^2.1.4"
+      ],
+      "test_evidence": {
+        "status": "not_run_in_initial_audit",
+        "summary": "{\"paths\": [\"src/App.test.js\"], \"status\": \"NOT RUN\", \"note\": \"No test pass/build/runnable claim made. Dependencies named testing-library or script named test are not proof of coverage.\"}"
+      },
+      "architecture": {
+        "status": "audit_summary_only",
+        "summary": "React SPA -> CoinGecko API; React Router; Firebase Hosting configuration.",
+        "source_url": "https://github.com/jyotheshkar/Crypto-Explore/tree/109c00c31f17e09e5b0488cc7b7fb7efff874f09"
+      },
+      "evidence_urls": [
+        "https://github.com/jyotheshkar/Crypto-Explore/tree/109c00c31f17e09e5b0488cc7b7fb7efff874f09",
+        "https://github.com/jyotheshkar/Crypto-Explore/commit/109c00c31f17e09e5b0488cc7b7fb7efff874f09",
+        "https://github.com/jyotheshkar/Crypto-Explore/blob/109c00c31f17e09e5b0488cc7b7fb7efff874f09/README.md",
+        "https://github.com/jyotheshkar/Crypto-Explore/blob/109c00c31f17e09e5b0488cc7b7fb7efff874f09/package.json",
+        "https://github.com/jyotheshkar/Crypto-Explore/blob/109c00c31f17e09e5b0488cc7b7fb7efff874f09/src/App.js"
+      ],
+      "limitations": [
+        "Retained source is not a claim of flagship readiness, licence clearance, complete history scanning or a verified live deployment.",
+        "Test summary is the initial audit record; no later pass is inferred."
+      ]
+    },
+    {
+      "repository_name": "Covid-Tracker-App",
+      "github_repository_id": "556633331",
+      "repository_url": "https://github.com/jyotheshkar/Covid-Tracker-App",
+      "visibility": "public",
+      "source_commit_sha": "24c501262278df533f3e0dc7db4c787ab2eed7dc",
+      "tree_sha": "4aa33c69269febb02a1ce2898323e9fdac53ac54",
+      "commit_verified": true,
+      "verified_on": "2026-10-25",
+      "retention_status": "retained_for_review_not_featured",
+      "purpose": "COVID statistics dashboard following upstream tracker structure.",
+      "maturity": "tutorial-derived dashboard prototype",
+      "technologies": [
+        "@emotion/react: ^11.10.4; @mui/icons-material: ^5.10.9; @testing-library/jest-dom: ^5.16.5; @testing-library/react: ^13.4.0; @testing-library/user-event: ^13.5.0; chart.js: ^2.9.4; firebase: ^9.12.1; leaflet: ^1.9.2; numeral: ^2.0.6; react: ^18.2.0; react-chartjs-2: ^2.11.2; react-dom: ^18.2.0; react-leaflet: ^2.7.0; react-scripts: 5.0.1; web-vitals: ^2.1.4"
+      ],
+      "test_evidence": {
+        "status": "not_run_in_initial_audit",
+        "summary": "{\"paths\": [], \"status\": \"NOT RUN\", \"note\": \"No test pass/build/runnable claim made. Dependencies named testing-library or script named test are not proof of coverage.\"}"
+      },
+      "architecture": {
+        "status": "audit_summary_only",
+        "summary": "React browser dashboard -> disease.sh; Leaflet, Chart.js; Firebase Hosting configuration.",
+        "source_url": "https://github.com/jyotheshkar/Covid-Tracker-App/tree/24c501262278df533f3e0dc7db4c787ab2eed7dc"
+      },
+      "evidence_urls": [
+        "https://github.com/jyotheshkar/Covid-Tracker-App/tree/24c501262278df533f3e0dc7db4c787ab2eed7dc",
+        "https://github.com/jyotheshkar/Covid-Tracker-App/commit/24c501262278df533f3e0dc7db4c787ab2eed7dc",
+        "https://github.com/jyotheshkar/Covid-Tracker-App/blob/24c501262278df533f3e0dc7db4c787ab2eed7dc/README.md",
+        "https://github.com/jyotheshkar/Covid-Tracker-App/blob/24c501262278df533f3e0dc7db4c787ab2eed7dc/package.json",
+        "https://github.com/jyotheshkar/Covid-Tracker-App/blob/24c501262278df533f3e0dc7db4c787ab2eed7dc/src/App.js"
+      ],
+      "limitations": [
+        "Retained source is not a claim of flagship readiness, licence clearance, complete history scanning or a verified live deployment.",
+        "Test summary is the initial audit record; no later pass is inferred."
+      ]
+    },
+    {
+      "repository_name": "Instagram-clone",
+      "github_repository_id": "559201482",
+      "repository_url": "https://github.com/jyotheshkar/Instagram-clone",
+      "visibility": "public",
+      "source_commit_sha": "344a7bf882387cf2f06ba4c9e890d789e75e1afb",
+      "tree_sha": "41de2a323fdf5e91edc52995512353f8f8a9d057",
+      "commit_verified": true,
+      "verified_on": "2026-10-25",
+      "retention_status": "retained_for_review_not_featured",
+      "purpose": "Instagram-style social-feed prototype.",
+      "maturity": "full-stack social prototype",
+      "technologies": [
+        "@faker-js/faker: ^7.6.0; @headlessui/react: ^1.7.3; @heroicons/react: ^1.0.6; @tailwindcss/forms: ^0.5.3; firebase: ^9.12.1; heroicons-react: ^1.4.1; next: 12.3.1; next-auth: ^4.15.0; react: 18.2.0; react-dom: 18.2.0; react-moment: ^1.1.2; recoil: ^0.7.6; tailwind-scrollbar: ^2.0.1; tailwind-scrollbar-hide: ^1.1.7"
+      ],
+      "test_evidence": {
+        "status": "not_run_in_initial_audit",
+        "summary": "{\"paths\": [], \"status\": \"NOT RUN\", \"note\": \"No test pass/build/runnable claim made. Dependencies named testing-library or script named test are not proof of coverage.\"}"
+      },
+      "architecture": {
+        "status": "audit_summary_only",
+        "summary": "Next.js pages + NextAuth Google OAuth + Firestore/Storage + Recoil.",
+        "source_url": "https://github.com/jyotheshkar/Instagram-clone/tree/344a7bf882387cf2f06ba4c9e890d789e75e1afb"
+      },
+      "evidence_urls": [
+        "https://github.com/jyotheshkar/Instagram-clone/tree/344a7bf882387cf2f06ba4c9e890d789e75e1afb",
+        "https://github.com/jyotheshkar/Instagram-clone/commit/344a7bf882387cf2f06ba4c9e890d789e75e1afb",
+        "https://github.com/jyotheshkar/Instagram-clone/blob/344a7bf882387cf2f06ba4c9e890d789e75e1afb/README.md",
+        "https://github.com/jyotheshkar/Instagram-clone/blob/344a7bf882387cf2f06ba4c9e890d789e75e1afb/components/Modal.js",
+        "https://github.com/jyotheshkar/Instagram-clone/blob/344a7bf882387cf2f06ba4c9e890d789e75e1afb/components/Post.js"
+      ],
+      "limitations": [
+        "Retained source is not a claim of flagship readiness, licence clearance, complete history scanning or a verified live deployment.",
+        "Test summary is the initial audit record; no later pass is inferred."
+      ]
+    },
+    {
+      "repository_name": "jyotheshkar",
+      "github_repository_id": "560269740",
+      "repository_url": "https://github.com/jyotheshkar/jyotheshkar",
+      "visibility": "public",
+      "source_commit_sha": "5713f8ff53a5d1e6ff6f347a29d4fc3046e0a964",
+      "tree_sha": "676b0aa1e0e72889987588492e4623800827cee9",
+      "commit_verified": true,
+      "verified_on": "2026-10-25",
+      "retention_status": "retained_for_review_not_featured",
+      "purpose": "Special GitHub profile README repository.",
+      "maturity": "stale profile documentation",
+      "technologies": [],
+      "test_evidence": {
+        "status": "not_run_in_initial_audit",
+        "summary": "{\"paths\": [], \"status\": \"NOT RUN\", \"note\": \"No test pass/build/runnable claim made. Dependencies named testing-library or script named test are not proof of coverage.\"}"
+      },
+      "architecture": {
+        "status": "audit_summary_only",
+        "summary": "Profile documentation; not software architecture.",
+        "source_url": "https://github.com/jyotheshkar/jyotheshkar/tree/5713f8ff53a5d1e6ff6f347a29d4fc3046e0a964"
+      },
+      "evidence_urls": [
+        "https://github.com/jyotheshkar/jyotheshkar/tree/5713f8ff53a5d1e6ff6f347a29d4fc3046e0a964",
+        "https://github.com/jyotheshkar/jyotheshkar/commit/5713f8ff53a5d1e6ff6f347a29d4fc3046e0a964",
+        "https://github.com/jyotheshkar/jyotheshkar/blob/5713f8ff53a5d1e6ff6f347a29d4fc3046e0a964/README.md"
+      ],
+      "limitations": [
+        "Retained source is not a claim of flagship readiness, licence clearance, complete history scanning or a verified live deployment.",
+        "Test summary is the initial audit record; no later pass is inferred."
+      ]
+    },
+    {
+      "repository_name": "Tesla-Clone",
+      "github_repository_id": "560772890",
+      "repository_url": "https://github.com/jyotheshkar/Tesla-Clone",
+      "visibility": "public",
+      "source_commit_sha": "7aebace676a9e49b194d93e97d70cc9bf8b7f8c2",
+      "tree_sha": "21c172b921ce21e11456f4cffb1702174a887ab4",
+      "commit_verified": true,
+      "verified_on": "2026-10-25",
+      "retention_status": "retained_for_review_not_featured",
+      "purpose": "Tesla-inspired frontend landing-page exercise.",
+      "maturity": "frontend learning demo",
+      "technologies": [
+        "@emotion/react: ^11.10.5; @mui/icons-material: ^5.10.9; @reduxjs/toolkit: ^1.8.6; @testing-library/jest-dom: ^5.16.5; @testing-library/react: ^13.4.0; @testing-library/user-event: ^14.4.3; firebase: ^9.13.0; react: ^18.2.0; react-dom: ^18.2.0; react-redux: ^8.0.4; react-reveal: ^1.2.2; react-scripts: 5.0.1; styled-components: ^5.3.6; web-vitals: ^2.1.4"
+      ],
+      "test_evidence": {
+        "status": "not_run_in_initial_audit",
+        "summary": "{\"paths\": [\"src/App.test.js\"], \"status\": \"NOT RUN\", \"note\": \"No test pass/build/runnable claim made. Dependencies named testing-library or script named test are not proof of coverage.\"}"
+      },
+      "architecture": {
+        "status": "audit_summary_only",
+        "summary": "React/styled-components frontend, Redux Toolkit scaffold; Firebase Hosting config.",
+        "source_url": "https://github.com/jyotheshkar/Tesla-Clone/tree/7aebace676a9e49b194d93e97d70cc9bf8b7f8c2"
+      },
+      "evidence_urls": [
+        "https://github.com/jyotheshkar/Tesla-Clone/tree/7aebace676a9e49b194d93e97d70cc9bf8b7f8c2",
+        "https://github.com/jyotheshkar/Tesla-Clone/commit/7aebace676a9e49b194d93e97d70cc9bf8b7f8c2",
+        "https://github.com/jyotheshkar/Tesla-Clone/blob/7aebace676a9e49b194d93e97d70cc9bf8b7f8c2/README.md",
+        "https://github.com/jyotheshkar/Tesla-Clone/blob/7aebace676a9e49b194d93e97d70cc9bf8b7f8c2/package.json",
+        "https://github.com/jyotheshkar/Tesla-Clone/blob/7aebace676a9e49b194d93e97d70cc9bf8b7f8c2/src/App.js"
+      ],
+      "limitations": [
+        "Retained source is not a claim of flagship readiness, licence clearance, complete history scanning or a verified live deployment.",
+        "Test summary is the initial audit record; no later pass is inferred."
+      ]
+    },
+    {
+      "repository_name": "React.js-Portfolio",
+      "github_repository_id": "561461565",
+      "repository_url": "https://github.com/jyotheshkar/React.js-Portfolio",
+      "visibility": "public",
+      "source_commit_sha": "5063945d223e08d7be9945455539e45a03b666ce",
+      "tree_sha": "7f7a2eb9b474f60ba6b04ba063ca6d767bb19517",
+      "commit_verified": true,
+      "verified_on": "2026-10-25",
+      "retention_status": "retained_for_review_not_featured",
+      "purpose": "Historical2022 frontend portfolio.",
+      "maturity": "historical portfolio",
+      "technologies": [
+        "@emotion/react: ^11.10.5; @mui/icons-material: ^5.10.9; @testing-library/jest-dom: ^5.16.5; @testing-library/react: ^13.4.0; @testing-library/user-event: ^13.5.0; firebase: ^9.13.0; react: ^18.2.0; react-dom: ^18.2.0; react-scripts: 5.0.1; react-scroll: ^1.8.8; web-vitals: ^2.1.4"
+      ],
+      "test_evidence": {
+        "status": "not_run_in_initial_audit",
+        "summary": "{\"paths\": [], \"status\": \"NOT RUN\", \"note\": \"No test pass/build/runnable claim made. Dependencies named testing-library or script named test are not proof of coverage.\"}"
+      },
+      "architecture": {
+        "status": "audit_summary_only",
+        "summary": "React SPA/Tailwind/React Scroll; Getform contact endpoint; Firebase Hosting configuration.",
+        "source_url": "https://github.com/jyotheshkar/React.js-Portfolio/tree/5063945d223e08d7be9945455539e45a03b666ce"
+      },
+      "evidence_urls": [
+        "https://github.com/jyotheshkar/React.js-Portfolio/tree/5063945d223e08d7be9945455539e45a03b666ce",
+        "https://github.com/jyotheshkar/React.js-Portfolio/commit/5063945d223e08d7be9945455539e45a03b666ce",
+        "https://github.com/jyotheshkar/React.js-Portfolio/blob/5063945d223e08d7be9945455539e45a03b666ce/README.md",
+        "https://github.com/jyotheshkar/React.js-Portfolio/blob/5063945d223e08d7be9945455539e45a03b666ce/package.json",
+        "https://github.com/jyotheshkar/React.js-Portfolio/blob/5063945d223e08d7be9945455539e45a03b666ce/src/About.js"
+      ],
+      "limitations": [
+        "Retained source is not a claim of flagship readiness, licence clearance, complete history scanning or a verified live deployment.",
+        "Test summary is the initial audit record; no later pass is inferred."
+      ]
+    },
+    {
+      "repository_name": "Omnifood-website",
+      "github_repository_id": "563436245",
+      "repository_url": "https://github.com/jyotheshkar/Omnifood-website",
+      "visibility": "public",
+      "source_commit_sha": "e4bdc1fe659fa64308665e062d25e57bc90b4ee9",
+      "tree_sha": "8eb7e78058da7fd36f69c7fec8e443d6153a59ec",
+      "commit_verified": true,
+      "verified_on": "2026-10-25",
+      "retention_status": "retained_for_review_not_featured",
+      "purpose": "Forked responsive meal-service marketing-page exercise.",
+      "maturity": "upstream learning fork",
+      "technologies": [],
+      "test_evidence": {
+        "status": "not_run_in_initial_audit",
+        "summary": "{\"paths\": [], \"status\": \"NOT RUN\", \"note\": \"No test pass/build/runnable claim made. Dependencies named testing-library or script named test are not proof of coverage.\"}"
+      },
+      "architecture": {
+        "status": "audit_summary_only",
+        "summary": "Static HTML/CSS/JavaScript; no AI meal-recommendation backend.",
+        "source_url": "https://github.com/jyotheshkar/Omnifood-website/tree/e4bdc1fe659fa64308665e062d25e57bc90b4ee9"
+      },
+      "evidence_urls": [
+        "https://github.com/jyotheshkar/Omnifood-website/tree/e4bdc1fe659fa64308665e062d25e57bc90b4ee9",
+        "https://github.com/jyotheshkar/Omnifood-website/commit/e4bdc1fe659fa64308665e062d25e57bc90b4ee9",
+        "https://github.com/jyotheshkar/Omnifood-website/blob/e4bdc1fe659fa64308665e062d25e57bc90b4ee9/index.html",
+        "https://github.com/jyotheshkar/Omnifood-website/blob/e4bdc1fe659fa64308665e062d25e57bc90b4ee9/script.js"
+      ],
+      "limitations": [
+        "Retained source is not a claim of flagship readiness, licence clearance, complete history scanning or a verified live deployment.",
+        "Test summary is the initial audit record; no later pass is inferred."
+      ]
+    },
+    {
+      "repository_name": "Car-Parking-System",
+      "github_repository_id": "753061862",
+      "repository_url": "https://github.com/jyotheshkar/Car-Parking-System",
+      "visibility": "public",
+      "source_commit_sha": "b694ee19476e78ef89601732d083c4c4d3d4a97c",
+      "tree_sha": "4545194bc4776841cd321565198a65cf715379e3",
+      "commit_verified": true,
+      "verified_on": "2026-10-25",
+      "retention_status": "retained_for_review_not_featured",
+      "purpose": "Academic Python parking-management application for parking attendants",
+      "maturity": "Academic desktop prototype; not run",
+      "technologies": [
+        "Python",
+        "Tkinter",
+        "CSV",
+        "datetime",
+        "linked list"
+      ],
+      "test_evidence": {
+        "status": "not_run_in_initial_audit",
+        "summary": "No tests or CI. cmd.py is empty."
+      },
+      "architecture": {
+        "status": "audit_summary_only",
+        "summary": "Source separates carpark.py domain model and gui.py; no architecture document.",
+        "source_url": "https://github.com/jyotheshkar/Car-Parking-System/tree/b694ee19476e78ef89601732d083c4c4d3d4a97c"
+      },
+      "evidence_urls": [
+        "https://github.com/jyotheshkar/Car-Parking-System/tree/b694ee19476e78ef89601732d083c4c4d3d4a97c",
+        "https://github.com/jyotheshkar/Car-Parking-System/blob/b694ee19476e78ef89601732d083c4c4d3d4a97c/carpark.py",
+        "https://github.com/jyotheshkar/Car-Parking-System/blob/b694ee19476e78ef89601732d083c4c4d3d4a97c/gui.py"
+      ],
+      "limitations": [
+        "Retained source is not a claim of flagship readiness, licence clearance, complete history scanning or a verified live deployment.",
+        "Test summary is the initial audit record; no later pass is inferred."
+      ]
+    },
+    {
+      "repository_name": "Asus-ROG-warehouse-Pro",
+      "github_repository_id": "753827905",
+      "repository_url": "https://github.com/jyotheshkar/Asus-ROG-warehouse-Pro",
+      "visibility": "public",
+      "source_commit_sha": "953a41638b99ec8ae81eadbc09f1af66d471989e",
+      "tree_sha": "c8908fa04e0e4178c590c694445a8d4974a7e9a5",
+      "commit_verified": true,
+      "verified_on": "2026-10-25",
+      "retention_status": "retained_for_review_not_featured",
+      "purpose": "Academic warehouse, inventory and order-management desktop application",
+      "maturity": "Substantive academic desktop prototype; not run",
+      "technologies": [
+        "Python",
+        "Tkinter",
+        "Pillow",
+        "OpenCV",
+        "ReportLab",
+        "fuzzywuzzy",
+        "ThreadPoolExecutor"
+      ],
+      "test_evidence": {
+        "status": "not_run_in_initial_audit",
+        "summary": "No automated tests or CI in tree."
+      },
+      "architecture": {
+        "status": "audit_summary_only",
+        "summary": "Class-based GUI inheritance shown in README/code; no separate design/trade-off document.",
+        "source_url": "https://github.com/jyotheshkar/Asus-ROG-warehouse-Pro/tree/953a41638b99ec8ae81eadbc09f1af66d471989e"
+      },
+      "evidence_urls": [
+        "https://github.com/jyotheshkar/Asus-ROG-warehouse-Pro/tree/953a41638b99ec8ae81eadbc09f1af66d471989e",
+        "https://github.com/jyotheshkar/Asus-ROG-warehouse-Pro/blob/953a41638b99ec8ae81eadbc09f1af66d471989e/README.md",
+        "https://github.com/jyotheshkar/Asus-ROG-warehouse-Pro/blob/953a41638b99ec8ae81eadbc09f1af66d471989e/advancepython3.py"
+      ],
+      "limitations": [
+        "Retained source is not a claim of flagship readiness, licence clearance, complete history scanning or a verified live deployment.",
+        "Test summary is the initial audit record; no later pass is inferred."
+      ]
+    },
+    {
+      "repository_name": "Data-Analytics",
+      "github_repository_id": "754725026",
+      "repository_url": "https://github.com/jyotheshkar/Data-Analytics",
+      "visibility": "public",
+      "source_commit_sha": "6c276b28fd829ef91ab308e4dfc2af365c692276",
+      "tree_sha": "c36e8ac99897bc3ecbe908533f6d95ae403bb548",
+      "commit_verified": true,
+      "verified_on": "2026-10-25",
+      "retention_status": "retained_for_review_not_featured",
+      "purpose": "Booking activity descriptive-analysis/reporting coursework",
+      "maturity": "Analysis scripts; not executed",
+      "technologies": [
+        "Python",
+        "pandas",
+        "Matplotlib",
+        "SciPy",
+        "XlsxWriter"
+      ],
+      "test_evidence": {
+        "status": "not_run_in_initial_audit",
+        "summary": "No automated tests/CI. Iterative Analytics1–9 scripts are not a test suite."
+      },
+      "architecture": {
+        "status": "audit_summary_only",
+        "summary": "Single script function plus iterative variants; no architecture document.",
+        "source_url": "https://github.com/jyotheshkar/Data-Analytics/tree/6c276b28fd829ef91ab308e4dfc2af365c692276"
+      },
+      "evidence_urls": [
+        "https://github.com/jyotheshkar/Data-Analytics/tree/6c276b28fd829ef91ab308e4dfc2af365c692276",
+        "https://github.com/jyotheshkar/Data-Analytics/blob/6c276b28fd829ef91ab308e4dfc2af365c692276/README.md",
+        "https://github.com/jyotheshkar/Data-Analytics/blob/6c276b28fd829ef91ab308e4dfc2af365c692276/FinalAnalytics.py",
+        "https://github.com/jyotheshkar/Data-Analytics/blob/6c276b28fd829ef91ab308e4dfc2af365c692276/Installations%20%26%20packages"
+      ],
+      "limitations": [
+        "Retained source is not a claim of flagship readiness, licence clearance, complete history scanning or a verified live deployment.",
+        "Test summary is the initial audit record; no later pass is inferred."
+      ]
+    },
+    {
+      "repository_name": "Quantum-AI-Nexus",
+      "github_repository_id": "756776509",
+      "repository_url": "https://github.com/jyotheshkar/Quantum-AI-Nexus",
+      "visibility": "public",
+      "source_commit_sha": "cdbc8152a2f102831d24fceb8015924b91858036",
+      "tree_sha": "3b4084951408f7bd679eaddbec531531e9446cf3",
+      "commit_verified": true,
+      "verified_on": "2026-10-25",
+      "retention_status": "retained_for_review_not_featured",
+      "purpose": "React AI dashboard/navigation concept UI",
+      "maturity": "Frontend prototype using mock data; no implemented AI backend found",
+      "technologies": [
+        "JavaScript",
+        "React",
+        "Tailwind CSS",
+        "Material UI",
+        "Framer Motion",
+        "Recharts",
+        "Firebase Hosting configuration"
+      ],
+      "test_evidence": {
+        "status": "not_run_in_initial_audit",
+        "summary": "No domain tests/CI found; react-scripts test command alone is not evidence of tests passing."
+      },
+      "architecture": {
+        "status": "audit_summary_only",
+        "summary": "Frontend source and Firebase config only; no model/API or architecture contract.",
+        "source_url": "https://github.com/jyotheshkar/Quantum-AI-Nexus/tree/cdbc8152a2f102831d24fceb8015924b91858036"
+      },
+      "evidence_urls": [
+        "https://github.com/jyotheshkar/Quantum-AI-Nexus/tree/cdbc8152a2f102831d24fceb8015924b91858036",
+        "https://github.com/jyotheshkar/Quantum-AI-Nexus/blob/cdbc8152a2f102831d24fceb8015924b91858036/Astra%20readme",
+        "https://github.com/jyotheshkar/Quantum-AI-Nexus/blob/cdbc8152a2f102831d24fceb8015924b91858036/frontend/package.json",
+        "https://github.com/jyotheshkar/Quantum-AI-Nexus/blob/cdbc8152a2f102831d24fceb8015924b91858036/frontend/src/Astra.js",
+        "https://github.com/jyotheshkar/Quantum-AI-Nexus/blob/cdbc8152a2f102831d24fceb8015924b91858036/frontend/src/Main.js"
+      ],
+      "limitations": [
+        "Retained source is not a claim of flagship readiness, licence clearance, complete history scanning or a verified live deployment.",
+        "Test summary is the initial audit record; no later pass is inferred."
+      ]
+    },
+    {
+      "repository_name": "CSC-40038",
+      "github_repository_id": "765058912",
+      "repository_url": "https://github.com/jyotheshkar/CSC-40038",
+      "visibility": "public",
+      "source_commit_sha": "d36000cf90d7e2ae260cbef94d65ad99eaf4799d",
+      "tree_sha": "abccac0f7743c9476889eca46e6d1b0c8e9dec5a",
+      "commit_verified": true,
+      "verified_on": "2026-10-25",
+      "retention_status": "retained_for_review_not_featured",
+      "purpose": "Collaborative coursework on event registration/attendance prediction",
+      "maturity": "Collaborative academic modelling prototype; not run",
+      "technologies": [
+        "Python",
+        "pandas",
+        "scikit-learn",
+        "statsmodels",
+        "Matplotlib",
+        "Tkinter",
+        "CSV"
+      ],
+      "test_evidence": {
+        "status": "not_run_in_initial_audit",
+        "summary": "Model evaluation scripts exist, including KNN test.py and train/test calculations; no executable automated software test suite or CI."
+      },
+      "architecture": {
+        "status": "audit_summary_only",
+        "summary": "Group documentation DOCX and software guide PDF present but binaries not read; no checked-in text architecture.",
+        "source_url": "https://github.com/jyotheshkar/CSC-40038/tree/d36000cf90d7e2ae260cbef94d65ad99eaf4799d"
+      },
+      "evidence_urls": [
+        "https://github.com/jyotheshkar/CSC-40038/tree/d36000cf90d7e2ae260cbef94d65ad99eaf4799d",
+        "https://github.com/jyotheshkar/CSC-40038/blob/d36000cf90d7e2ae260cbef94d65ad99eaf4799d/README.md",
+        "https://github.com/jyotheshkar/CSC-40038/blob/d36000cf90d7e2ae260cbef94d65ad99eaf4799d/Prediction%20Model%20and%20GUI/FinalModel.py",
+        "https://github.com/jyotheshkar/CSC-40038/blob/d36000cf90d7e2ae260cbef94d65ad99eaf4799d/Regression%20Models/regression%20with%20cv.py",
+        "https://github.com/jyotheshkar/CSC-40038/blob/d36000cf90d7e2ae260cbef94d65ad99eaf4799d/Classification%20Models/Random%20Forest%20Full%20Data%20Accuracy.py"
+      ],
+      "limitations": [
+        "Retained source is not a claim of flagship readiness, licence clearance, complete history scanning or a verified live deployment.",
+        "Test summary is the initial audit record; no later pass is inferred."
+      ]
+    },
+    {
+      "repository_name": "web-tech",
+      "github_repository_id": "797167608",
+      "repository_url": "https://github.com/jyotheshkar/web-tech",
+      "visibility": "public",
+      "source_commit_sha": "781b5d742b136579c3138905439c4cd7038b5292",
+      "tree_sha": "503f8b2e63a1c3345598ebe4c6b28fdc97ceaa37",
+      "commit_verified": true,
+      "verified_on": "2026-10-25",
+      "retention_status": "retained_for_review_not_featured",
+      "purpose": "Academic PHP/MySQL social-posting website",
+      "maturity": "Academic web prototype; not deployed/tested",
+      "technologies": [
+        "PHP",
+        "MySQL/mysqli",
+        "HTML",
+        "CSS",
+        "sessions",
+        "prepared SQL",
+        "password_hash/password_verify"
+      ],
+      "test_evidence": {
+        "status": "not_run_in_initial_audit",
+        "summary": "No automated test suite or CI."
+      },
+      "architecture": {
+        "status": "audit_summary_only",
+        "summary": "Multiple PHP pages with db_connect include; no schema/migrations or text architecture.",
+        "source_url": "https://github.com/jyotheshkar/web-tech/tree/781b5d742b136579c3138905439c4cd7038b5292"
+      },
+      "evidence_urls": [
+        "https://github.com/jyotheshkar/web-tech/tree/781b5d742b136579c3138905439c4cd7038b5292",
+        "https://github.com/jyotheshkar/web-tech/blob/781b5d742b136579c3138905439c4cd7038b5292/db_connect.php",
+        "https://github.com/jyotheshkar/web-tech/blob/781b5d742b136579c3138905439c4cd7038b5292/signupcode.php",
+        "https://github.com/jyotheshkar/web-tech/blob/781b5d742b136579c3138905439c4cd7038b5292/logincode.php",
+        "https://github.com/jyotheshkar/web-tech/blob/781b5d742b136579c3138905439c4cd7038b5292/submit_post.php"
+      ],
+      "limitations": [
+        "Retained source is not a claim of flagship readiness, licence clearance, complete history scanning or a verified live deployment.",
+        "Test summary is the initial audit record; no later pass is inferred."
+      ]
+    },
+    {
+      "repository_name": "Software-Engineering-1",
+      "github_repository_id": "797837256",
+      "repository_url": "https://github.com/jyotheshkar/Software-Engineering-1",
+      "visibility": "public",
+      "source_commit_sha": "65951a3a27988996556cdf3eab8a056099fa52c0",
+      "tree_sha": "498c9e762b2f6058a62ab2f821670ece990266ce",
+      "commit_verified": true,
+      "verified_on": "2026-10-25",
+      "retention_status": "retained_for_review_not_featured",
+      "purpose": "Collaborative Novah voice-based desktop automation/accessibility prototype",
+      "maturity": "Forked collaborative prototype; not run",
+      "technologies": [
+        "Python",
+        "speech_recognition",
+        "pyttsx3",
+        "spaCy",
+        "requests",
+        "OpenCV",
+        "MediaPipe",
+        "Tkinter",
+        "Pillow",
+        "unittest/mock"
+      ],
+      "test_evidence": {
+        "status": "not_run_in_initial_audit",
+        "summary": "Unit and Integration Testing contains unittest/mock tests; integrated_test_api.py inspects weather/date/joke flows. Not run; no CI."
+      },
+      "architecture": {
+        "status": "audit_summary_only",
+        "summary": "Separate authentication and voice automation modules; KANBAN.md; no formal architecture; inherited/fork contribution unclear.",
+        "source_url": "https://github.com/jyotheshkar/Software-Engineering-1/tree/65951a3a27988996556cdf3eab8a056099fa52c0"
+      },
+      "evidence_urls": [
+        "https://github.com/jyotheshkar/Software-Engineering-1/tree/65951a3a27988996556cdf3eab8a056099fa52c0",
+        "https://github.com/jyotheshkar/Software-Engineering-1/blob/65951a3a27988996556cdf3eab8a056099fa52c0/README.md",
+        "https://github.com/jyotheshkar/Software-Engineering-1/blob/65951a3a27988996556cdf3eab8a056099fa52c0/Nova%20Software/api.py",
+        "https://github.com/jyotheshkar/Software-Engineering-1/blob/65951a3a27988996556cdf3eab8a056099fa52c0/Nova%20Software/weather.py",
+        "https://github.com/jyotheshkar/Software-Engineering-1/blob/65951a3a27988996556cdf3eab8a056099fa52c0/Nova%20Authentication/Auth.py"
+      ],
+      "limitations": [
+        "Retained source is not a claim of flagship readiness, licence clearance, complete history scanning or a verified live deployment.",
+        "Test summary is the initial audit record; no later pass is inferred."
+      ]
+    },
+    {
+      "repository_name": "Time-series-Neural-network-software-application",
+      "github_repository_id": "823883894",
+      "repository_url": "https://github.com/jyotheshkar/Time-series-Neural-network-software-application",
+      "visibility": "public",
+      "source_commit_sha": "ba5e7a92f6add180e76d5c533654ea80fe92caa5",
+      "tree_sha": "4cea58a49b0b4312241ff8616612325be15c6155",
+      "commit_verified": true,
+      "verified_on": "2026-10-25",
+      "retention_status": "retained_for_review_not_featured",
+      "purpose": "Dairy-herd activity/temperature time-series modelling desktop application",
+      "maturity": "Substantive academic ML desktop prototype; not run",
+      "technologies": [
+        "Python",
+        "Tkinter",
+        "TensorFlow/Keras",
+        "LSTM",
+        "pandas",
+        "NumPy",
+        "scikit-learn",
+        "Matplotlib",
+        "Pillow",
+        "FPDF"
+      ],
+      "test_evidence": {
+        "status": "not_run_in_initial_audit",
+        "summary": "Codes/test.py is a plotting demo (create_right_plot), not a test suite. No CI or reproducible benchmark."
+      },
+      "architecture": {
+        "status": "audit_summary_only",
+        "summary": "Modular GUI/model code plus binary project report; no inspected architecture text.",
+        "source_url": "https://github.com/jyotheshkar/Time-series-Neural-network-software-application/tree/ba5e7a92f6add180e76d5c533654ea80fe92caa5"
+      },
+      "evidence_urls": [
+        "https://github.com/jyotheshkar/Time-series-Neural-network-software-application/tree/ba5e7a92f6add180e76d5c533654ea80fe92caa5",
+        "https://github.com/jyotheshkar/Time-series-Neural-network-software-application/blob/ba5e7a92f6add180e76d5c533654ea80fe92caa5/Codes/main.py",
+        "https://github.com/jyotheshkar/Time-series-Neural-network-software-application/blob/ba5e7a92f6add180e76d5c533654ea80fe92caa5/Codes/BeSpoke_Activity_model.py",
+        "https://github.com/jyotheshkar/Time-series-Neural-network-software-application/blob/ba5e7a92f6add180e76d5c533654ea80fe92caa5/Codes/Generic_Activity_Model.py",
+        "https://github.com/jyotheshkar/Time-series-Neural-network-software-application/blob/ba5e7a92f6add180e76d5c533654ea80fe92caa5/Codes/test.py"
+      ],
+      "limitations": [
+        "Retained source is not a claim of flagship readiness, licence clearance, complete history scanning or a verified live deployment.",
+        "Test summary is the initial audit record; no later pass is inferred."
+      ]
+    },
+    {
+      "repository_name": "Dairy-Herd-Monitoring",
+      "github_repository_id": "837692910",
+      "repository_url": "https://github.com/jyotheshkar/Dairy-Herd-Monitoring",
+      "visibility": "public",
+      "source_commit_sha": "b6a408c0f3a4de72d4077ab626a489b686093c30",
+      "tree_sha": "31f7a7c9efa7f0aa96fc1532e3d1d8aca541494c",
+      "commit_verified": true,
+      "verified_on": "2026-10-25",
+      "retention_status": "retained_for_review_not_featured",
+      "purpose": "Earlier dairy-herd visualisation/preprocessing desktop prototype",
+      "maturity": "Earlier academic prototype with overlap to Time-series-Neural-network repo; not run",
+      "technologies": [
+        "Python",
+        "Tkinter",
+        "pandas",
+        "NumPy",
+        "scikit-learn",
+        "Matplotlib",
+        "Pillow"
+      ],
+      "test_evidence": {
+        "status": "not_run_in_initial_audit",
+        "summary": "test.py is plot generation, not tests; no CI."
+      },
+      "architecture": {
+        "status": "audit_summary_only",
+        "summary": "Multiple desktop GUI/plot/preprocessing modules; no document.",
+        "source_url": "https://github.com/jyotheshkar/Dairy-Herd-Monitoring/tree/b6a408c0f3a4de72d4077ab626a489b686093c30"
+      },
+      "evidence_urls": [
+        "https://github.com/jyotheshkar/Dairy-Herd-Monitoring/tree/b6a408c0f3a4de72d4077ab626a489b686093c30",
+        "https://github.com/jyotheshkar/Dairy-Herd-Monitoring/blob/b6a408c0f3a4de72d4077ab626a489b686093c30/main.py",
+        "https://github.com/jyotheshkar/Dairy-Herd-Monitoring/blob/b6a408c0f3a4de72d4077ab626a489b686093c30/traincode.py",
+        "https://github.com/jyotheshkar/Dairy-Herd-Monitoring/blob/b6a408c0f3a4de72d4077ab626a489b686093c30/activitypreprocessing.py",
+        "https://github.com/jyotheshkar/Dairy-Herd-Monitoring/blob/b6a408c0f3a4de72d4077ab626a489b686093c30/test.py"
+      ],
+      "limitations": [
+        "Retained source is not a claim of flagship readiness, licence clearance, complete history scanning or a verified live deployment.",
+        "Test summary is the initial audit record; no later pass is inferred."
+      ]
+    },
+    {
+      "repository_name": "Creating-a-Large-Language-Model-from-Scratch",
+      "github_repository_id": "919738589",
+      "repository_url": "https://github.com/jyotheshkar/Creating-a-Large-Language-Model-from-Scratch",
+      "visibility": "public",
+      "source_commit_sha": "7256adc4834916d816f66be2823e7a658fffc026",
+      "tree_sha": "8ddf66cf76eff997730157f021333a6c58713cbd",
+      "commit_verified": true,
+      "verified_on": "2026-10-25",
+      "retention_status": "retained_for_review_not_featured",
+      "purpose": "Learning implementation of a character-level bigram and decoder-only GPT model",
+      "maturity": "Educational model notebooks; not a production LLM",
+      "technologies": [
+        "Python",
+        "PyTorch",
+        "Jupyter Notebook",
+        "AdamW"
+      ],
+      "test_evidence": {
+        "status": "not_run_in_initial_audit",
+        "summary": "No tests/CI, seed-pinned benchmark or current runtime validation."
+      },
+      "architecture": {
+        "status": "audit_summary_only",
+        "summary": "README explanation and gpt architecture.png; notebook code inspected; image not rendered.",
+        "source_url": "https://github.com/jyotheshkar/Creating-a-Large-Language-Model-from-Scratch/tree/7256adc4834916d816f66be2823e7a658fffc026"
+      },
+      "evidence_urls": [
+        "https://github.com/jyotheshkar/Creating-a-Large-Language-Model-from-Scratch/tree/7256adc4834916d816f66be2823e7a658fffc026",
+        "https://github.com/jyotheshkar/Creating-a-Large-Language-Model-from-Scratch/blob/7256adc4834916d816f66be2823e7a658fffc026/README.md",
+        "https://github.com/jyotheshkar/Creating-a-Large-Language-Model-from-Scratch/blob/7256adc4834916d816f66be2823e7a658fffc026/bigram.ipynb",
+        "https://github.com/jyotheshkar/Creating-a-Large-Language-Model-from-Scratch/blob/7256adc4834916d816f66be2823e7a658fffc026/gpt-v1%20(3).ipynb"
+      ],
+      "limitations": [
+        "Retained source is not a claim of flagship readiness, licence clearance, complete history scanning or a verified live deployment.",
+        "Test summary is the initial audit record; no later pass is inferred."
+      ]
+    },
+    {
+      "repository_name": "ReInforcement-Learning-Agent-",
+      "github_repository_id": "923215841",
+      "repository_url": "https://github.com/jyotheshkar/ReInforcement-Learning-Agent-",
+      "visibility": "public",
+      "source_commit_sha": "b8f832daf53df0bb57a2356e798a3a1d13ac3ed4",
+      "tree_sha": "9ec948e3d845934099a5a1b502cdd43638528f68",
+      "commit_verified": true,
+      "verified_on": "2026-10-25",
+      "retention_status": "retained_for_review_not_featured",
+      "purpose": "Pygame zombie-survival simulation with a DQN agent",
+      "maturity": "Interactive RL prototype; not run",
+      "technologies": [
+        "Python",
+        "Pygame",
+        "PyTorch",
+        "NumPy",
+        "DQN",
+        "experience replay"
+      ],
+      "test_evidence": {
+        "status": "not_run_in_initial_audit",
+        "summary": "No automated tests/CI or fixed-seed policy evaluation."
+      },
+      "architecture": {
+        "status": "audit_summary_only",
+        "summary": "README high-level state/action/reward description; single script.",
+        "source_url": "https://github.com/jyotheshkar/ReInforcement-Learning-Agent-/tree/b8f832daf53df0bb57a2356e798a3a1d13ac3ed4"
+      },
+      "evidence_urls": [
+        "https://github.com/jyotheshkar/ReInforcement-Learning-Agent-/tree/b8f832daf53df0bb57a2356e798a3a1d13ac3ed4",
+        "https://github.com/jyotheshkar/ReInforcement-Learning-Agent-/blob/b8f832daf53df0bb57a2356e798a3a1d13ac3ed4/README.md",
+        "https://github.com/jyotheshkar/ReInforcement-Learning-Agent-/blob/b8f832daf53df0bb57a2356e798a3a1d13ac3ed4/ai.py"
+      ],
+      "limitations": [
+        "Retained source is not a claim of flagship readiness, licence clearance, complete history scanning or a verified live deployment.",
+        "Test summary is the initial audit record; no later pass is inferred."
+      ]
+    },
+    {
+      "repository_name": "nextwork-web-project",
+      "github_repository_id": "947225694",
+      "repository_url": "https://github.com/jyotheshkar/nextwork-web-project",
+      "visibility": "public",
+      "source_commit_sha": "a536ae778a87a6c1ca0cf8ff4ffe29def8a28d1a",
+      "tree_sha": "17437e64e86e33b5271654e6468506a292c8051a",
+      "commit_verified": true,
+      "verified_on": "2026-10-25",
+      "retention_status": "retained_for_review_not_featured",
+      "purpose": "Basic Maven/JSP web application and AWS CodeBuild/CodeArtifact CI learning exercise.",
+      "maturity": "Environment-dependent AWS CI/CD web lab source; build not reproduced.",
+      "technologies": [
+        "Java",
+        "Maven",
+        "JSP",
+        "AWS CodeBuild",
+        "AWS CodeArtifact"
+      ],
+      "test_evidence": {
+        "status": "not_run_in_initial_audit",
+        "summary": "No test files or GitHub Actions runs; build not executed."
+      },
+      "architecture": {
+        "status": "audit_summary_only",
+        "summary": "buildspec.yml and settings.xml show CI dependency flow; no architecture narrative.",
+        "source_url": "https://github.com/jyotheshkar/nextwork-web-project/tree/a536ae778a87a6c1ca0cf8ff4ffe29def8a28d1a"
+      },
+      "evidence_urls": [
+        "https://github.com/jyotheshkar/nextwork-web-project/tree/a536ae778a87a6c1ca0cf8ff4ffe29def8a28d1a",
+        "https://github.com/jyotheshkar/nextwork-web-project/blob/a536ae778a87a6c1ca0cf8ff4ffe29def8a28d1a/README.md",
+        "https://github.com/jyotheshkar/nextwork-web-project/blob/a536ae778a87a6c1ca0cf8ff4ffe29def8a28d1a/buildspec.yml",
+        "https://github.com/jyotheshkar/nextwork-web-project/blob/a536ae778a87a6c1ca0cf8ff4ffe29def8a28d1a/pom.xml",
+        "https://github.com/jyotheshkar/nextwork-web-project/blob/a536ae778a87a6c1ca0cf8ff4ffe29def8a28d1a/settings.xml"
+      ],
+      "limitations": [
+        "Retained source is not a claim of flagship readiness, licence clearance, complete history scanning or a verified live deployment.",
+        "Test summary is the initial audit record; no later pass is inferred."
+      ]
+    },
+    {
+      "repository_name": "jyotheshkar-RAG-Based-AI-Chatbot-with-AWS-Bedrock",
+      "github_repository_id": "954229262",
+      "repository_url": "https://github.com/jyotheshkar/jyotheshkar-RAG-Based-AI-Chatbot-with-AWS-Bedrock",
+      "visibility": "public",
+      "source_commit_sha": "292747aa98545532cf21505a44e5fbb18613efec",
+      "tree_sha": "2a45d2c7c9a7306792b78205383e13d29a57d090",
+      "commit_verified": true,
+      "verified_on": "2026-10-25",
+      "retention_status": "retained_for_review_not_featured",
+      "purpose": "Documented NextWork hands-on Bedrock RAG knowledge-base lab.",
+      "maturity": "Documentation-only AWS lab and architecture case study.",
+      "technologies": [
+        "Amazon Bedrock",
+        "Amazon S3",
+        "OpenSearch Serverless",
+        "Titan Text Embeddings v2"
+      ],
+      "test_evidence": {
+        "status": "not_run_in_initial_audit",
+        "summary": "Manual lab testing described in README; no source, IaC or executable tests; not run."
+      },
+      "architecture": {
+        "status": "audit_summary_only",
+        "summary": "Architecture PNG present; binary image/PDF contents not inspected in this audit.",
+        "source_url": "https://github.com/jyotheshkar/jyotheshkar-RAG-Based-AI-Chatbot-with-AWS-Bedrock/tree/292747aa98545532cf21505a44e5fbb18613efec"
+      },
+      "evidence_urls": [
+        "https://github.com/jyotheshkar/jyotheshkar-RAG-Based-AI-Chatbot-with-AWS-Bedrock/tree/292747aa98545532cf21505a44e5fbb18613efec",
+        "https://github.com/jyotheshkar/jyotheshkar-RAG-Based-AI-Chatbot-with-AWS-Bedrock/blob/292747aa98545532cf21505a44e5fbb18613efec/README.md"
+      ],
+      "limitations": [
+        "Retained source is not a claim of flagship readiness, licence clearance, complete history scanning or a verified live deployment.",
+        "Test summary is the initial audit record; no later pass is inferred."
+      ]
+    },
+    {
+      "repository_name": "AWS-Three-Tier-Web-Application-",
+      "github_repository_id": "957066769",
+      "repository_url": "https://github.com/jyotheshkar/AWS-Three-Tier-Web-Application-",
+      "visibility": "public",
+      "source_commit_sha": "d4988dccc76726f162920a70a5f9b89917871cac",
+      "tree_sha": "a1582c1563f193e582625ad92bf73167ac35bb84",
+      "commit_verified": true,
+      "verified_on": "2026-10-25",
+      "retention_status": "retained_for_review_not_featured",
+      "purpose": "Documented AWS serverless three-tier learning case study.",
+      "maturity": "Documentation-only AWS three-tier lab and architecture case study.",
+      "technologies": [
+        "S3",
+        "CloudFront OAC",
+        "API Gateway",
+        "Lambda",
+        "DynamoDB",
+        "IAM"
+      ],
+      "test_evidence": {
+        "status": "not_run_in_initial_audit",
+        "summary": "README claims performance testing, without machine-readable benchmark or source in current tree; not reproduced."
+      },
+      "architecture": {
+        "status": "audit_summary_only",
+        "summary": "Architecture image and four PDF reports present, binary contents not inspected.",
+        "source_url": "https://github.com/jyotheshkar/AWS-Three-Tier-Web-Application-/tree/d4988dccc76726f162920a70a5f9b89917871cac"
+      },
+      "evidence_urls": [
+        "https://github.com/jyotheshkar/AWS-Three-Tier-Web-Application-/tree/d4988dccc76726f162920a70a5f9b89917871cac",
+        "https://github.com/jyotheshkar/AWS-Three-Tier-Web-Application-/blob/d4988dccc76726f162920a70a5f9b89917871cac/README.md"
+      ],
+      "limitations": [
+        "Retained source is not a claim of flagship readiness, licence clearance, complete history scanning or a verified live deployment.",
+        "Test summary is the initial audit record; no later pass is inferred."
+      ]
+    },
+    {
+      "repository_name": "Jyothesh-Karnam-Portfolio",
+      "github_repository_id": "957192993",
+      "repository_url": "https://github.com/jyotheshkar/Jyothesh-Karnam-Portfolio",
+      "visibility": "public",
+      "source_commit_sha": "a0baa2ad33f91e4c97103230701eb9ff501d7470",
+      "tree_sha": "bf2948d2c1a5c53a623b7b7f7502b14c801d4074",
+      "commit_verified": true,
+      "verified_on": "2026-10-25",
+      "retention_status": "retained_for_review_not_featured",
+      "purpose": "Personal portfolio website with experience, education, awards, projects and contact form.",
+      "maturity": "Implemented website source; run/deployment unverified",
+      "technologies": [
+        "Next.js15.2.1",
+        "React19",
+        "TypeScript",
+        "Tailwind CSS",
+        "Framer Motion",
+        "Nodemailer"
+      ],
+      "test_evidence": {
+        "status": "not_run_in_initial_audit",
+        "summary": "No test files identified in inspected tree; package scripts dev/build/start/lint and no test script.0Actions runs,0releases. Not built or executed in this audit."
+      },
+      "architecture": {
+        "status": "audit_summary_only",
+        "summary": "Source tree shows Next.js App Router plus server contact endpoint; architecture documentation absent.",
+        "source_url": "https://github.com/jyotheshkar/Jyothesh-Karnam-Portfolio/tree/a0baa2ad33f91e4c97103230701eb9ff501d7470"
+      },
+      "evidence_urls": [
+        "https://github.com/jyotheshkar/Jyothesh-Karnam-Portfolio/tree/a0baa2ad33f91e4c97103230701eb9ff501d7470",
+        "https://github.com/jyotheshkar/Jyothesh-Karnam-Portfolio/blob/a0baa2ad33f91e4c97103230701eb9ff501d7470/README.md",
+        "https://github.com/jyotheshkar/Jyothesh-Karnam-Portfolio/blob/a0baa2ad33f91e4c97103230701eb9ff501d7470/package.json",
+        "https://github.com/jyotheshkar/Jyothesh-Karnam-Portfolio/blob/a0baa2ad33f91e4c97103230701eb9ff501d7470/app/api/contact/route.ts",
+        "https://github.com/jyotheshkar/Jyothesh-Karnam-Portfolio/blob/a0baa2ad33f91e4c97103230701eb9ff501d7470/next.config.ts"
+      ],
+      "limitations": [
+        "Retained source is not a claim of flagship readiness, licence clearance, complete history scanning or a verified live deployment.",
+        "Test summary is the initial audit record; no later pass is inferred."
+      ]
+    },
+    {
+      "repository_name": "Car-Sharing-Demand-Analysis",
+      "github_repository_id": "966757148",
+      "repository_url": "https://github.com/jyotheshkar/Car-Sharing-Demand-Analysis",
+      "visibility": "public",
+      "source_commit_sha": "c1338d77b16af250a28eab346fd6e60f103c3b2d",
+      "tree_sha": "c5a1bca60ef507187986a77a06930efb986766ad",
+      "commit_verified": true,
+      "verified_on": "2026-10-25",
+      "retention_status": "retained_for_review_not_featured",
+      "purpose": "Academic-style SQLite database management and car-sharing demand analysis notebooks.",
+      "maturity": "Coursework notebooks and SQLite scripts; missing inputs, stored modelling error and leakage risk.",
+      "technologies": [
+        "Python",
+        "SQLite",
+        "pandas",
+        "NumPy",
+        "statsmodels",
+        "scikit-learn",
+        "TensorFlow/Keras",
+        "Jupyter"
+      ],
+      "test_evidence": {
+        "status": "not_run_in_initial_audit",
+        "summary": "No standalone test harness/dependency lockfile. Stored RF/DNN cell output fails ValueError: could not convert string to float: 'summer'. No notebook execution performed."
+      },
+      "architecture": {
+        "status": "audit_summary_only",
+        "summary": "No separate design documentation; database and notebooks imply analysis flow only.",
+        "source_url": "https://github.com/jyotheshkar/Car-Sharing-Demand-Analysis/tree/c1338d77b16af250a28eab346fd6e60f103c3b2d"
+      },
+      "evidence_urls": [
+        "https://github.com/jyotheshkar/Car-Sharing-Demand-Analysis/tree/c1338d77b16af250a28eab346fd6e60f103c3b2d",
+        "https://github.com/jyotheshkar/Car-Sharing-Demand-Analysis/blob/c1338d77b16af250a28eab346fd6e60f103c3b2d/README.md",
+        "https://github.com/jyotheshkar/Car-Sharing-Demand-Analysis/blob/c1338d77b16af250a28eab346fd6e60f103c3b2d/DataAnalytics.ipynb",
+        "https://github.com/jyotheshkar/Car-Sharing-Demand-Analysis/blob/c1338d77b16af250a28eab346fd6e60f103c3b2d/DatabaseManagement.ipynb"
+      ],
+      "limitations": [
+        "Retained source is not a claim of flagship readiness, licence clearance, complete history scanning or a verified live deployment.",
+        "Test summary is the initial audit record; no later pass is inferred."
+      ]
+    },
+    {
+      "repository_name": "Portfolio-",
+      "github_repository_id": "1026397639",
+      "repository_url": "https://github.com/jyotheshkar/Portfolio-",
+      "visibility": "public",
+      "source_commit_sha": "6f00659525b8af7e37aced03b1d7436937aa2bd4",
+      "tree_sha": "a3dd2f48e5acea98586d9238af7ed0e00a0c195d",
+      "commit_verified": true,
+      "verified_on": "2026-10-25",
+      "retention_status": "retained_for_review_not_featured",
+      "purpose": "Single-page portfolio for a different named individual; not Jo's professional evidence.",
+      "maturity": "Static page for another person",
+      "technologies": [
+        "HTML",
+        "Tailwind CDN",
+        "JavaScript",
+        "IntersectionObserver"
+      ],
+      "test_evidence": {
+        "status": "not_run_in_initial_audit",
+        "summary": "One commit,0releases,0Actions runs; no automated tests. Not browser-tested."
+      },
+      "architecture": {
+        "status": "audit_summary_only",
+        "summary": "Single-file static document.",
+        "source_url": "https://github.com/jyotheshkar/Portfolio-/tree/6f00659525b8af7e37aced03b1d7436937aa2bd4"
+      },
+      "evidence_urls": [
+        "https://github.com/jyotheshkar/Portfolio-/tree/6f00659525b8af7e37aced03b1d7436937aa2bd4",
+        "https://github.com/jyotheshkar/Portfolio-/blob/6f00659525b8af7e37aced03b1d7436937aa2bd4/k.html"
+      ],
+      "limitations": [
+        "Retained source is not a claim of flagship readiness, licence clearance, complete history scanning or a verified live deployment.",
+        "Test summary is the initial audit record; no later pass is inferred."
+      ]
+    },
+    {
+      "repository_name": "sentinel-ai",
+      "github_repository_id": "1187490657",
+      "repository_url": "https://github.com/jyotheshkar/sentinel-ai",
+      "visibility": "public",
+      "source_commit_sha": "f17cc6109d2b3a1b852a62fff0fdd2d11e40ff56",
+      "tree_sha": "a679e543b1397fabd221c88ccd4b902b97259e54",
+      "commit_verified": true,
+      "verified_on": "2026-10-25",
+      "retention_status": "retained_for_review_not_featured",
+      "purpose": "Simulated e-commerce monitoring, anomaly detection and LLM-assisted incident-investigation prototype.",
+      "maturity": "Multi-agent prototype; live model-provider path unvalidated.",
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "Anthropic API",
+        "scikit-learn",
+        "SQLAlchemy/SQLite",
+        "FAISS",
+        "React/Vite",
+        "Tailwind"
+      ],
+      "test_evidence": {
+        "status": "not_run_in_initial_audit",
+        "summary": "No automated test files in current tree; evidence/feature_4_proof.md is historical manually recorded proof, not current independent execution."
+      },
+      "architecture": {
+        "status": "audit_summary_only",
+        "summary": "Orchestrator graph code shows fixed phases and concurrent specialist calls; README shared message bus claim not established.",
+        "source_url": "https://github.com/jyotheshkar/sentinel-ai/tree/f17cc6109d2b3a1b852a62fff0fdd2d11e40ff56"
+      },
+      "evidence_urls": [
+        "https://github.com/jyotheshkar/sentinel-ai/tree/f17cc6109d2b3a1b852a62fff0fdd2d11e40ff56",
+        "https://github.com/jyotheshkar/sentinel-ai/blob/f17cc6109d2b3a1b852a62fff0fdd2d11e40ff56/README.md",
+        "https://github.com/jyotheshkar/sentinel-ai/blob/f17cc6109d2b3a1b852a62fff0fdd2d11e40ff56/backend/agents/orchestrator.py",
+        "https://github.com/jyotheshkar/sentinel-ai/blob/f17cc6109d2b3a1b852a62fff0fdd2d11e40ff56/backend/agents/supervisor.py",
+        "https://github.com/jyotheshkar/sentinel-ai/blob/f17cc6109d2b3a1b852a62fff0fdd2d11e40ff56/backend/routers/agents.py"
+      ],
+      "limitations": [
+        "Retained source is not a claim of flagship readiness, licence clearance, complete history scanning or a verified live deployment.",
+        "Test summary is the initial audit record; no later pass is inferred."
+      ]
+    },
+    {
+      "repository_name": "random",
+      "github_repository_id": "1203123538",
+      "repository_url": "https://github.com/jyotheshkar/random",
+      "visibility": "public",
+      "source_commit_sha": "179e54859ff1ce9e83cb709e321486d88186277c",
+      "tree_sha": "406d357175a279ee510893bc1c4bc51b9b74456c",
+      "commit_verified": true,
+      "verified_on": "2026-10-25",
+      "retention_status": "retained_for_review_not_featured",
+      "purpose": "Personal job-application answer drafts, not a software project.",
+      "maturity": "Personal notes",
+      "technologies": [
+        "Markdown"
+      ],
+      "test_evidence": {
+        "status": "not_run_in_initial_audit",
+        "summary": "Two commits,0tests,0Actions runs,0releases."
+      },
+      "architecture": {
+        "status": "audit_summary_only",
+        "summary": "None.",
+        "source_url": "https://github.com/jyotheshkar/random/tree/179e54859ff1ce9e83cb709e321486d88186277c"
+      },
+      "evidence_urls": [
+        "https://github.com/jyotheshkar/random/tree/179e54859ff1ce9e83cb709e321486d88186277c",
+        "https://github.com/jyotheshkar/random/blob/179e54859ff1ce9e83cb709e321486d88186277c/README.md"
+      ],
+      "limitations": [
+        "Retained source is not a claim of flagship readiness, licence clearance, complete history scanning or a verified live deployment.",
+        "Test summary is the initial audit record; no later pass is inferred."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "quasar-public-evidence",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-public.mjs",
+    "pretest": "node scripts/build-public.mjs",
+    "test": "node --test tests/atlas-contract.test.mjs scripts/test-public.mjs",
+    "test:contracts": "node --test tests/atlas-contract.test.mjs",
+    "test:historical": "node --test tests/restoration.test.mjs tests/atlas-contract.test.mjs tests/atlas-api.test.mjs"
+  }
+}

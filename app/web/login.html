@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#050505">
+  <title>Sol System v8 | Your Private Workspace</title>
+  <meta name="description" content="Scout, Auto, Ultra and Pulse. Four connected components for a deliberate, evidence-led job search.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23050505'/%3E%3Cpath d='M9 42A23 23 0 0 1 55 42' fill='none' stroke='%23ef4a56' stroke-width='7'/%3E%3Cpath d='M32 42 45 22' stroke='white' stroke-width='5'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="/landing.css"><link rel="stylesheet" href="/site-nav.css"><script type="module" src="/login.js"></script>
+</head>
+<body class="locked">
+  <a class="lp-skip" href="#email">Skip To Sign In</a>
+  <main class="lp-shell" id="entry">
+    <header class="lp-header" data-site-header>
+      <a class="lp-brand" href="/" aria-label="Sol System Home"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M9 42A23 23 0 0 1 55 42"/><path d="M32 42 45 22"/></svg><span>Sol <b>System</b></span></a>
+      <span class="lp-header-caption">Personal Career Intelligence</span>
+      <nav aria-label="Landing Navigation"><button class="lp-motion-toggle" id="motion-toggle" type="button" aria-pressed="false">Pause Motion</button><button class="lp-fullscreen-toggle" id="fullscreen-toggle" type="button" aria-label="Enter full screen" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H3v5M16 3h5v5M21 16v5h-5M3 16v5h5"/></svg><span>Full Screen</span></button><a href="#system">The System</a><a class="lp-access-link" href="#email"><svg viewBox="0 0 20 20" aria-hidden="true"><rect x="5" y="8" width="10" height="9" rx="2"/><path d="M7 8V5a3 3 0 0 1 6 0v3"/></svg>Private Access</a></nav>
+    </header>
+    <div class="lp-main">
+      <section class="lp-system" id="system" aria-labelledby="system-title">
+        <div class="lp-intro"><p class="lp-eyebrow"><span></span>Four <strong>Agents.</strong> Moving In One Direction.</p><h1 id="system-title">A System For <span>Your Next Chapter.</span></h1><p class="lp-intro-copy">Find The Right Opportunities. Prepare With Precision.<br class="lp-wide-break"> Keep Every Outcome In View.</p><a class="architecture-cta" id="architecture-open" href="/architecture?view=pipeline"><img src="/architecture-icons/workflow.svg" alt="">View Sol System Architecture<span aria-hidden="true">↗</span></a></div>
+        <div class="lp-orbit-stage" id="orbit-stage" aria-label="Explore the four Sol components">
+          <div class="lp-orbit-fallback" id="orbit-fallback" aria-hidden="true"><span></span><span></span><span></span><i></i><b>Sol</b></div><canvas id="orb" aria-hidden="true"></canvas><div class="lp-orbit-coordinate" aria-hidden="true">Connected By Evidence</div>
+          <div class="lp-component-controls" role="group" aria-label="Choose a Sol component">
+            <button type="button" class="lp-orbit-node lp-node-scout" data-component="scout" aria-pressed="true" aria-controls="component-detail"><span class="lp-node-mark">01</span><span><b>Scout</b><small>Discover & Verify</small></span></button>
+            <button type="button" class="lp-orbit-node lp-node-auto" data-component="auto" aria-pressed="false" aria-controls="component-detail"><span class="lp-node-mark">02</span><span><b>Auto</b><small>Prepare Outreach</small></span></button>
+            <button type="button" class="lp-orbit-node lp-node-ultra" data-component="ultra" aria-pressed="false" aria-controls="component-detail"><span class="lp-node-mark">03</span><span><b>Ultra</b><small>Build The Pack</small></span></button>
+            <button type="button" class="lp-orbit-node lp-node-pulse" data-component="pulse" aria-pressed="false" aria-controls="component-detail"><span class="lp-node-mark">04</span><span><b>Pulse</b><small>See The Evidence</small></span></button>
+          </div>
+        </div>
+        <div class="lp-focus" id="component-detail" aria-live="polite" aria-atomic="true"><span class="lp-focus-index" id="component-index">01 / Scout</span><div class="lp-focus-content"><div class="lp-focus-title-row"><h2 id="component-title">Start With A Better Signal.</h2></div><p id="component-copy">Finds Opportunities, Checks Role Fit And Sponsorship Evidence, Then Routes Candidates To The Right Workflow.</p></div><span class="lp-focus-arrow" aria-hidden="true">↗</span></div>
+      </section>
+      <aside class="lp-access" aria-labelledby="access-title">
+        <div class="lp-access-top"><span class="lp-private"><i></i>Private Workspace</span><span class="lp-access-symbol" aria-hidden="true">↗</span></div>
+        <div class="lp-access-heading"><h2 id="access-title">Welcome Back, <span>Jyo.</span></h2><p>One Place To See The Work,<br>The Progress And What Comes Next.</p></div>
+        <form id="login-form">
+          <label for="email">Email Address</label><div class="lp-input"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7 8 6 8-6"/></svg><input id="email" name="email" type="email" autocomplete="username" placeholder="Your Email Address" required spellcheck="false" autocapitalize="none"></div>
+          <label for="password">Password</label><div class="lp-input"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10" width="14" height="11" rx="3"/><path d="M8 10V6a4 4 0 0 1 8 0v4"/></svg><input id="password" name="password" type="password" autocomplete="current-password" placeholder="Your Password" required minlength="1" maxlength="256"><button class="lp-reveal" id="reveal" type="button" aria-label="Show Password" aria-pressed="false">Show</button></div>
+          <p class="lp-error" id="login-error" role="alert"></p><button class="lp-enter" id="enter-button" type="submit"><span>Login To Sol Pulse</span><span aria-hidden="true">↗</span></button>
+        </form>
+        <div class="lp-assurance"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 8 3v6c0 5-8 9-8 9s-8-4-8-9V6Z"/><path d="m8 12 3 3 5-6"/></svg><p>Personal Access Only.<br><span>Your Workspace Stays Private.</span></p></div>
+      </aside>
+    </div>
+    <section class="lp-directory" aria-label="Sol components">
+    <div class="lp-pillars" aria-label="What each Sol component does">
+      <button class="lp-pillar" type="button" data-component="scout" aria-pressed="true" aria-controls="component-detail"><span class="lp-pillar-top"><span class="lp-pillar-number">01</span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 5 5M10 6v8M6 10h8"/></svg></span><span class="lp-pillar-title">Scout</span><span class="lp-purpose-tag">Finds & Checks Opportunities</span><span class="lp-pillar-copy">Role Fit. Sponsorship Evidence.<br>A Clear Route Forward.</span><span class="lp-pillar-arrow" aria-hidden="true">↗</span></button>
+      <button class="lp-pillar" type="button" data-component="auto" aria-pressed="false" aria-controls="component-detail"><span class="lp-pillar-top"><span class="lp-pillar-number">02</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m13 3-8 11h6l-1 7 9-12h-7Z"/></svg></span><span class="lp-pillar-title">Auto</span><span class="lp-purpose-tag">Prepares Tailored Outreach</span><span class="lp-pillar-copy">Exact-Role Preparation.<br>Sends Only When Authorised.</span><span class="lp-pillar-arrow" aria-hidden="true">↗</span></button>
+      <button class="lp-pillar" type="button" data-component="ultra" aria-pressed="false" aria-controls="component-detail"><span class="lp-pillar-top"><span class="lp-pillar-number">03</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h9l4 4v14H7ZM16 3v5h4M3 7v14M11 12h5M11 16h5"/></svg></span><span class="lp-pillar-title">Ultra</span><span class="lp-purpose-tag">Builds Application Packs</span><span class="lp-pillar-copy">Tailored Materials And Answers.<br>Ready For Your Review.</span><span class="lp-pillar-arrow" aria-hidden="true">↗</span></button>
+      <button class="lp-pillar" type="button" data-component="pulse" aria-pressed="false" aria-controls="component-detail"><span class="lp-pillar-top"><span class="lp-pillar-number">04</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 13h5l3-8 4 15 3-7h5"/></svg></span><span class="lp-pillar-title">Pulse</span><span class="lp-purpose-tag">Tracks Verified Progress</span><span class="lp-pillar-copy">Evidence Behind The Numbers.<br>Clarity Across The Campaign.</span><span class="lp-pillar-arrow" aria-hidden="true">↗</span></button>
+    </div>
+    </section>
+    <footer class="lp-footer"><span>Built For Deliberate Progress.</span><span>London, United Kingdom<span class="lp-footer-dot">·</span>Sol System</span></footer>
+  </main>
+  <noscript><p class="lp-noscript">JavaScript Is Required To Sign In To Your Private Workspace.</p></noscript>
+</body>
+</html>

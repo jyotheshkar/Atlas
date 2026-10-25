@@ -1,0 +1,62 @@
+{
+  "verified_date_utc": "2026-10-25",
+  "recovery_method": "Read-only local Git object export after official Sites source helper failed at Git DNS/network resolution",
+  "source_files_modified": true,
+  "site_changes": false,
+  "github_writes": false,
+  "history_exported": false,
+  "source_history_security_clearance": false,
+  "publication_scope": "Sanitized historical v47 derivative plus listed projects-only public build and documentation; private operational resource references, records, generated output and hosting configuration excluded.",
+  "review": {
+    "credential_scan": "Current snapshot text scanned for recognised key formats and credential literals. Candidate matches were manually classified as non-secret identifiers or synthetic test fixtures.",
+    "private_data": "Operational career datasets, application CSVs, source-host configuration, private operations and QA screenshots excluded.",
+    "third_party": "Existing vendor licences and provenance retained; no claim of exclusive rights to bundled libraries or architecture icons.",
+    "operational_references": "Removed the embedded private Google Sheets ledger anchor from web/operations.js; public technical documentation/OSS links and labelled synthetic references retained. Independent review binds a new closed-set freeze."
+  },
+  "project": "QUASAR",
+  "latest_site_version": 49,
+  "latest_site_source_commit": "e03b18fff2012e37f3d6800ddac4ba74c6b09134",
+  "recovered_version": 47,
+  "recovered_source_commit": "da0119d5ebb9780744e726a15967bd67a0e1fca8",
+  "matches_latest_site_source": false,
+  "source_sync_status": "pending_exact_v49_retrieval",
+  "site_deployment_status": "succeeded",
+  "site_url": "https://quasar.jyothesh-karnam.chatgpt.site",
+  "original_source_files": 74,
+  "original_source_bytes": 2556974,
+  "excluded": [
+    ".openai/hosting.json",
+    "dist generated server bundle",
+    "operations/**",
+    "docs/qa/**",
+    "web/campaign.json",
+    "web/cohort.json",
+    "web/operational.json",
+    "web/snapshot.json",
+    "web/ultra-applications.csv",
+    ".git source history"
+  ],
+  "maturity": "Historical v47 implementation source plus tested projects-only UNCONNECTED public derivative. Exact v49 source and live provider integration remain unverified.",
+  "standalone_build": "PASS: npm run build creates projects-only UNCONNECTED worker without private inputs or hosting configuration. This is a new derivative, not the original v47 build or v49 recovery.",
+  "derivative_changes": {
+    "modified_original_paths": [
+      "package.json",
+      "web/operations.js"
+    ],
+    "original_package_preserved_at": "docs/historical-package.json",
+    "new_default_build": "scripts/build-public.mjs",
+    "new_checks": "scripts/test-public.mjs",
+    "original_worker_web_tests_modified": true,
+    "generated_output": "dist/public/",
+    "generated_output_published": false,
+    "original_build_preserved_unchanged": "scripts/build.mjs",
+    "historical_source_sanitization": [
+      {
+        "path": "web/operations.js",
+        "change": "Removed private operational ledger hyperlink and identifier; replaced with a non-interactive omission notice. No replacement external resource was introduced."
+      }
+    ],
+    "unchanged_runtime_security": "worker/auth.mjs remains unchanged; public mode has no configured runtime authentication."
+  },
+  "latest_site_publication_time_utc": "2026-10-25T11:05:36Z"
+}

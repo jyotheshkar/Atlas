@@ -1,0 +1,1 @@
+{"name":"quasar","private":true,"type":"module","scripts":{"build":"node scripts/build.mjs","test":"node --test tests/restoration.test.mjs tests/atlas-contract.test.mjs tests/atlas-api.test.mjs"}}

@@ -1,0 +1,514 @@
+{
+  "source_commit_sha": "da0119d5ebb9780744e726a15967bd67a0e1fca8",
+  "matches_latest_site_commit": false,
+  "files": [
+    {
+      "path": "docs/historical-package.json",
+      "git_blob_sha": "a227a06037b74966ab9c462fd9ce4df815b4d388",
+      "sha256": "a05730a8be34fc9eedfdca44230284452066f6a2a8d76a74137470dc13949d54",
+      "bytes": 197,
+      "source_path": "package.json",
+      "note": "Original bytes preserved here; package.json is an explicitly changed public derivative."
+    },
+    {
+      "path": "scripts/build.mjs",
+      "git_blob_sha": "bc45db6b93bd646655806cf1f5c8d23c072b11e4",
+      "sha256": "d5826eb73bf4b0cb16857103d16e7b22925501923fa965a331bd0f6930b7643d",
+      "bytes": 1956
+    },
+    {
+      "path": "scripts/preview.mjs",
+      "git_blob_sha": "17449cbe5c318d2b61bca4a4fc0ed290de8d71bf",
+      "sha256": "77d711e2dc72075275f40724665c78527c782725ff445582a7c63efd9a8545df",
+      "bytes": 585
+    },
+    {
+      "path": "tests/atlas-api.test.mjs",
+      "git_blob_sha": "d82bd2e4b1a874ff2270618b2291982a6e95dcc7",
+      "sha256": "79afed1be28813705a30cb7d3910d0da7df0ca465290f163c5302c4746e19b01",
+      "bytes": 4878
+    },
+    {
+      "path": "tests/atlas-contract.test.mjs",
+      "git_blob_sha": "ae6131758079c54ccc3d50367894ac906fb7e91c",
+      "sha256": "633f499e0dcd8e07bf065adcd3a9df595bcc1eff4317b1b8e3c5bac4fee5bc99",
+      "bytes": 9335
+    },
+    {
+      "path": "tests/auth.test.mjs",
+      "git_blob_sha": "a7a23f94d28c1252f91b48ecb48f869846035dfe",
+      "sha256": "5bf4126c48f3184f344d22df05b48827fa52b21fa5c97b96d01f8d576d3a285d",
+      "bytes": 4620
+    },
+    {
+      "path": "tests/restoration.test.mjs",
+      "git_blob_sha": "6b3a05b7371302d129aee9f59379ade30720f83f",
+      "sha256": "e07c045c7abfcc178d6c47e827fef52eb1f386ca89001f6b39d4f221046de378",
+      "bytes": 1881
+    },
+    {
+      "path": "tests/v8.test.mjs",
+      "git_blob_sha": "69cbf3102b8bddba309b50df16a2e05788947890",
+      "sha256": "7aca71be4c133f969470a5b51d384b8c5e1979d8b52bc7c15c80639e50779e82",
+      "bytes": 2767
+    },
+    {
+      "path": "web/app.js",
+      "git_blob_sha": "acb9ecfc21af915d1fe74afac1c22c787d295cf3",
+      "sha256": "1c3273c8f2454d7431cf1830cfcbae7745e295e9f0bd8d1d053d09678fa707f8",
+      "bytes": 23989
+    },
+    {
+      "path": "web/architecture-data.js",
+      "git_blob_sha": "1c8570c5fe3ae5114c29fabb9e85a6094df4ccc5",
+      "sha256": "0b313da0f97c7d1ff468be5c72c453163f0daf26b3b3a21de1bfcf078df625a8",
+      "bytes": 34881
+    },
+    {
+      "path": "web/architecture-icons/SOURCES.md",
+      "git_blob_sha": "bab24e7fa077faabc9f04a201eb17520de64f925",
+      "sha256": "57987bbbe386482f695434b5af10e1ff53bae88c7a6775e53bd860099a90c48e",
+      "bytes": 4836
+    },
+    {
+      "path": "web/architecture-icons/activity.svg",
+      "git_blob_sha": "629b81c9fd020f3afec659daa5c9c7e5a1d07445",
+      "sha256": "050fbcda05e13c2051cf857683645e19c6b180861ef4d0cc28a6f09ba1ea1666",
+      "bytes": 346
+    },
+    {
+      "path": "web/architecture-icons/arrow-left.svg",
+      "git_blob_sha": "b40bff851c85eff44f678eb7984fc6070d7ea721",
+      "sha256": "c5f4b88076108eb1a0d95336e1aa7e7bb1419a3a92af96f6247d88cd3456f933",
+      "bytes": 262
+    },
+    {
+      "path": "web/architecture-icons/arrow-up-right.svg",
+      "git_blob_sha": "93bdeea23865b4b238dd3038414160949a10f925",
+      "sha256": "50b2503b9d11881142255466b7e3461d022b919735841c321d72003ac9959fe1",
+      "bytes": 260
+    },
+    {
+      "path": "web/architecture-icons/book-open.svg",
+      "git_blob_sha": "9e0ace59b788e2b45fc35d9fbf68c2a80bd518bc",
+      "sha256": "9b9bed0ff057283d5c5c5a1c71f8d3e927db26a56639603a92fdf7b25961510e",
+      "bytes": 387
+    },
+    {
+      "path": "web/architecture-icons/check-circle-2.svg",
+      "git_blob_sha": "14e45c58c9ece47f2204e89d19d8463f485325a0",
+      "sha256": "9711e045a5999f8a3b0782eb88e09b04e0559bc7b379dcc0a4ae645223e10345",
+      "bytes": 278
+    },
+    {
+      "path": "web/architecture-icons/clock-3.svg",
+      "git_blob_sha": "ae9b437bc5561da94bd68ffc0cbbf615abddbfe5",
+      "sha256": "0e097d0b66278965fb53bc14900575d95f5c21b9cca932028bbb33294b56c9e2",
+      "bytes": 269
+    },
+    {
+      "path": "web/architecture-icons/code-2.svg",
+      "git_blob_sha": "74f2299eb3e31a2ea1ce971ae8b4c64bf00ede88",
+      "sha256": "a6d2110227be375be21da7324d3c09262c1bf019d06bdeab356d515342ab7cce",
+      "bytes": 294
+    },
+    {
+      "path": "web/architecture-icons/database.svg",
+      "git_blob_sha": "f95db0e3f40633742b292b2f64f5d9c37e3eb157",
+      "sha256": "471eb14bc8d144896a82dfc4aa9daf350f769f0896f4bef33e50aabdbb51130d",
+      "bytes": 329
+    },
+    {
+      "path": "web/architecture-icons/file-check-2.svg",
+      "git_blob_sha": "d7c298b654fd5fd4136d0511cc531a2b7aac2cb8",
+      "sha256": "b697716c35561d0fbc65db4f60b7dcdc0074f9e4f44f4c8af9509fb73ad6d595",
+      "bytes": 392
+    },
+    {
+      "path": "web/architecture-icons/focus.svg",
+      "git_blob_sha": "c04d45afe02ba1d9b6190099cbf9b6690ee6351a",
+      "sha256": "d52fde05ccbd7bf629e05daeb8eadf824c85333aeca78e674db01493bc8b1f10",
+      "bytes": 401
+    },
+    {
+      "path": "web/architecture-icons/git-branch.svg",
+      "git_blob_sha": "06398f448481cb8276a9afa449b81ca13bae39d2",
+      "sha256": "041f04acc8f92657b849540f0440e2e85d0df0b8da2365611e81b9bebfafc4eb",
+      "bytes": 313
+    },
+    {
+      "path": "web/architecture-icons/globe.svg",
+      "git_blob_sha": "53c80ee35dd294b0193642f0731010e033ba0618",
+      "sha256": "82c6b8fa0b8e8d775ec9becd86f74a4e50bff7bee4c81f7362de45348504f14d",
+      "bytes": 331
+    },
+    {
+      "path": "web/architecture-icons/gmail.svg",
+      "git_blob_sha": "9ee779ada6753eab5e833350d167bff6747c9ae3",
+      "sha256": "a537f5d85d9a27efa3a5d6086e8df6072ee93f76b4d176639a5e483f74b74b9f",
+      "bytes": 339
+    },
+    {
+      "path": "web/architecture-icons/googledrive.svg",
+      "git_blob_sha": "9f44a507575153da2758a1c9b36f4c42a53fe22a",
+      "sha256": "7e678aba9e463140ec8603f0e6cc78bb80f6caf9cd3ee73335026a90729a1a40",
+      "bytes": 599
+    },
+    {
+      "path": "web/architecture-icons/googlesheets.svg",
+      "git_blob_sha": "c16ae49c6979ae8e31f1ee01b6db32633210da7d",
+      "sha256": "5f28308c62e37d7d5533f52bbff5b48dc8630189d1c9d9dcbd8d7821f50d877f",
+      "bytes": 444
+    },
+    {
+      "path": "web/architecture-icons/import.svg",
+      "git_blob_sha": "bcc91e7fdbaa454779b4613e600cedcc9ce1ac3b",
+      "sha256": "93e0d5fe2770620dc427d8250039d3d4ea5e3d256846ba4857b4266952476592",
+      "bytes": 350
+    },
+    {
+      "path": "web/architecture-icons/layers.svg",
+      "git_blob_sha": "a3b69ae319a8d3036bb5b26f92195bfe337e17bf",
+      "sha256": "ce16d0a955e3581cda17f6b2fd5c5bc2034b405f9cecc31c8ebb8495b4afc1bb",
+      "bytes": 510
+    },
+    {
+      "path": "web/architecture-icons/maximize-2.svg",
+      "git_blob_sha": "790d25383b0f59620553f01c06c472be343257f7",
+      "sha256": "9b8413ad44a3d4f5a80049713743daddcdc3c5465a71c218cac156a99f582b5b",
+      "bytes": 309
+    },
+    {
+      "path": "web/architecture-icons/modelcontextprotocol.svg",
+      "git_blob_sha": "b01b160e21db8d310ecb484b58229305c155edce",
+      "sha256": "4796bc576053cf2ae4724ea1813d9f4ec05bc671154abdd80a18b790613c7d81",
+      "bytes": 939
+    },
+    {
+      "path": "web/architecture-icons/openai.svg",
+      "git_blob_sha": "ebbdab0ecf9c844b8c20d25e9115c06f9332d3c2",
+      "sha256": "2b4a04ddc2395b20d168694d3850ce2050a702c4a0cdeb4d8b31b9a970481a8c",
+      "bytes": 1570
+    },
+    {
+      "path": "web/architecture-icons/panel-right-close.svg",
+      "git_blob_sha": "bcd34cbf15bf4cede3907c38a90304ae0cef0b86",
+      "sha256": "48b9f4f84d55f99d6e4b7dc9e31937f687bc6aca223c003d7f3bd8bab6526c0b",
+      "bytes": 313
+    },
+    {
+      "path": "web/architecture-icons/pause.svg",
+      "git_blob_sha": "ea5762fdbcccbf1f73bb2b46178bb1bafd1e373f",
+      "sha256": "f122ec4ea7f5693a0b1baafa9c708b53980dc87b4aacb297c6e6f71c1a4c115c",
+      "bytes": 313
+    },
+    {
+      "path": "web/architecture-icons/play.svg",
+      "git_blob_sha": "199743ed2e546fdcef48f9ebbe4030e8f75c59c1",
+      "sha256": "d7c34786135922a92b6896f6c2384ceeb0346afbf6041dc79982011411409833",
+      "bytes": 306
+    },
+    {
+      "path": "web/architecture-icons/puzzle.svg",
+      "git_blob_sha": "bc7ea8e9e5002655bb2c8a2684e9c30c8cd26bc5",
+      "sha256": "6d80d0c3b214c96945ed0f1c6ee0e4c4ea3911c6cc91c75751fdba08c31eab02",
+      "bytes": 685
+    },
+    {
+      "path": "web/architecture-icons/route.svg",
+      "git_blob_sha": "12f7088149e34e9fd9e6dc0504eff800b9aa1235",
+      "sha256": "fc169fd38a9963b016ad6d60fd72baa2b0ea8e0cec085bbc53287297c3d8121a",
+      "bytes": 344
+    },
+    {
+      "path": "web/architecture-icons/search.svg",
+      "git_blob_sha": "03e442a5440cff92c219fe3a3c1f2b0788d30701",
+      "sha256": "283d371c2e433817bb9c0c8310caa6c77fa4177c0f4f1168d9c83b97af7389dc",
+      "bytes": 275
+    },
+    {
+      "path": "web/architecture-icons/send.svg",
+      "git_blob_sha": "001843b91e1052d66954f95d48cfd332536cfeb7",
+      "sha256": "a489257f447b808ab6b258ae888fa49686885bbc30a7a2774d97a01f11f9cd5e",
+      "bytes": 393
+    },
+    {
+      "path": "web/architecture-icons/shield-check.svg",
+      "git_blob_sha": "da48f664e51be4ceb800dbe4f6c10c5e7cfa800e",
+      "sha256": "8d4fcdbde5bba4abb1a2f6fe53e37ceb6343a1d5449a9d88f6f97c1971d26c4e",
+      "bytes": 415
+    },
+    {
+      "path": "web/architecture-icons/sqlite.svg",
+      "git_blob_sha": "a776ea18f38eaa07da56c18f66ec752e0d0a4439",
+      "sha256": "71d4153bc9661dfe6b92dad70f737ec2b6c7c839311e502b4ca66fe664fe12b6",
+      "bytes": 1420
+    },
+    {
+      "path": "web/architecture-icons/triangle-alert.svg",
+      "git_blob_sha": "3232fb062dc26463279016cd7483677de9ef9bbd",
+      "sha256": "4866f38b8560d410f21e3226413e0b77997b6dfbb6931fadfe0a0d5aef9ffeb4",
+      "bytes": 345
+    },
+    {
+      "path": "web/architecture-icons/user-round.svg",
+      "git_blob_sha": "5f27e339cd3b279270e94700634dd9ba91df8974",
+      "sha256": "84870f26f3faf8da45da84174517519e81b9e8f00319c78954fcbb74f50038a1",
+      "bytes": 279
+    },
+    {
+      "path": "web/architecture-icons/workflow.svg",
+      "git_blob_sha": "20784a2ab7cedbf81fc5f8a6a8f6fcdc5d6552ea",
+      "sha256": "ae99ea8f56a2835a2cca35b2fbb57643ab73443610970dba23e24bd9df75cfec",
+      "bytes": 351
+    },
+    {
+      "path": "web/architecture-icons/zoom-in.svg",
+      "git_blob_sha": "11173c0e1cefd42bd41d37536a7296245855c437",
+      "sha256": "91206ae20013e2c84f2f5d09db5a7200f11698a84fc4e857b06fab2ce7c933f1",
+      "bytes": 376
+    },
+    {
+      "path": "web/architecture-icons/zoom-out.svg",
+      "git_blob_sha": "70abec44b4647eb59c065455841e6baeeb57503b",
+      "sha256": "28e7849b55bb9b34cb24be83b4e8ef58f2ae164fc451fbd60e026bfb507d2921",
+      "bytes": 334
+    },
+    {
+      "path": "web/architecture-summary.css",
+      "git_blob_sha": "e49850f1585c5b7b91731be12c0ee5249d496315",
+      "sha256": "cbd159dbba4cb6e0f1f0d2b0ec3ca1aa901abac1fbce295b9c77d5d3fd506a8e",
+      "bytes": 3958
+    },
+    {
+      "path": "web/architecture.css",
+      "git_blob_sha": "9ea60b25265a2980e40e38eeff029620cfbdd418",
+      "sha256": "79da356901f0cb867fec13f5981777e366b620e96485f01d88bf4f0568586e6e",
+      "bytes": 15396
+    },
+    {
+      "path": "web/architecture.html",
+      "git_blob_sha": "ca1577e57f5201e7a08c3731ec352e67ce2bf10b",
+      "sha256": "0b30099134c9e387a965e11f46bc10b73be3a8600d763516674bf5147752be80",
+      "bytes": 1626
+    },
+    {
+      "path": "web/architecture.js",
+      "git_blob_sha": "4130e28c8127f19c1295b27937a4df28d7b69b18",
+      "sha256": "9eacb0458862caba236d02d679e6d991e2e33f9897d83456b1c4a23914a46afd",
+      "bytes": 16742
+    },
+    {
+      "path": "web/atlas-contract.js",
+      "git_blob_sha": "c27858fdded16713b696a78d6b85ab8f285c2f6e",
+      "sha256": "5cb6b5f6cc52735fa6057a042936420dfa60603f80f83941485e578d7289ad17",
+      "bytes": 19856
+    },
+    {
+      "path": "web/atlas-providers.js",
+      "git_blob_sha": "26842c7b040b40705661f2d5ba850a78d03bec4f",
+      "sha256": "c9822101046d540a7d3145b6335717abd789b3c2b0032bbce5ef9d85fdbfa628",
+      "bytes": 13440
+    },
+    {
+      "path": "web/atlas-shell.css",
+      "git_blob_sha": "63d6a6ca824f669645e428f324a490c7a07bcadf",
+      "sha256": "10e344d2ddd905a7b9bb77004623107d7a190c3257e2512a1a16fea86a9edb7a",
+      "bytes": 7021
+    },
+    {
+      "path": "web/atlas-types.d.ts",
+      "git_blob_sha": "1cbae15800767d453f52c02330950209b9f27032",
+      "sha256": "e99fa1c96a5623a9183305a8fe50babffe57ddf3096147a21f2d93296e0f98d6",
+      "bytes": 5434
+    },
+    {
+      "path": "web/atlas-workspaces.css",
+      "git_blob_sha": "a279e6be759436c9106bfd7914a1c9680dca5b90",
+      "sha256": "0b8671cbd5b6395a2ba41f61eece4516a28616aa5c42fe36dd563da2c95ef9c9",
+      "bytes": 12164
+    },
+    {
+      "path": "web/atlas-workspaces.js",
+      "git_blob_sha": "f3f7769dd14b9f67a6c3f457342d06642270a271",
+      "sha256": "89584807f51808df57c59d50bd6ce270081e0f804a43e25c68986dbc91accaee",
+      "bytes": 28861
+    },
+    {
+      "path": "web/dashboard.css",
+      "git_blob_sha": "9aa9d887d7846d5020a043c0c6a358994608a9c0",
+      "sha256": "313deae29a7e0b9d1254ebf04cbbb10b1c603925caefbbb47d4c7bd247ea82ea",
+      "bytes": 35078
+    },
+    {
+      "path": "web/dashboard.html",
+      "git_blob_sha": "1ec04eb875d1a4a4ac29ab21188420ef44f9ed44",
+      "sha256": "bb651cf84a08cc21d4e3640de0b137531add5540e2559cec43ff087c894010d5",
+      "bytes": 15451
+    },
+    {
+      "path": "web/dashboard.js",
+      "git_blob_sha": "5a3a32ab814b29ddb811580ae04d29a433d6fa0e",
+      "sha256": "2b6c0cc178ef40bd90ca2e612b1eb6ebac3a86be4683dd7d02f5ec9dc5a28e28",
+      "bytes": 23284
+    },
+    {
+      "path": "web/index.html",
+      "git_blob_sha": "f2315d445a910c608e21899f894bac070cd0ab64",
+      "sha256": "4a8a336bdfa60bc3967e1059e1b27ee2a24598c9edd414e67ca9be7c707cfc01",
+      "bytes": 11055
+    },
+    {
+      "path": "web/landing.css",
+      "git_blob_sha": "3d8e8677bf9d8bb51d6a055c53906f6c68d2aff2",
+      "sha256": "5c05c15c0c8575cf0d973731aa0a9a928d50440a845d8dd0001137157a51e3ef",
+      "bytes": 34839
+    },
+    {
+      "path": "web/login.html",
+      "git_blob_sha": "5b07cb1fe5a6379a1edf36424c795fa837cbe3fa",
+      "sha256": "85af9adfb957e30ce5894ef429e19a9188bb272b416e29f5b29d1bb2692bdedd",
+      "bytes": 9054
+    },
+    {
+      "path": "web/login.js",
+      "git_blob_sha": "fd032946a408174fc705dda6a10ac0dceb95cadd",
+      "sha256": "31900752f3b71e2601690477fb76e5eb2daa6d6015ff6272bd173e387179a300",
+      "bytes": 21324
+    },
+    {
+      "path": "web/operations.js",
+      "git_blob_sha": "15adb2dcc601c3aff1eb756c639e41cd615efcb7",
+      "sha256": "e5995cacf20a665154ed952f69b818e7bc7122e5b90729b2327d96c039c94a4c",
+      "bytes": 7316,
+      "original_source": {
+        "git_blob_sha": "3f233722a8589eb3902bae114a51f670ec92e8c5",
+        "sha256": "bc7a48fb079caeaaa5fef0aef9f8598761d2b1f2f94744b0b4eb37fa034918df",
+        "bytes": 7330
+      },
+      "sanitized_derivative": true,
+      "transformation": "Private operational ledger anchor removed; public omission notice inserted. Original source hashes retained for provenance; current hashes describe sanitized export."
+    },
+    {
+      "path": "web/quasar-mark.svg",
+      "git_blob_sha": "61aed5cb562c605cd21383b1a112cdac453a4ba7",
+      "sha256": "7ef35ee1bbb7e1de553a4060174b50ac69d89f5135ffed5ea00d81d0502067c2",
+      "bytes": 304
+    },
+    {
+      "path": "web/site-nav.css",
+      "git_blob_sha": "9f56c5818833ab2f7e0dafd0390178e223e06941",
+      "sha256": "cd2a3a2f6f6d3e917cd5696eb27bd9f8de53495b0ad23625eb0909db2de56bc9",
+      "bytes": 6963
+    },
+    {
+      "path": "web/site-nav.js",
+      "git_blob_sha": "de6cdd6bcdeff532a2888c21ac3733e554a239d3",
+      "sha256": "24e2298801ae0f28efde3554f135080d5b765cf356074bd18aef40a4fe88fdee",
+      "bytes": 870
+    },
+    {
+      "path": "web/style.css",
+      "git_blob_sha": "917cc4ff032a0a54dbf750dd83ac8fe1d25490c4",
+      "sha256": "acfe2ddc0c5290d2a2e1ea99bc464a5540dac93861c2e7cbd47aeaef28a32367",
+      "bytes": 23151
+    },
+    {
+      "path": "web/vendor/LICENSE",
+      "git_blob_sha": "8ada2a5f982916b0ba4b7a0aa7de347587e745d7",
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+      "bytes": 1081
+    },
+    {
+      "path": "web/vendor/provenance.json",
+      "git_blob_sha": "9a33d271add86a5499918bcd5aeb3f56d78aa1f6",
+      "sha256": "6e8f23897ba2e192ffb379b0f4aa617ab3453bcf4d2a945ecbabcc9ab012f810",
+      "bytes": 227
+    },
+    {
+      "path": "web/vendor/three.core.js",
+      "git_blob_sha": "0a1d6cb9ef3cabc97a50bd02394c85e8d1c513c2",
+      "sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6",
+      "bytes": 1458113
+    },
+    {
+      "path": "web/vendor/three.module.js",
+      "git_blob_sha": "c52087acfabae80efabb8cc05e3a1d96e35a1426",
+      "sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea",
+      "bytes": 662772
+    },
+    {
+      "path": "worker/auth.mjs",
+      "git_blob_sha": "f70efcbf91d59c98ede5ade6eb2b882fd5d3b5dd",
+      "sha256": "8f2e92ee91bf68fb1c29eb8736ef4c8d709a27c9ad24e527ad58bbd0a90fc48c",
+      "bytes": 6786
+    },
+    {
+      "path": "worker/index.mjs",
+      "git_blob_sha": "f7ed07a194096a70b471e46190bb1f0cda73a0ad",
+      "sha256": "53d6b1609f404b9303491fdfe0e19fd88846af1ba4674a8c0a5cbd6f5d98d848",
+      "bytes": 7777
+    },
+    {
+      "path": "worker/snapshot.mjs",
+      "git_blob_sha": "321653249c07a2443a169c76d4725e12f7173351",
+      "sha256": "1c329b1521656697693729ad0c5daf1d012d1e10cce955a8fb10155da8c26b1d",
+      "bytes": 2021
+    }
+  ],
+  "binary_pending_review": [],
+  "excluded_paths": [
+    ".openai/hosting.json",
+    "dist/.openai/hosting.json",
+    "dist/server/atlas-contract.js",
+    "dist/server/atlas-providers.js",
+    "dist/server/index.js",
+    "docs/IMPLEMENTATION-AUDIT.md",
+    "docs/QUASAR-ATLAS-CONTRACT.md",
+    "docs/RELEASE-QA.md",
+    "docs/qa/after-overview.jpg",
+    "docs/qa/agent-runs.jpg",
+    "docs/qa/applications.jpg",
+    "docs/qa/atlas-library.jpg",
+    "docs/qa/before-overview.jpg",
+    "docs/qa/data-health.jpg",
+    "docs/qa/demo-overview.jpg",
+    "docs/qa/mobile-overview.jpg",
+    "docs/qa/mobile-reviews.jpg",
+    "docs/qa/outreach.jpg",
+    "docs/qa/reviews.jpg",
+    "operations/sol-system/Revision-Delivery.md",
+    "operations/sol-system/Scenario-Validation.md",
+    "operations/sol-system/plugin/.codex-plugin/plugin.json",
+    "operations/sol-system/plugin/dataset-binding.json",
+    "operations/sol-system/plugin/references/dashboard-workflow.md",
+    "operations/sol-system/plugin/references/plugin-v6-manifest-backup.json",
+    "operations/sol-system/plugin/references/sol-system-v6-entry-backup.md",
+    "operations/sol-system/plugin/references/yc-email-workflow.md",
+    "operations/sol-system/plugin/skills/sol-system/SKILL.md",
+    "operations/sol-system/plugin/skills/sol-system/agents/openai.yaml",
+    "operations/sol-system/validate_workflow.py",
+    "web/campaign.json",
+    "web/cohort.json",
+    "web/operational.json",
+    "web/snapshot.json",
+    "web/ultra-applications.csv",
+    "dist/public/**"
+  ],
+  "notes": [
+    "Current source snapshot only; source history is not exported.",
+    "No environment files, hosting identity, runtime data or credentials are included.",
+    "QUASAR remains historical v47; latest hosted v49 source could not be retrieved.",
+    "New public build has its own source/verification receipt. Historical web/operations.js is sanitized to omit a private resource reference; worker and tests remain unchanged. Original package manifest is relocated explicitly."
+  ],
+  "public_derivative_paths": [
+    "package.json",
+    ".gitignore",
+    "scripts/build-public.mjs",
+    "scripts/test-public.mjs",
+    "README.md",
+    "docs/source-provenance.json",
+    "docs/public-build-verification.json"
+  ],
+  "hash_semantics": "Per-file hashes identify current exported bytes. When transformed, original_source records the recovered v47 hashes separately; source_commit_sha identifies origin, not byte equality of every exported path."
+}

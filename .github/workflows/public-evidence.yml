@@ -1,0 +1,36 @@
+name: Public Evidence Checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  public-evidence:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      CI: "true"
+      NO_UPDATE_NOTIFIER: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Build projects-only UNCONNECTED worker
+        run: npm run build
+        working-directory: app
+      - name: Test public guards and synthetic contracts
+        run: npm test
+        working-directory: app
+      - name: Validate draft project registry
+        run: python docs/project-registry/validate_registry.py
+      - name: Test registry trust and privacy boundaries
+        run: python docs/project-registry/test_registry.py
